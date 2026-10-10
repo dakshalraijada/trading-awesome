@@ -1,0 +1,9 @@
+name: Nansen
+url: https://nansen.ai/
+category: crypto-intelligence
+description: Wallet labels, entity intelligence, dashboards, and programmatic on-chain data across supported blockchain networks.
+scope: Crypto — on-chain / DeFi / NFTs / stablecoins
+api: '[API docs](https://docs.nansen.ai/) · Py: — · Go: [nansen-go](https://github.com/tigusigalpa/nansen-go) · PHP: [nansen-php](https://github.com/tigusigalpa/nansen-php)'
+pricing: Pro is publicly listed from **$49/month billed annually**; API credits are separately metered.
+added: 2026-07-27
+last_verified: 2026-07-27

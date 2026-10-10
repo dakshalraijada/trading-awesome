@@ -1,0 +1,9 @@
+name: HostDeFi
+url: https://hostdefi.com/
+category: crypto-intelligence
+description: Free token-safety scanner that grades tokens A+ to F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana and 7 EVM chains.
+scope: Crypto — spot / on-chain / DeFi; Solana and 7 EVM chains; Research / automation
+api: '[API docs](https://hostdefi.com/docs/api/) · keyless REST API, hosted MCP, x402 · Py/Go/PHP: direct HTTP'
+pricing: Free; limited to **100 checks/day per IP**.
+added: 2026-09-14
+last_verified: 2026-09-14

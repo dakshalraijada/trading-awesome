@@ -1,0 +1,9 @@
+name: TradingView
+url: https://www.tradingview.com/
+category: charting-research
+description: Mainstream charting, screening, market-data visualization, alerting, and Pine Script platform across many asset classes.
+scope: Traditional markets; Forex / FX; crypto; Research / automation
+api: 'No general public data/indicator API for personal use · [Pine Script docs](https://www.tradingview.com/pine-script-docs/) · Py: — · Go: — · PHP: —'
+pricing: Free tier; public paid plans range from **$12.95/month to $199.95/month billed annually**.
+added: 2026-07-27
+last_verified: 2026-07-27

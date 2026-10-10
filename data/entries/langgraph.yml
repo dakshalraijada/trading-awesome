@@ -1,0 +1,9 @@
+name: LangGraph
+url: https://langchain-ai.github.io/langgraph/
+category: ai-ml
+description: General-purpose framework for durable, stateful agent workflows that can orchestrate research tools, approvals, and human review.
+scope: AI orchestration; Research / automation; not trading-specific
+api: '[Docs](https://langchain-ai.github.io/langgraph/) · Py/JS: official packages · Go/PHP: —'
+pricing: Open-source libraries; hosted LangSmith services have separate plans.
+added: 2026-07-27
+last_verified: 2026-07-27

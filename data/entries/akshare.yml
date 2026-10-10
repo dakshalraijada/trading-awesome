@@ -1,0 +1,10 @@
+name: AkShare
+url: https://github.com/akfamily/akshare
+category: market-data
+description: Open-source Python data library with broad coverage of Chinese A-shares, futures, funds, and macro series, plus selected global markets.
+scope: Traditional markets; China markets; macro; Research / automation
+api: '[Docs](https://akshare.akfamily.xyz/) · Py: [official](https://github.com/akfamily/akshare) · Go/PHP: —'
+pricing: Open source; sources are public web endpoints of varying stability.
+repo: https://github.com/akfamily/akshare
+added: 2026-09-12
+last_verified: 2026-09-12

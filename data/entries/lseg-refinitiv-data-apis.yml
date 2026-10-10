@@ -1,0 +1,9 @@
+name: LSEG (Refinitiv) Data APIs
+url: https://developers.lseg.com/
+category: market-data
+description: Institutional data platform (formerly Refinitiv Eikon Data API) covering equities, fixed income, FX, commodities, fundamentals, estimates, and news.
+scope: Traditional markets; Forex / FX; macro
+api: '[Developer portal](https://developers.lseg.com/) · Py: [official samples](https://github.com/LSEG-API-Samples) · Go/PHP: —'
+pricing: Enterprise licensing; pricing is on request.
+added: 2026-09-12
+last_verified: 2026-09-12

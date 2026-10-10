@@ -1,0 +1,10 @@
+name: Santiment
+url: https://santiment.net/
+category: crypto-intelligence
+description: Behavioral crypto-intelligence platform combining social, on-chain, development, NFT, and market metrics.
+scope: Crypto — on-chain / DeFi / NFTs; social intelligence
+api: '[SANAPI docs](https://academy.santiment.net/sanapi/) · Py: [official](https://github.com/santiment/sanpy) · Go: — · PHP: —'
+pricing: Free plan; paid Sanbase and business tiers are published by product.
+repo: https://github.com/santiment/sanpy
+added: 2026-07-27
+last_verified: 2026-07-27

@@ -1,0 +1,10 @@
+name: ArcticDB
+url: https://github.com/man-group/ArcticDB
+category: infrastructure
+description: High-performance serverless DataFrame database from Man Group, built for large tick and time-series datasets in Python research workflows.
+scope: Research / automation; tick storage; market-data storage
+api: '[Docs](https://docs.arcticdb.io/) · Py: [official](https://github.com/man-group/ArcticDB) · Go/PHP: —'
+pricing: Open source (BSL); managed deployments are separate.
+repo: https://github.com/man-group/ArcticDB
+added: 2026-09-12
+last_verified: 2026-09-12

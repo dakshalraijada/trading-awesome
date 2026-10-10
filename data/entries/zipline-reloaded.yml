@@ -1,0 +1,10 @@
+name: Zipline Reloaded
+url: https://zipline.ml4trading.io/
+category: backtesting
+description: Community-maintained continuation of Zipline for event-driven backtesting with pipelines, calendars, and bundle-based data ingestion.
+scope: Traditional markets; Research / automation
+api: '[Docs](https://zipline.ml4trading.io/) · Py: [community-maintained](https://github.com/stefan-jansen/zipline-reloaded) · Go/PHP: —'
+pricing: Open source; market data and infrastructure are separate.
+repo: https://github.com/stefan-jansen/zipline-reloaded
+added: 2026-07-27
+last_verified: 2026-07-27

@@ -1,0 +1,9 @@
+name: BingX
+url: https://bingx.com
+category: crypto-exchanges
+description: Crypto exchange offering spot, perpetual-futures, and copy-trading products with a public trading API.
+scope: Crypto — spot / DeFi; Crypto — derivatives; Brokerage / execution
+api: '[API docs](https://bingx-api.github.io/docs-v3/#/en/info) · Py: [bingx-python](https://github.com/tigusigalpa/bingx-python) · Go: [bingx-go](https://github.com/tigusigalpa/bingx-go) · PHP: [bingx-php](https://github.com/tigusigalpa/bingx-php)'
+pricing: API access is free; spot and futures fees are tiered by VIP level and product; see the [official fee schedule](https://bingx.com/en/support/costs/).
+added: 2026-07-27
+last_verified: 2026-07-27

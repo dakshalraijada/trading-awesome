@@ -1,0 +1,4 @@
+# Normalize line endings; generated files (README.md, data/entries) are written with LF.
+* text=auto eol=lf
+*.png binary
+*.jpg binary

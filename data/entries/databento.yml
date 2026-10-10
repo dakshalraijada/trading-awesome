@@ -1,0 +1,10 @@
+name: Databento
+url: https://databento.com/
+category: market-data
+description: Exchange-sourced historical and real-time market-data platform with standardized schemas for systematic workflows.
+scope: Equities; futures; options; FX; Traditional markets
+api: '[Docs](https://databento.com/docs) · Py: [official](https://github.com/databento/databento-python) · Go: — · PHP: —'
+pricing: Usage-based historical data; public plans include **$199/month** Standard, with free signup credits.
+repo: https://github.com/databento/databento-python
+added: 2026-07-27
+last_verified: 2026-07-27

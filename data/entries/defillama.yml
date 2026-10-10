@@ -1,0 +1,9 @@
+name: DeFiLlama
+url: https://defillama.com/
+category: crypto-intelligence
+description: Open DeFi analytics ecosystem for TVL, yields, protocol revenue, fees, DEX volumes, bridges, stablecoins, and chains.
+scope: Crypto — on-chain / DeFi / stablecoins
+api: '[API docs](https://api-docs.defillama.com/) · Py: — · Go: — · PHP: —'
+pricing: Core data API is publicly accessible; premium/commercial terms are not consistently published.
+added: 2026-07-27
+last_verified: 2026-07-27

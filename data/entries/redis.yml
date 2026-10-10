@@ -1,0 +1,10 @@
+name: Redis
+url: https://redis.io/
+category: infrastructure
+description: In-memory data platform commonly used for caching, ephemeral state, pub/sub, streams, queues, and rate limiting.
+scope: Research / automation; low-latency state; messaging
+api: '[Docs](https://redis.io/docs/latest/) · Py: [official](https://github.com/redis/redis-py) · Go: [official](https://github.com/redis/go-redis) · PHP: [community](https://github.com/phpredis/phpredis)'
+pricing: Source-available/community distributions and commercial cloud products have different licenses and prices; review current terms.
+repo: https://github.com/redis/redis-py
+added: 2026-07-27
+last_verified: 2026-07-27

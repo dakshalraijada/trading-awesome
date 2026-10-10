@@ -1,0 +1,10 @@
+name: Freqtrade
+url: https://www.freqtrade.io/en/stable/
+category: backtesting
+description: Crypto trading bot with strategy development, backtesting, hyperparameter optimization, dry-run, and live exchange execution.
+scope: Crypto; Research / automation; Brokerage / execution
+api: '[Docs](https://www.freqtrade.io/en/stable/) · Py: [official](https://github.com/freqtrade/freqtrade) · Go/PHP: —'
+pricing: Open source; exchange, hosting, and data costs are separate.
+repo: https://github.com/freqtrade/freqtrade
+added: 2026-07-27
+last_verified: 2026-07-27

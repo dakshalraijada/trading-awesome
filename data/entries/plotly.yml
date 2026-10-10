@@ -1,0 +1,10 @@
+name: Plotly
+url: https://plotly.com/
+category: visualization
+description: Interactive graphing ecosystem with candlestick, OHLC, time-series, statistical, and dashboard-friendly charts.
+scope: Research visualization; dashboards; financial reporting
+api: '[Python docs](https://plotly.com/python/) · Py: [official](https://github.com/plotly/plotly.py) · JS: [official](https://github.com/plotly/plotly.js)'
+pricing: Open-source graphing libraries; commercial hosting and enterprise products are separate.
+repo: https://github.com/plotly/plotly.py
+added: 2026-07-27
+last_verified: 2026-07-27

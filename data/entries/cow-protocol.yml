@@ -1,0 +1,9 @@
+name: CoW Protocol
+url: https://cow.fi/
+category: web3-defi
+description: Decentralized trading protocol using batch auctions and intent-based matching to protect users from MEV and price impact.
+scope: Crypto — on-chain / DeFi; DEX; Brokerage / execution
+api: '[Docs](https://docs.cow.fi/) · TS: [official SDK](https://github.com/cowprotocol/cow-sdk) · Py/Go/PHP: —'
+pricing: Protocol fees are taken from surplus; no separate subscription for API access.
+added: 2026-08-24
+last_verified: 2026-08-24

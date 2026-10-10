@@ -1,0 +1,9 @@
+name: Bloomberg Second Measure
+url: https://secondmeasure.com/
+category: alternative-data
+description: Transaction-data analytics and consumer-spending intelligence derived from aggregated purchase panels.
+scope: Alternative data; consumer; equities
+api: '[Platform](https://secondmeasure.com/) · Py/Go/PHP: —'
+pricing: Enterprise-focused; pricing is on request.
+added: 2026-08-24
+last_verified: 2026-08-24

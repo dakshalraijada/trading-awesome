@@ -1,0 +1,10 @@
+name: Riskfolio-Lib
+url: https://riskfolio-lib.readthedocs.io/
+category: portfolio-risk
+description: Portfolio optimization library supporting many risk measures, risk parity, factor models, constraints, and allocation reports.
+scope: Portfolio construction; risk; quantitative research
+api: '[Docs](https://riskfolio-lib.readthedocs.io/en/latest/) · Py: [official](https://github.com/dcajasn/Riskfolio-Lib) · Go/PHP: —'
+pricing: Open source; optional commercial solvers and consulting are separate.
+repo: https://github.com/dcajasn/Riskfolio-Lib
+added: 2026-07-27
+last_verified: 2026-07-27

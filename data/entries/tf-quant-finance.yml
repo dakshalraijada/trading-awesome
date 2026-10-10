@@ -1,0 +1,10 @@
+name: TF Quant Finance
+url: https://github.com/google/tf-quant-finance
+category: options-derivatives
+description: 'Google''s TensorFlow-based quantitative-finance library: option pricing, IV solvers, curve fitting, and stochastic models with GPU acceleration.'
+scope: Derivatives; rates; ML research
+api: 'Py: [official](https://github.com/google/tf-quant-finance) · Go/PHP: —'
+pricing: Open source; maintenance cadence should be verified.
+repo: https://github.com/google/tf-quant-finance
+added: 2026-09-12
+last_verified: 2026-09-12

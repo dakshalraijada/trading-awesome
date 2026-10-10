@@ -1,0 +1,10 @@
+name: pyfolio-reloaded
+url: https://github.com/stefan-jansen/pyfolio-reloaded
+category: portfolio-risk
+description: Maintained fork of pyfolio for portfolio and risk tear sheets, exposure analysis, and transaction-level diagnostics.
+scope: Portfolio analytics; risk; reporting
+api: 'Py: [community-maintained](https://github.com/stefan-jansen/pyfolio-reloaded) · Go/PHP: —'
+pricing: Open source; verify compatibility and release cadence.
+repo: https://github.com/stefan-jansen/pyfolio-reloaded
+added: 2026-07-27
+last_verified: 2026-07-27

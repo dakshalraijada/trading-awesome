@@ -1,0 +1,10 @@
+name: TuShare
+url: https://github.com/waditu/tushare
+category: market-data
+description: Established Python interface for Chinese equity, index, fund, futures, and macro data, with a token-based Pro API.
+scope: Traditional markets; China markets
+api: '[Docs](https://tushare.pro/) · Py: [official](https://github.com/waditu/tushare) · Go/PHP: —'
+pricing: Free tier with point system; higher-rate Pro access is paid.
+repo: https://github.com/waditu/tushare
+added: 2026-09-12
+last_verified: 2026-09-12

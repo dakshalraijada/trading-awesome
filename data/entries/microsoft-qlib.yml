@@ -1,0 +1,10 @@
+name: Microsoft Qlib
+url: https://github.com/microsoft/qlib
+category: ai-ml
+description: AI-oriented quantitative-investment platform with data, workflow, model, backtest, portfolio, and experiment-management components.
+scope: Traditional markets; quantitative ML; Research / automation
+api: '[Docs](https://qlib.readthedocs.io/) · Py: [official](https://github.com/microsoft/qlib) · Go/PHP: —'
+pricing: Open source; data and compute are separate.
+repo: https://github.com/microsoft/qlib
+added: 2026-07-27
+last_verified: 2026-07-27

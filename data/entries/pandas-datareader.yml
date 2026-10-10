@@ -1,0 +1,10 @@
+name: pandas-datareader
+url: https://github.com/pydata/pandas-datareader
+category: market-data
+description: Remote data access for pandas from multiple sources (FRED, OECD, World Bank, exchanges) through a unified interface.
+scope: Macro; Traditional markets; Research / automation
+api: 'Py: [official](https://github.com/pydata/pandas-datareader) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/pydata/pandas-datareader
+added: 2026-09-12
+last_verified: 2026-09-12

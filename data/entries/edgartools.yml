@@ -1,0 +1,10 @@
+name: edgartools
+url: https://github.com/dgunning/edgartools
+category: market-data
+description: 'Python library for SEC EDGAR research: filings, XBRL financials, 13F holdings, insider transactions, and an MCP server for AI workflows.'
+scope: U.S. equities; filings; fundamentals; Research / automation
+api: 'Py: [official](https://github.com/dgunning/edgartools) · Go/PHP: —'
+pricing: Open source; follows SEC fair-access rules.
+repo: https://github.com/dgunning/edgartools
+added: 2026-09-12
+last_verified: 2026-09-12

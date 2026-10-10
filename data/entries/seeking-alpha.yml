@@ -1,0 +1,9 @@
+name: Seeking Alpha
+url: https://seekingalpha.com/
+category: charting-research
+description: Crowdsourced equity research, quant ratings, factor grades, earnings transcripts, and screening tools.
+scope: Traditional markets; Research
+api: 'API available to enterprise/partner customers · Py/Go/PHP: —'
+pricing: Free tier; Premium and Alpha Picks subscriptions are paid.
+added: 2026-09-12
+last_verified: 2026-09-12

@@ -1,0 +1,10 @@
+name: pysystemtrade
+url: https://github.com/robcarver17/pysystemtrade
+category: backtesting
+description: Systematic-trading and backtesting framework by Rob Carver implementing the rules, position sizing, and forecasting approach from his books.
+scope: Futures; multi-asset; Research / automation
+api: 'Py: [official](https://github.com/robcarver17/pysystemtrade) · Go/PHP: —'
+pricing: Open source; data and broker connectivity are separate.
+repo: https://github.com/robcarver17/pysystemtrade
+added: 2026-09-12
+last_verified: 2026-09-12

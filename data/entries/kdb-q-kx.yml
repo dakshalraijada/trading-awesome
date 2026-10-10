@@ -1,0 +1,9 @@
+name: kdb+ / q (Kx)
+url: https://kx.com/
+category: infrastructure
+description: The canonical high-performance time-series database and q language used for tick storage and analytics in institutional trading.
+scope: Research / automation; tick storage; low-latency analytics
+api: '[Docs](https://code.kx.com/) · Interfaces for Py/Go and other languages via IPC and Fusion'
+pricing: Commercial; free personal/evaluation editions are available under current terms.
+added: 2026-09-12
+last_verified: 2026-09-12

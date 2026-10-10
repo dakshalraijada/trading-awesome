@@ -1,0 +1,9 @@
+name: CME Group Market Data
+url: https://www.cmegroup.com/market-data.html
+category: options-derivatives
+description: Official futures and options market-data feeds from the world’s largest derivatives exchange, including real-time, delayed, and historical datasets.
+scope: Futures; options; commodities; FX; Traditional markets
+api: '[Data docs](https://www.cmegroup.com/market-data/market-data-services.html) · Py/Go/PHP: direct HTTP or vendor SDKs'
+pricing: Fees vary by data set, redistribution tier, and entitlement; exchange-direct pricing applies.
+added: 2026-08-24
+last_verified: 2026-08-24

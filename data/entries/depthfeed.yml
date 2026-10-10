@@ -1,0 +1,9 @@
+name: DepthFeed
+url: https://depthfeed.com/
+category: market-data
+description: Historical and live prediction-market order-book data for systematic backtesting and liquidity analysis.
+scope: Research / automation
+api: '[API docs](https://depthfeed.com/docs) · [MCP](https://github.com/vcorp-dev/depthfeed-mcp) · Py: — · Go: [depthfeed-go](https://github.com/tigusigalpa/depthfeed-go) · PHP: —'
+pricing: Free Explorer tier; paid plans are listed on the [official pricing page](https://depthfeed.com/pricing).
+added: 2026-08-24
+last_verified: 2026-08-24

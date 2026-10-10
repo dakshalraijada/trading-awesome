@@ -1,0 +1,10 @@
+name: Hydromancer
+url: https://hydromancer.xyz/
+category: crypto-intelligence
+description: Hyperliquid data API for fills, positions across many wallets, liquidations, L2/L4 order books and builder data, plus a free historical archive (Reservoir).
+scope: Crypto — derivatives; on-chain; market data
+api: '[API docs](https://docs.hydromancer.xyz/) · Py: [official](https://github.com/hydromancerxyz/hydromancer-sdk) · Go: — · PHP: —'
+pricing: Plans start at **$300/month**; enterprise is custom; the Reservoir archive is free.
+repo: https://github.com/hydromancerxyz/hydromancer-sdk
+added: 2026-10-10
+last_verified: 2026-10-10

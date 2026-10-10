@@ -1,0 +1,49 @@
+# Sections of the list. `number` and `title` must match the README headings.
+- id: brokerage
+  number: 1
+  title: "Brokerage, execution & algorithmic trading"
+- id: market-data
+  number: 2
+  title: "Traditional markets, macro & multi-asset data"
+- id: crypto-exchanges
+  number: 3
+  title: "Crypto exchange APIs & interoperability"
+- id: crypto-intelligence
+  number: 4
+  title: "Crypto market intelligence & on-chain analytics"
+- id: charting-research
+  number: 5
+  title: "Charting, research & no-code decision support"
+- id: signals
+  number: 6
+  title: "Signal providers & event intelligence"
+- id: infrastructure
+  number: 7
+  title: "Trading infrastructure & event-driven systems"
+- id: backtesting
+  number: 8
+  title: "Backtesting engines & trading frameworks"
+- id: portfolio-risk
+  number: 9
+  title: "Portfolio analytics & risk"
+- id: ai-ml
+  number: 10
+  title: "AI & machine-learning frameworks"
+- id: feature-engineering
+  number: 11
+  title: "Feature engineering & technical analysis"
+- id: visualization
+  number: 12
+  title: "Financial visualization"
+- id: options-derivatives
+  number: 13
+  title: "Options, volatility & derivatives analytics"
+- id: alternative-data
+  number: 14
+  title: "Alternative data & external intelligence"
+- id: web3-defi
+  number: 15
+  title: "Web3, DeFi & MEV infrastructure"
+- id: education
+  number: 16
+  title: "Education, competitions & quant communities"

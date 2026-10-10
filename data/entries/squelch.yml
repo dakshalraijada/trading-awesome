@@ -1,0 +1,9 @@
+name: Squelch
+url: https://squelchalerts.com/
+category: signals
+description: 'Telegram bot that alerts on statistically confirmed crypto signals: funding-rate z-score extremes, sized exchange whale flow, news catalysts confirmed by price reaction, and GoPlus-screened meme-coin/token-risk flags.'
+scope: Crypto — derivatives; Crypto — spot / on-chain / DeFi; Research / automation
+api: 'No public API identified · Py/Go/PHP: —'
+pricing: $19/month flat subscription; 24-hour free trial; see [official site](https://squelchalerts.com/).
+added: 2026-09-11
+last_verified: 2026-09-11

@@ -1,0 +1,10 @@
+name: Finnhub
+url: https://finnhub.io/
+category: market-data
+description: Broad REST and WebSocket API for market prices, fundamentals, news, estimates, filings, alternatives, forex, and crypto.
+scope: Traditional markets; Forex / FX; crypto; Research / automation
+api: '[API docs](https://finnhub.io/docs/api) · Py: [official](https://github.com/Finnhub-Stock-API/finnhub-python) · Go: [official](https://github.com/Finnhub-Stock-API/finnhub-go) · PHP: [official](https://github.com/Finnhub-Stock-API/finnhub-php)'
+pricing: Free tier; public All-in-One plan listed at **$3,500/month billed annually**.
+repo: https://github.com/Finnhub-Stock-API/finnhub-python
+added: 2026-07-27
+last_verified: 2026-07-27

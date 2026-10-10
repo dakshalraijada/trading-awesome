@@ -1,0 +1,10 @@
+name: OctoBot
+url: https://github.com/Drakkar-Software/OctoBot
+category: backtesting
+description: Open-source crypto trading bot for TA-based, arbitrage, and social/copy strategies with backtesting and a web interface.
+scope: Crypto; Brokerage / execution; Research / automation
+api: '[Docs](https://www.octobot.cloud/) · Py: [official](https://github.com/Drakkar-Software/OctoBot) · Go/PHP: —'
+pricing: Open-source core; hosted and premium features are paid.
+repo: https://github.com/Drakkar-Software/OctoBot
+added: 2026-09-12
+last_verified: 2026-09-12

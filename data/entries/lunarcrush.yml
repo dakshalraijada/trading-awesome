@@ -1,0 +1,9 @@
+name: LunarCrush
+url: https://lunarcrush.com/
+category: crypto-intelligence
+description: Social and market-intelligence service for crypto and broader trending assets, with developer endpoints.
+scope: Crypto; social intelligence; selected traditional assets
+api: '[Developer API](https://lunarcrush.com/en/developers/api) · Py: — · Go: [lunarcrush-go](https://github.com/tigusigalpa/lunarcrush-go) · PHP: [lunarcrush-php](https://github.com/tigusigalpa/lunarcrush-php)'
+pricing: Hobby free tier; paid developer plans publicly start at **$5/day**.
+added: 2026-07-27
+last_verified: 2026-07-27

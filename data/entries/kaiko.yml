@@ -1,0 +1,10 @@
+name: Kaiko
+url: https://www.kaiko.com/
+category: crypto-intelligence
+description: Institutional crypto market-data, derivatives, index, and analytics provider for research, risk, and trading workflows.
+scope: Crypto — spot; Crypto — derivatives; market data
+api: '[API docs](https://docs.kaiko.com/) · Py: — · Go: [official](https://github.com/kaikodata/kaiko-go-sdk) · PHP: —'
+pricing: Enterprise-focused; pricing is on request.
+repo: https://github.com/kaikodata/kaiko-go-sdk
+added: 2026-07-27
+last_verified: 2026-07-27

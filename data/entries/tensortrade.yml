@@ -1,0 +1,10 @@
+name: TensorTrade
+url: https://www.tensortrade.org/
+category: ai-ml
+description: Modular Python framework for building trading environments, reward/action schemes, agents, portfolios, and RL experiments.
+scope: Multi-asset; reinforcement learning; Research
+api: '[Docs](https://www.tensortrade.org/) · Py: [official](https://github.com/tensortrade-org/tensortrade) · Go/PHP: —'
+pricing: Open source; verify current maintenance and dependency compatibility.
+repo: https://github.com/tensortrade-org/tensortrade
+added: 2026-07-27
+last_verified: 2026-07-27

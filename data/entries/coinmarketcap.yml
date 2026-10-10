@@ -1,0 +1,9 @@
+name: CoinMarketCap
+url: https://coinmarketcap.com/
+category: crypto-intelligence
+description: Widely used cryptocurrency market-data aggregator with API access to listings, quotes, metadata, and market metrics.
+scope: Crypto — spot; market data
+api: '[API docs](https://coinmarketcap.com/api/documentation/) · Py: — · Go: [coinmarketcap-go](https://github.com/tigusigalpa/coinmarketcap-go) · PHP: [coinmarketcap-php](https://github.com/tigusigalpa/coinmarketcap-php)'
+pricing: Free Basic plan; public paid API tiers start at **$29/month**.
+added: 2026-07-27
+last_verified: 2026-07-27

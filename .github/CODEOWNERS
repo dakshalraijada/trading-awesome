@@ -1,0 +1,12 @@
+# Every change needs a review from the maintainer when "Require review from Code
+# Owners" is enabled in the branch ruleset. Automation and policy files are listed
+# explicitly so the intent survives if the catch-all rule ever changes.
+*                               @lentrade
+
+/.github/                       @lentrade
+/scripts/                       @lentrade
+/tests/                         @lentrade
+/LICENSE                        @lentrade
+/SECURITY.md                    @lentrade
+/CONTRIBUTING.md                @lentrade
+/CODE_OF_CONDUCT.md             @lentrade

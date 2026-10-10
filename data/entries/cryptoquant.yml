@@ -1,0 +1,9 @@
+name: CryptoQuant
+url: https://cryptoquant.com/
+category: crypto-intelligence
+description: On-chain and exchange-flow analytics platform with market metrics, charts, alerts, and data APIs for crypto research.
+scope: Crypto — on-chain; Crypto — derivatives
+api: '[API docs](https://docs.cryptoquant.com/) · Py: — · Go: — · PHP: —'
+pricing: Free tier; public paid plans start at **$29/month billed annually**.
+added: 2026-07-27
+last_verified: 2026-07-27

@@ -1,0 +1,9 @@
+name: Apache Kafka
+url: https://kafka.apache.org/
+category: infrastructure
+description: Distributed event-streaming platform for durable market-data, order, execution, audit, and downstream processing pipelines.
+scope: Research / automation; event streaming; data pipelines
+api: '[Docs](https://kafka.apache.org/documentation/) · Py: community clients · Go: community clients · Java: official client'
+pricing: Open source; managed Kafka and operational infrastructure are separately priced.
+added: 2026-07-27
+last_verified: 2026-07-27

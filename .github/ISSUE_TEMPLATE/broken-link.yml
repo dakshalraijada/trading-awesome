@@ -1,0 +1,41 @@
+name: Report a broken link
+description: A listed link returns an error, points to a parked domain, or redirects somewhere unexpected.
+title: "[Broken link]: "
+labels: ["broken-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If the link now leads to a **scam, phishing, or wallet-draining site**, please report it privately as described in [SECURITY.md](https://github.com/lentrade/trading-awesome/blob/main/SECURITY.md) so it can be removed quickly.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+      placeholder: Alpaca
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Broken link
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: symptom
+    attributes:
+      label: What happens
+      options:
+        - Page not found (404) or server error
+        - Domain is parked, for sale, or expired
+        - Redirects to an unrelated site
+        - Certificate or TLS error
+        - The service has shut down
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: A replacement URL from the official site, if you know one.

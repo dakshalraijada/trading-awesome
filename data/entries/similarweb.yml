@@ -1,0 +1,9 @@
+name: SimilarWeb
+url: https://www.similarweb.com/
+category: alternative-data
+description: Web-traffic, app-usage, and digital-intelligence platform for estimating consumer engagement and competitive positioning.
+scope: Alternative data; equities; consumer
+api: '[API docs](https://developer.similarweb.com/) · Py: [community](https://github.com/similarweb) · Go/PHP: —'
+pricing: Free limited tier; paid plans and API access are custom-priced.
+added: 2026-08-24
+last_verified: 2026-08-24

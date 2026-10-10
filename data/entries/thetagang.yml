@@ -1,0 +1,10 @@
+name: ThetaGang
+url: https://github.com/brndnmtthws/thetagang
+category: options-derivatives
+description: Open-source Interactive Brokers bot automating the wheel strategy (cash-secured puts and covered calls) with portfolio constraints.
+scope: U.S. options; Brokerage / execution
+api: 'Py: [official](https://github.com/brndnmtthws/thetagang) · Go/PHP: —'
+pricing: Open source; requires an IBKR account; options involve significant risk.
+repo: https://github.com/brndnmtthws/thetagang
+added: 2026-09-12
+last_verified: 2026-09-12

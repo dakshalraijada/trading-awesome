@@ -1,0 +1,10 @@
+name: Featuretools
+url: https://featuretools.alteryx.com/en/stable/
+category: feature-engineering
+description: Automated feature-engineering framework for temporal and relational datasets using Deep Feature Synthesis.
+scope: Tabular and temporal ML; alternative data; Research
+api: '[Docs](https://featuretools.alteryx.com/en/stable/) · Py: [official](https://github.com/alteryx/featuretools) · Go/PHP: —'
+pricing: Open source; managed compute is not included.
+repo: https://github.com/alteryx/featuretools
+added: 2026-07-27
+last_verified: 2026-07-27

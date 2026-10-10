@@ -1,0 +1,9 @@
+name: Grafana
+url: https://grafana.com/
+category: infrastructure
+description: Dashboarding and alerting platform for market, portfolio, execution, risk, and infrastructure telemetry.
+scope: Research / automation; visualization; observability
+api: '[Docs](https://grafana.com/docs/grafana/latest/) · HTTP API · broad data-source ecosystem'
+pricing: Open-source self-hosting; Grafana Cloud has free and paid usage tiers.
+added: 2026-07-27
+last_verified: 2026-07-27

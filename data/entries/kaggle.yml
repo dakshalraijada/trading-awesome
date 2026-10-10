@@ -1,0 +1,9 @@
+name: Kaggle
+url: https://www.kaggle.com/
+category: education
+description: Data-science competition platform hosting finance-relevant datasets, notebooks, and community challenges with leaderboards.
+scope: Multi-asset; ML competitions; alternative data
+api: '[Docs](https://www.kaggle.com/docs) · Py/R: [Kaggle API](https://github.com/Kaggle/kaggle-api) · Go/PHP: —'
+pricing: Free tier; competitions are generally free to enter.
+added: 2026-08-24
+last_verified: 2026-08-24

@@ -1,0 +1,9 @@
+name: Unusual Whales
+url: https://unusualwhales.com/
+category: market-data
+description: Options-flow, dark-pool, congressional-trading, and market-analysis platform with a public API.
+scope: U.S. options; equities; Research / automation
+api: '[API docs](https://api.unusualwhales.com/docs) · Py: — · Go: — · PHP: —'
+pricing: Retail plans publicly start at **$42/month billed annually**; enterprise begins at **$750/month**.
+added: 2026-07-27
+last_verified: 2026-07-27

@@ -1,0 +1,9 @@
+name: aikstockdata
+url: https://aikstockdata.com/en
+category: market-data
+description: 'Korean listed-company data published as static JSON and CSV: the previous trading day''s settled closing prices from the government price feed (ETFs excluded), DART regulatory filings with the minute each one was received, quarterly earnings, and median market-adjusted returns after a filing grouped by filing type.'
+scope: Traditional markets; Korea markets (KOSPI / KOSDAQ / KONEX); Research / automation
+api: '[API docs](https://aikstockdata.com/en/api) · [MCP server](https://aikstockdata.com/en/mcp) · Py/Go/PHP: —'
+pricing: No account, no API key and no paid tier; see the [use terms](https://aikstockdata.com/licenses/aiksd-public-1.1.txt) — Non-commercial use with attribution; commercial redistribution is not permitted.
+added: 2026-09-28
+last_verified: 2026-09-28

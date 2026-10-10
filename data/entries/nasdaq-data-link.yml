@@ -1,0 +1,10 @@
+name: Nasdaq Data Link
+url: https://data.nasdaq.com/
+category: market-data
+description: Dataset marketplace and API for financial, economic, and alternative-data series.
+scope: Traditional markets; macro; alternative data
+api: '[Developer portal](https://data.nasdaq.com/) · Py: [official](https://github.com/Nasdaq/data-link-python) · Go: — · PHP: —'
+pricing: Freemium; selected datasets are free while premium datasets require separate subscriptions.
+repo: https://github.com/Nasdaq/data-link-python
+added: 2026-07-27
+last_verified: 2026-07-27

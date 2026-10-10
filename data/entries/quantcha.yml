@@ -1,0 +1,9 @@
+name: Quantcha
+url: https://www.quantcha.com/
+category: options-derivatives
+description: Options-search and strategy-backtesting engine with volatility-cone, earnings-calendar, and risk-reward analysis.
+scope: U.S. options; Research / automation
+api: '[Platform](https://www.quantcha.com/) · Py/Go/PHP: —'
+pricing: Subscription-based; public tiers start from a monthly fee.
+added: 2026-08-24
+last_verified: 2026-08-24

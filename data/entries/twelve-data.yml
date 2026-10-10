@@ -1,0 +1,10 @@
+name: Twelve Data
+url: https://twelvedata.com/
+category: market-data
+description: Global market-data API and WebSocket service for equities, forex, crypto, ETFs, funds, indicators, fundamentals, and reference data.
+scope: Traditional markets; Forex / FX; crypto; multi-asset
+api: '[API docs](https://twelvedata.com/docs) · Py: [official](https://github.com/twelvedata/twelvedata-python) · Go: [official](https://github.com/twelvedata/twelvedata-go) · PHP: [community](https://github.com/ingelby/twelvedata)'
+pricing: Free Basic tier; public paid plans start at **$79/month billed annually**.
+repo: https://github.com/twelvedata/twelvedata-python
+added: 2026-07-27
+last_verified: 2026-07-27

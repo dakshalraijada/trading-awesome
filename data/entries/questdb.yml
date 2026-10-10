@@ -1,0 +1,9 @@
+name: QuestDB
+url: https://questdb.com/
+category: infrastructure
+description: Time-series database with SQL, high-throughput ingestion, time-series joins, and low-latency queries.
+scope: Research / automation; ticks; telemetry; market-data storage
+api: '[Docs](https://questdb.com/docs/) · Py/Go/Java/Rust clients are documented · PostgreSQL wire and REST interfaces'
+pricing: Open-source self-hosting; Enterprise and Cloud plans are separately priced.
+added: 2026-07-27
+last_verified: 2026-07-27

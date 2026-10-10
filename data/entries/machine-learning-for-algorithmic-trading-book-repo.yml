@@ -1,0 +1,10 @@
+name: Machine Learning for Algorithmic Trading (book repo)
+url: https://github.com/stefan-jansen/machine-learning-for-trading
+category: education
+description: 'Companion code to Stefan Jansen''s book: end-to-end ML trading workflows, from data sourcing and feature engineering to backtests.'
+scope: Multi-asset; ML research; education
+api: 'Py: [official](https://github.com/stefan-jansen/machine-learning-for-trading) · Go/PHP: —'
+pricing: Open source; book is commercial.
+repo: https://github.com/stefan-jansen/machine-learning-for-trading
+added: 2026-09-12
+last_verified: 2026-09-12

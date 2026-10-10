@@ -6,15 +6,19 @@
 
 **Q: There are dozens of "awesome-trading" lists already. Why another one?**
 
-A: Most existing lists are either (1) abandoned since 2020–2022, (2) focused on a single language or asset class, or (3) indiscriminately mix data APIs with brokerage APIs as if they solve the same problem. This list is actively maintained, cross-asset, and explicitly separates *data* from *execution*.
+A: Most existing lists are either (1) abandoned since 2020–2022, (2) focused on a single language or asset class, or (3) mix data APIs with brokerage APIs as if they solve the same problem. This list is cross-asset, explicitly separates *data* from *execution*, and is checked by automation every week.
 
 **Q: How often is this list updated?**
 
-A: The editorial ranking is reviewed quarterly. Pricing and feature descriptions are spot-checked against provider sites. The current revision is dated **27 July 2026**.
+A: Continuously. New entries and corrections arrive through the submission forms and pull requests. Every Monday a scheduled job checks all links and flags sites that started redirecting to another domain, and a second report lists entries whose pricing has not been verified for six months. Each entry records its `added` and `last_verified` dates in [`data/entries/`](data/entries/).
 
-**Q: Can I trust the rankings?**
+**Q: Is a listing an endorsement?**
 
-A: Rankings reflect *editorial practical significance* — breadth, reliability, API maturity, and developer ecosystem. They are **not** investment advice, performance claims, or market-share data.
+A: No. Entries are sorted alphabetically, not ranked. Inclusion reflects editorial criteria such as breadth, reliability, API maturity, and developer ecosystem (see [CONTRIBUTING.md](CONTRIBUTING.md#what-we-list)). It is **not** investment advice, a performance claim, market-share data, or a security audit of the service.
+
+**Q: Do you accept payment for listings?**
+
+A: No. We never accept payment, sponsorship, tokens, or favors for listings or placement. Vendors may submit their own products, but they must disclose the relationship, and every submission goes through the same checks and human review.
 
 ---
 
@@ -31,7 +35,7 @@ A: See the [Quick Start Guide](QUICKSTART.md). In short:
 **Q: I need real-time data. What's the cheapest option?**
 
 A: It depends on the asset class:
-- **U.S. equities**: Alpaca (free tier), Massive ($29/month), or Interactive Brokers (with live account)
+- **U.S. equities**: Alpaca (free plan streams real-time IEX data; full consolidated SIP data is paid), Massive (check which plan includes real-time rather than delayed data), or Interactive Brokers (market-data subscriptions on a funded account)
 - **Crypto**: Binance, Bybit, OKX — all provide real-time WebSocket feeds at no cost
 - **Forex**: OANDA demo account includes real-time FX data
 - **Global macro**: Trading Economics (from $22/month)
@@ -62,7 +66,7 @@ A: Not truly "institutional-grade" for free, but several providers offer generou
 
 **Q: Do I need to know Python?**
 
-A: No, but it helps. Roughly 70% of the libraries in this list offer first-party Python support. However, many services also provide:
+A: No, but it helps: most libraries and SDKs in this list support Python first. Many services also provide:
 - **Go** SDKs (Finnhub, Twelve Data, Binance, CCXT)
 - **JavaScript/TypeScript** (TradingView charts, Plotly, ECharts)
 - **PHP** (Finnhub, CCXT, some crypto exchange wrappers)
@@ -173,17 +177,31 @@ A: Principle of least privilege:
 
 Never enable **withdrawal** permissions on API keys used by automated systems unless absolutely necessary.
 
+**Q: A listed link looks like a scam or leads somewhere unexpected. What should I do?**
+
+A: Don't enter credentials or connect a wallet. Report it **privately** as described in [SECURITY.md](SECURITY.md); confirmed malicious links are removed within 24 hours. The maintainers will never DM you, ask for API keys or seed phrases, or announce tokens or airdrops; anyone doing so is impersonating us.
+
 ---
 
 ## Contributing
 
 **Q: How do I suggest a new service?**
 
-A: See [CONTRIBUTING.md](CONTRIBUTING.md). We welcome pull requests for:
-- New services with public APIs or active open-source development
-- Pricing updates (with a source link)
-- SDK links for additional languages
-- Corrections to descriptions or coverage labels
+A: Fill in the [Add a service](https://github.com/lentrade/trading-awesome/issues/new?template=new-entry.yml) form. A bot checks the form, your account, and the links, then opens a pull request that a maintainer reviews. Corrections go through the [Update an entry](https://github.com/lentrade/trading-awesome/issues/new?template=update-entry.yml) form or a pull request that edits the entry's file in `data/entries/`. See [CONTRIBUTING.md](CONTRIBUTING.md) for the details.
+
+**Q: Why was my submission or pull request closed automatically?**
+
+A: The most common reasons:
+- Your GitHub account is younger than **90 days** (30 days for updates) and you have no merged contribution here yet
+- You already have an open submission, or reached the limit of 3 submissions in 30 days
+- A first-time contributor opened a pull request that adds an entry directly; new entries go through the form
+- The service's domain was registered less than 90 days ago
+
+The bot's comment says which rule applied. If you think it is a mistake, reply on the issue or pull request and a maintainer will review it manually.
+
+**Q: I represent a listed company. Can I update our entry?**
+
+A: Yes, with the update form or a pull request. Disclose your affiliation and link an official source. Moving the entry to a different domain needs evidence that the new domain belongs to your organization; see [link and domain changes](CONTRIBUTING.md#link-and-domain-changes).
 
 **Q: Why is my favorite tool not on the list?**
 
@@ -191,7 +209,7 @@ A: Possible reasons:
 - It may not have a public API or active open-source repository
 - It may have been deprioritized due to maintenance concerns
 - It may be covered by a more general entry (e.g., CCXT covers many individual exchange wrappers)
-- The editorial ranking may have placed it outside the top 99
+- It does not yet meet two of the [editorial criteria](CONTRIBUTING.md#what-we-list)
 
 Feel free to open an issue with justification.
 
@@ -237,4 +255,4 @@ A: Common culprits:
 - **Ignoring transaction costs** — commissions, slippage, market impact
 - **Unrealistic liquidity assumptions** — assuming you can trade unlimited size at the last price
 
-See Section 8 (Backtesting) for tools that help mitigate these issues.
+See [section 8, Backtesting engines & trading frameworks](README.md#8-backtesting-engines--trading-frameworks), for tools that help mitigate these issues.

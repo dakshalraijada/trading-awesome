@@ -1,0 +1,10 @@
+name: Jesse
+url: https://jesse.trade/
+category: backtesting
+description: Python framework for researching, backtesting, optimizing, and deploying crypto trading strategies.
+scope: Crypto; Research / automation; Brokerage / execution
+api: '[Docs](https://docs.jesse.trade/) · Py: [official](https://github.com/jesse-ai/jesse) · Go/PHP: —'
+pricing: Open-source framework; commercial extensions or hosted features may have separate terms.
+repo: https://github.com/jesse-ai/jesse
+added: 2026-07-27
+last_verified: 2026-07-27

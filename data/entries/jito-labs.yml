@@ -1,0 +1,9 @@
+name: Jito Labs
+url: https://www.jito.wtf/
+category: web3-defi
+description: Solana MEV infrastructure including stake-weighted mempool access, block-engine auction, and liquid-staking derivatives.
+scope: Crypto — on-chain / DeFi; MEV; Solana
+api: '[Docs](https://jito-labs.gitbook.io/mev/) · Py/Go/PHP: —'
+pricing: Staking and MEV rewards are protocol-determined; infrastructure access is generally permissionless.
+added: 2026-08-24
+last_verified: 2026-08-24

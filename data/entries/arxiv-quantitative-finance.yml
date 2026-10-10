@@ -1,0 +1,9 @@
+name: arXiv Quantitative Finance
+url: https://arxiv.org/archive/q-fin
+category: education
+description: Open-access preprint server for quantitative-finance papers including trading models, risk management, and market-microstructure research.
+scope: Traditional markets; crypto; quantitative research
+api: '[API](https://arxiv.org/help/api/) · Py/Go/PHP: direct HTTP or [community clients](https://arxiv.org/help/api/)'
+pricing: Free to read and submit.
+added: 2026-08-24
+last_verified: 2026-08-24

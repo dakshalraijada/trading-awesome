@@ -1,0 +1,9 @@
+name: Tradier
+url: https://tradier.com/
+category: brokerage
+description: API-centric U.S. equities and options brokerage offering trading, account, and market-data endpoints.
+scope: U.S. equities / ETFs / options; Brokerage / execution
+api: '[API docs](https://docs.tradier.com/) · Py: [community](https://github.com/cablehead/python-tradier) · Go: [community](https://github.com/timpalpant/go-tradier) · PHP: —'
+pricing: Brokerage subscriptions publicly start at **$10/month**; commissions and exchange fees depend on plan and activity.
+added: 2026-07-27
+last_verified: 2026-07-27

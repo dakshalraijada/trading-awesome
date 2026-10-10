@@ -1,0 +1,10 @@
+name: NautilusTrader
+url: https://nautilustrader.io/
+category: backtesting
+description: Production-grade, event-driven trading engine spanning deterministic simulation, portfolio/risk modeling, and live execution.
+scope: Multi-asset; multi-venue; Research / automation; Brokerage / execution
+api: '[Docs](https://nautilustrader.io/docs/latest/) · Py/Rust: [official](https://github.com/nautechsystems/nautilus_trader) · Go/PHP: —'
+pricing: Open source under LGPL; infrastructure, data, and venue costs are separate.
+repo: https://github.com/nautechsystems/nautilus_trader
+added: 2026-07-27
+last_verified: 2026-07-27

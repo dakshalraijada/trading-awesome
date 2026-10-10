@@ -1,0 +1,9 @@
+name: ORATS
+url: https://orats.com/
+category: options-derivatives
+description: Options-analytics platform offering volatility surfaces, Greeks, backtesting, and scanning APIs for U.S. equities and ETFs.
+scope: U.S. options; volatility; Research / automation
+api: '[API docs](https://orats.com/docs) · [OpenAPI spec](https://orats.com/openapi.json) · Py/Go/PHP: direct HTTP'
+pricing: Public data plans start at **$200/month**; API and tick-data tiers are separately priced.
+added: 2026-08-24
+last_verified: 2026-08-24

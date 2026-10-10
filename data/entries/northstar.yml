@@ -1,0 +1,9 @@
+name: Northstar
+url: https://crypto.daan.gg/
+category: crypto-intelligence
+description: Volume-weighted cross-exchange crypto pair averages from live exchanges, distinct from catalog-style aggregators.
+scope: Crypto — spot; market data
+api: '[API docs](https://crypto.daan.gg/developers/docs) · Py: — · Go: — · PHP: —'
+pricing: Sandbox free (10k credits/mo, 120 req/min, 7-day history); Growth **€49/month** excl. VAT; Scale **€199/month**.
+added: 2026-09-02
+last_verified: 2026-09-02

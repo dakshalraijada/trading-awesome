@@ -1,0 +1,9 @@
+name: Kalshi
+url: https://kalshi.com/
+category: brokerage
+description: Regulated event-contract exchange with REST and WebSocket APIs for market data, order books, trading, and portfolio workflows.
+scope: Prediction markets; event contracts; Brokerage / execution; Research / automation
+api: '[API docs](https://docs.kalshi.com/) · Py/TS: [official SDKs](https://docs.kalshi.com/sdks/overview) · Go/PHP: —'
+pricing: API access is available to eligible account holders; trading fees and product availability vary by contract and jurisdiction.
+added: 2026-08-24
+last_verified: 2026-08-24

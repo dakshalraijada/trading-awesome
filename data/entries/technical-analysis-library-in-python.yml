@@ -1,0 +1,10 @@
+name: Technical Analysis Library in Python
+url: https://github.com/bukosabino/ta
+category: feature-engineering
+description: Pure-Python indicator library built around pandas series for momentum, trend, volatility, and volume features.
+scope: Multi-asset technical analysis; Research
+api: '[Docs](https://technical-analysis-library-in-python.readthedocs.io/) · Py: [official](https://github.com/bukosabino/ta) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/bukosabino/ta
+added: 2026-07-27
+last_verified: 2026-07-27

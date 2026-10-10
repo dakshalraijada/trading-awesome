@@ -1,0 +1,10 @@
+name: pandas-ta-classic
+url: https://github.com/xgboosted/pandas-ta-classic
+category: feature-engineering
+description: Community-maintained continuation of pandas-ta providing a broad set of indicators, strategies, and candlestick patterns.
+scope: Multi-asset technical analysis; Research
+api: '[Docs](https://xgboosted.github.io/pandas-ta-classic/) · Py: [community-maintained](https://github.com/xgboosted/pandas-ta-classic) · Go/PHP: —'
+pricing: Open source; validate formula parity and pin versions.
+repo: https://github.com/xgboosted/pandas-ta-classic
+added: 2026-07-27
+last_verified: 2026-10-10

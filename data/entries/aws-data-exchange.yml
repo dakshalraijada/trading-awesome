@@ -1,0 +1,9 @@
+name: AWS Data Exchange
+url: https://aws.amazon.com/data-exchange/
+category: alternative-data
+description: Marketplace for subscribing to third-party financial, alternative, and reference datasets directly into AWS infrastructure.
+scope: Alternative data; multi-asset; Research / automation
+api: '[Docs](https://docs.aws.amazon.com/data-exchange/) · Py/Go/PHP: AWS SDKs'
+pricing: Subscription pricing is set by individual data providers; AWS infrastructure costs are separate.
+added: 2026-08-24
+last_verified: 2026-08-24

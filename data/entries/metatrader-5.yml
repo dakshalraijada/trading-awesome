@@ -1,0 +1,9 @@
+name: MetaTrader 5
+url: https://www.metatrader5.com/
+category: brokerage
+description: Multi-asset platform widely used through brokers for FX, CFDs, exchange-traded instruments, indicators, and automated trading.
+scope: Forex / FX; traditional markets; Research / automation
+api: '[Python integration docs](https://www.mql5.com/en/docs/python_metatrader5) · Py: platform package · Go: — · PHP: —'
+pricing: Platform access is generally broker-mediated; the terminal is free, while marketplace, hosting, signals, and broker costs vary.
+added: 2026-07-27
+last_verified: 2026-07-27

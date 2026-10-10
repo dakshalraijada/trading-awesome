@@ -1,0 +1,9 @@
+name: GDELT
+url: https://www.gdeltproject.org/
+category: signals
+description: Open global news and event datasets for custom geopolitical, narrative, and media-attention signals.
+scope: Global news; macro; alternative data; Research / automation
+api: '[DOC API](https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/) · [data access](https://www.gdeltproject.org/data.html) · Py/Go/PHP: direct HTTP or BigQuery clients'
+pricing: Open datasets and public endpoints; downstream cloud-query or storage charges may apply.
+added: 2026-07-27
+last_verified: 2026-07-27

@@ -1,0 +1,9 @@
+name: CoinQuant
+url: https://www.coinquant.ai/
+category: charting-research
+description: No-code, AI-assisted strategy builder and backtesting platform for market research and systematic experimentation.
+scope: Crypto; traditional markets; Research / automation
+api: '[Public API skills pack](https://www.coinquant.ai/documentation/public-api-skills-pack) · Py: — · Go: — · PHP: —'
+pricing: Free credits; public paid plans listed from **$12.99/week**.
+added: 2026-07-27
+last_verified: 2026-07-27

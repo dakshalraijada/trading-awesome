@@ -1,0 +1,9 @@
+name: Investing.com
+url: https://www.investing.com/
+category: charting-research
+description: Global markets portal with quotes, economic calendar, earnings calendar, news, and technical summaries across all major asset classes.
+scope: Traditional markets; Forex / FX; crypto; macro
+api: 'No official public API for personal use · Py/Go/PHP: —'
+pricing: Free web access with ads; premium plan removes ads and adds features.
+added: 2026-09-12
+last_verified: 2026-09-12

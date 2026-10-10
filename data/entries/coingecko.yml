@@ -1,0 +1,10 @@
+name: CoinGecko
+url: https://www.coingecko.com/
+category: crypto-intelligence
+description: Independent crypto-data API covering prices, market capitalizations, exchange and asset metadata, DEX/on-chain data, WebSocket, and webhooks.
+scope: Crypto — spot / on-chain / DeFi; Crypto — derivatives
+api: '[API docs](https://docs.coingecko.com/) · Py: [official](https://github.com/coingecko/coingecko-python) · Go: [coingecko-go](https://github.com/tigusigalpa/coingecko-go) · PHP: [coingecko-php](https://github.com/tigusigalpa/coingecko-php)'
+pricing: Free Demo API; public paid API plans start at **$29/month billed annually**.
+repo: https://github.com/coingecko/coingecko-python
+added: 2026-07-27
+last_verified: 2026-07-27

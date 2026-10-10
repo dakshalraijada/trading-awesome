@@ -1,0 +1,10 @@
+name: vollib / lets_be_rational
+url: https://github.com/vollib/vollib
+category: options-derivatives
+description: Python implementation of Peter Jäckel's Black-76 implied-volatility and option-pricing routines, extended to Black-Scholes(-Merton) with Greeks.
+scope: Options; volatility; Research
+api: 'Py: [official](https://github.com/vollib/vollib) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/vollib/vollib
+added: 2026-09-12
+last_verified: 2026-09-12

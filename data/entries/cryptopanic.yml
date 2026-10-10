@@ -1,0 +1,9 @@
+name: CryptoPanic
+url: https://cryptopanic.com/
+category: signals
+description: Crypto news aggregator with currency filters, sentiment/community signals, alerting, and a developer news API.
+scope: Crypto; news; sentiment; Research / automation
+api: '[API docs](https://cryptopanic.com/developers/api/) · Py/Go/PHP: direct HTTP integration'
+pricing: Paid API plans; public Growth pricing is plan-based and enterprise webhook delivery is separately scoped.
+added: 2026-07-27
+last_verified: 2026-07-27

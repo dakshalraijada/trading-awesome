@@ -1,0 +1,9 @@
+name: Polymarket
+url: https://polymarket.com/
+category: brokerage
+description: Prediction-market platform with CLOB trading, market discovery, order books, real-time feeds, and official client libraries.
+scope: Prediction markets; on-chain; Brokerage / execution; Research / automation
+api: '[Developer docs](https://docs.polymarket.com/) · Py/TS: [official clients](https://docs.polymarket.com/trading/quickstart) · Go/PHP: —'
+pricing: API access is public; trading fees, account eligibility, and product availability vary by market and jurisdiction.
+added: 2026-08-24
+last_verified: 2026-08-24

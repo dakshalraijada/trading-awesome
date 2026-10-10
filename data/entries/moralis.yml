@@ -1,0 +1,9 @@
+name: Moralis
+url: https://moralis.com/
+category: web3-defi
+description: Web3 API and real-time blockchain data platform for wallet balances, NFTs, token prices, and event streams.
+scope: Crypto — on-chain / DeFi / NFTs; infrastructure
+api: '[Docs](https://docs.moralis.com/) · Py/Go/PHP: direct HTTP'
+pricing: Free tier; paid plans start at **$49/month** for higher rate limits.
+added: 2026-08-24
+last_verified: 2026-08-24

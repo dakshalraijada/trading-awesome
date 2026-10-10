@@ -1,0 +1,9 @@
+name: The Graph
+url: https://thegraph.com/
+category: web3-defi
+description: Decentralized indexing protocol for querying blockchain data via subgraphs across multiple networks.
+scope: Crypto — on-chain / DeFi; infrastructure; Research / automation
+api: '[Docs](https://thegraph.com/docs/en/) · Py: [subgraph clients](https://thegraph.com/docs/en/subgraphs/querying/introduction/) · Go/PHP: direct GraphQL'
+pricing: Query costs are based on query volume and subgraph signaling; free tier exists for low-volume usage.
+added: 2026-08-24
+last_verified: 2026-08-24

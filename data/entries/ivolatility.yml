@@ -1,0 +1,9 @@
+name: Ivolatility
+url: https://www.ivolatility.com/
+category: options-derivatives
+description: Historical and real-time implied-volatility data, volatility surfaces, skew charts, and options backtesting tools.
+scope: U.S. options; volatility; Research / automation
+api: '[Data Cloud API](https://www.ivolatility.com/data-cloud-api/) · [API reference](https://www.ivolatility.com/api/docs) · Py/Go/PHP: direct HTTP'
+pricing: Subscription plans are tiered by history depth and coverage; see [pricing](https://www.ivolatility.com/data-cloud-api/#pricing-anchor).
+added: 2026-08-24
+last_verified: 2026-08-24

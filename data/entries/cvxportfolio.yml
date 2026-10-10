@@ -1,0 +1,10 @@
+name: cvxportfolio
+url: https://github.com/cvxgrp/cvxportfolio
+category: portfolio-risk
+description: Portfolio optimization and backtesting library from the CVX group, modeling transaction costs, constraints, and multi-period policies.
+scope: Portfolio construction; risk; quantitative research
+api: '[Docs](https://cvxportfolio.readthedocs.io/) · Py: [official](https://github.com/cvxgrp/cvxportfolio) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/cvxgrp/cvxportfolio
+added: 2026-09-12
+last_verified: 2026-09-12

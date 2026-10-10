@@ -1,0 +1,11 @@
+name: EigenPhi
+url: https://eigenphi.io/
+category: web3-defi
+description: MEV and DeFi transaction-analytics platform for sandwich attacks, arbitrage, liquidation, and flow monitoring.
+scope: Crypto — on-chain / DeFi; MEV; Research
+api: 'No longer available · Py/Go/PHP: —'
+pricing: Free dashboard; API and advanced analytics are subscription-based.
+status: deprecated
+deprecation_note: Public dashboard, API, and MCP access shut down after 2026-06-29 ([announcement](https://eigenphi.substack.com/)).
+added: 2026-08-24
+last_verified: 2026-10-10

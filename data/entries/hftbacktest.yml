@@ -1,0 +1,10 @@
+name: hftbacktest
+url: https://github.com/nkaz001/hftbacktest
+category: backtesting
+description: High-frequency backtesting framework accounting for queue position, latency, and full order-book dynamics on tick data.
+scope: Crypto; futures; HFT research; Research / automation
+api: '[Docs](https://hftbacktest.readthedocs.io/) · Py: [official](https://github.com/nkaz001/hftbacktest) · Rust core'
+pricing: Open source.
+repo: https://github.com/nkaz001/hftbacktest
+added: 2026-09-12
+last_verified: 2026-09-12

@@ -1,0 +1,10 @@
+name: Alpaca
+url: https://alpaca.markets/
+category: brokerage
+description: Developer-first trading, brokerage, and market-data platform built for algorithmic equity, options, and crypto workflows.
+scope: U.S. equities / ETFs / options; crypto; Brokerage / execution
+api: '[API docs](https://docs.alpaca.markets/) · Py: [official](https://github.com/alpacahq/alpaca-py) · Go: [official](https://github.com/alpacahq/alpaca-trade-api-go) · PHP: —'
+pricing: Commission-free U.S. stock/ETF trading is advertised; market-data plans include free and paid tiers, including a $99/month plan.
+repo: https://github.com/alpacahq/alpaca-py
+added: 2026-07-27
+last_verified: 2026-07-27

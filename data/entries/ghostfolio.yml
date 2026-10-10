@@ -1,0 +1,10 @@
+name: Ghostfolio
+url: https://ghostfol.io/
+category: portfolio-risk
+description: Open-source wealth- and portfolio-tracking application with multi-account aggregation, performance, and allocation analysis; self-hosted or cloud.
+scope: Traditional markets; crypto; portfolio tracking
+api: '[API docs](https://ghostfol.io/en/api) · TS: [official](https://github.com/ghostfolio/ghostfolio) · Py/Go/PHP: —'
+pricing: Open source; hosted cloud plan is paid.
+repo: https://github.com/ghostfolio/ghostfolio
+added: 2026-09-12
+last_verified: 2026-09-12

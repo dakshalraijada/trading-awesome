@@ -1,0 +1,9 @@
+name: Quantpedia
+url: https://quantpedia.com/
+category: education
+description: Curated database of quantitative and algorithmic trading strategies extracted and summarized from academic research papers.
+scope: Traditional markets; quantitative research; strategy library
+api: '[Platform](https://quantpedia.com/) · Py/Go/PHP: —'
+pricing: Free preview; premium subscription unlocks full strategy details, code, and data.
+added: 2026-08-24
+last_verified: 2026-08-24

@@ -1,0 +1,10 @@
+name: DSPy
+url: https://dspy.ai/
+category: ai-ml
+description: Framework for programming and optimizing multi-stage language-model systems using evaluators, modules, and data-driven compilation.
+scope: Financial NLP research; AI evaluation; not trading-specific
+api: '[Docs](https://dspy.ai/) · Py: [official](https://github.com/stanfordnlp/dspy) · Go/PHP: —'
+pricing: Open source; model API and compute charges are separate.
+repo: https://github.com/stanfordnlp/dspy
+added: 2026-07-27
+last_verified: 2026-07-27

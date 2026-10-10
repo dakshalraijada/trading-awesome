@@ -1,0 +1,10 @@
+name: Glassnode
+url: https://glassnode.com/
+category: crypto-intelligence
+description: Digital-asset intelligence platform combining on-chain and market metrics, research, and API-accessible data.
+scope: Crypto — spot / on-chain / DeFi; Crypto — derivatives
+api: '[API docs](https://docs.glassnode.com/basic-api/api) · Py: [official](https://github.com/glassnode/glassnode-api-python-client) · Go: [glassnode-go](https://github.com/tigusigalpa/glassnode-go) · PHP: [glassnode-php](https://github.com/tigusigalpa/glassnode-php)'
+pricing: Advanced dashboard plan publicly starts at **$49/month billed annually**; API/professional access varies by package.
+repo: https://github.com/glassnode/glassnode-api-python-client
+added: 2026-07-27
+last_verified: 2026-07-27

@@ -1,0 +1,10 @@
+name: NATS
+url: https://nats.io/
+category: infrastructure
+description: Lightweight messaging system with request/reply, pub/sub, and JetStream persistence for event-driven services.
+scope: Research / automation; messaging; low-latency services
+api: '[Docs](https://docs.nats.io/) · Py: [official](https://github.com/nats-io/nats.py) · Go: [official](https://github.com/nats-io/nats.go) · PHP: [community](https://github.com/basis-company/nats.php)'
+pricing: Open source; Synadia cloud and enterprise support are commercially priced.
+repo: https://github.com/nats-io/nats.py
+added: 2026-07-27
+last_verified: 2026-07-27
