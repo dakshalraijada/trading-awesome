@@ -1,0 +1,10 @@
+name: Binance API
+url: https://developers.binance.com/
+category: crypto-exchanges
+description: Official developer surface for Binance spot, derivatives, market-data, and account/trading workflows.
+scope: Crypto — spot / on-chain / DeFi; Crypto — derivatives; Brokerage / execution
+api: '[Spot API docs](https://developers.binance.com/docs/binance-spot-api-docs/CHANGELOG) · Py: [official](https://github.com/binance/binance-connector-python) · Go: [official](https://github.com/binance/binance-connector-go) · PHP: [official](https://github.com/binance/binance-connector-php)'
+pricing: API use is free; exchange trading fees and product access vary by venue and jurisdiction.
+repo: https://github.com/binance/binance-connector-python
+added: 2026-07-27
+last_verified: 2026-07-27

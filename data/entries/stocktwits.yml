@@ -1,0 +1,9 @@
+name: Stocktwits
+url: https://stocktwits.com/
+category: signals
+description: Social network for traders with cashtag-tagged streams and trending-ticker rankings.
+scope: Traditional markets; crypto; social sentiment
+api: 'API not accepting new registrations ([developer page](https://api.stocktwits.com/developers)) · Py/Go/PHP: —'
+pricing: Free web access; the public API is closed to new sign-ups.
+added: 2026-09-12
+last_verified: 2026-10-10

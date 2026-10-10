@@ -1,0 +1,10 @@
+name: EODHD
+url: https://eodhd.com/
+category: market-data
+description: API provider for global end-of-day, intraday, real-time, fundamental, FX, and crypto datasets.
+scope: Traditional markets; Forex / FX; crypto
+api: '[Financial API docs](https://eodhd.com/financial-apis/) · Py: [official](https://github.com/EodHistoricalData/EODHD-APIs-Python-Financial-Library) · Go: [eodhd-go](https://github.com/tigusigalpa/eodhd-go) · PHP: [official](https://github.com/EodHistoricalData/EODHistoricalData.PHP-Laravel)'
+pricing: Free tier; publicly listed plans begin at **$19.99/month**.
+repo: https://github.com/EodHistoricalData/EODHD-APIs-Python-Financial-Library
+added: 2026-07-27
+last_verified: 2026-07-27

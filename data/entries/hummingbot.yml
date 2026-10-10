@@ -1,0 +1,10 @@
+name: Hummingbot
+url: https://hummingbot.org/
+category: backtesting
+description: Open-source framework focused on market making, arbitrage, connector-based crypto execution, backtesting, and bot operations.
+scope: Crypto; CEX / DEX; Brokerage / execution; Research / automation
+api: '[Docs](https://hummingbot.org/docs/) · Py: [official](https://github.com/hummingbot/hummingbot) · Go/PHP: —'
+pricing: Open source; trading, hosting, liquidity, and connector-specific costs apply.
+repo: https://github.com/hummingbot/hummingbot
+added: 2026-07-27
+last_verified: 2026-07-27

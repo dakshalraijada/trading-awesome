@@ -1,0 +1,10 @@
+name: OKX API
+url: https://www.okx.com/
+category: crypto-exchanges
+description: Exchange API for spot, margin, futures, swaps, options, wallets, and market data.
+scope: Crypto — spot / DeFi; Crypto — derivatives; Brokerage / execution
+api: '[API portal](https://www.okx.com/okx-api) · Py: [official](https://github.com/okxapi/python-okx) · Go: [okx-go](https://github.com/tigusigalpa/okx-go) · PHP: [okx-php](https://github.com/tigusigalpa/okx-php)'
+pricing: API access is free; trading fees are tiered by volume, account, and instrument.
+repo: https://github.com/okxapi/python-okx
+added: 2026-07-27
+last_verified: 2026-07-27

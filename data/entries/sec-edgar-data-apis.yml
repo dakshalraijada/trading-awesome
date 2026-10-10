@@ -1,0 +1,9 @@
+name: SEC EDGAR Data APIs
+url: https://data.sec.gov/
+category: market-data
+description: First-party U.S. filing history and structured XBRL financial-statement data for company, fundamental, and event research.
+scope: U.S. equities; filings; fundamentals; Traditional markets; Research / automation
+api: '[API docs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) · Py/Go/PHP: direct HTTP'
+pricing: Free and no API key required; automated access must follow SEC fair-access policies.
+added: 2026-08-24
+last_verified: 2026-08-24

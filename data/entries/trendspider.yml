@@ -1,0 +1,9 @@
+name: TrendSpider
+url: https://trendspider.com/
+category: signals
+description: Technical-analysis workspace with scanners, multi-factor alerts, strategy testing, cloud strategy bots, and outbound webhooks.
+scope: Traditional markets; Forex / FX; crypto; Research / automation
+api: '[Webhook docs](https://help.trendspider.com/articles/webhooks) · No general market-data API identified · Py/Go/PHP: —'
+pricing: Paid subscriptions; plan limits govern alerts, bots, data, and webhook availability.
+added: 2026-07-27
+last_verified: 2026-07-27

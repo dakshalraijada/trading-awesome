@@ -1,0 +1,10 @@
+name: QuantStats
+url: https://github.com/ranaroussi/quantstats
+category: portfolio-risk
+description: Python toolkit for return-series metrics, drawdowns, comparisons, tearsheets, and HTML performance reports.
+scope: Portfolio analytics; risk; reporting
+api: 'Py: [official repository](https://github.com/ranaroussi/quantstats) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/ranaroussi/quantstats
+added: 2026-07-27
+last_verified: 2026-07-27

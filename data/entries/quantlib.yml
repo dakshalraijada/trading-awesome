@@ -1,0 +1,10 @@
+name: QuantLib
+url: https://www.quantlib.org/
+category: portfolio-risk
+description: Open-source quantitative-finance library for instrument pricing, yield curves, calendars, models, and risk analysis.
+scope: Derivatives; fixed income; quantitative research; risk
+api: '[Docs](https://www.quantlib.org/docs.shtml) · C++: [official](https://github.com/lballabio/QuantLib) · Py: [official bindings](https://github.com/lballabio/QuantLib-SWIG) · Go/PHP: —'
+pricing: Open source under a modified BSD license.
+repo: https://github.com/lballabio/QuantLib
+added: 2026-08-24
+last_verified: 2026-08-24

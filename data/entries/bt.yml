@@ -1,0 +1,10 @@
+name: bt
+url: https://github.com/pmorissette/bt
+category: backtesting
+description: Flexible Python backtesting library based on composable algo trees, suited to portfolio-level and allocation strategies; foundation of ffn.
+scope: Multi-asset research; portfolio backtests
+api: '[Docs](https://pmorissette.github.io/bt/) · Py: [official](https://github.com/pmorissette/bt) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/pmorissette/bt
+added: 2026-09-12
+last_verified: 2026-09-12

@@ -1,0 +1,10 @@
+name: Coin Metrics
+url: https://www.talos.com/our-solutions/data/overview
+category: crypto-intelligence
+description: Institutional digital-asset market and network-data service, now presented within Talos data solutions.
+scope: Crypto — spot / on-chain; reference rates; indexes
+api: '[API docs](https://docs.coinmetrics.io/api/v4/) · Py: [official](https://github.com/coinmetrics/api-client-python) · Go: — · PHP: —'
+pricing: Community access exists for selected data; commercial pricing is contact sales.
+repo: https://github.com/coinmetrics/api-client-python
+added: 2026-07-27
+last_verified: 2026-07-27

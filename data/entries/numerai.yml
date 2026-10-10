@@ -1,0 +1,10 @@
+name: Numerai
+url: https://numer.ai/
+category: education
+description: Crowdsourced hedge fund with weekly machine-learning tournaments on obfuscated financial datasets; contributors stake and earn returns for performant models.
+scope: Traditional markets; ML competitions; quantitative research
+api: '[Docs](https://docs.numer.ai/) · Py: [official](https://github.com/numerai/numerapi) · Go/PHP: —'
+pricing: Free to participate; staking requires cryptocurrency and carries risk of loss.
+repo: https://github.com/numerai/numerapi
+added: 2026-08-24
+last_verified: 2026-08-24

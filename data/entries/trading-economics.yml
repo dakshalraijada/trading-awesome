@@ -1,0 +1,10 @@
+name: Trading Economics
+url: https://tradingeconomics.com/
+category: market-data
+description: Macroeconomic and market-data platform for indicators, calendars, forecasts, commodities, bonds, currencies, and APIs.
+scope: Macro; Forex / FX; Traditional markets
+api: '[API docs](https://docs.tradingeconomics.com/) · Py: [official](https://github.com/tradingeconomics/tradingeconomics-python) · Go/PHP: [official multi-language repo](https://github.com/tradingeconomics/tradingeconomics)'
+pricing: Public Basic plan starts at **$22/month billed annually**.
+repo: https://github.com/tradingeconomics/tradingeconomics-python
+added: 2026-07-27
+last_verified: 2026-07-27

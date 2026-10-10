@@ -1,0 +1,10 @@
+name: FinanceToolkit
+url: https://github.com/JerBouma/FinanceToolkit
+category: market-data
+description: Python toolkit computing 200+ financial metrics, ratios, technical indicators, and risk/performance measures on top of FMP, Yahoo Finance, and other sources.
+scope: Traditional markets; fundamentals; Research
+api: '[Docs](https://www.jeroenbouma.com/projects/financetoolkit) · Py: [official](https://github.com/JerBouma/FinanceToolkit) · Go/PHP: —'
+pricing: Open source; underlying data-provider terms apply.
+repo: https://github.com/JerBouma/FinanceToolkit
+added: 2026-09-12
+last_verified: 2026-09-12

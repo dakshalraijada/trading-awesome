@@ -1,0 +1,9 @@
+name: SignalStack
+url: https://signalstack.com/
+category: signals
+description: Webhook-based order-routing layer that converts alerts from charting and strategy tools into broker orders.
+scope: Traditional markets; Forex / FX; crypto; Brokerage / execution
+api: '[Documentation](https://help.signalstack.com/) · Webhook integration · Py/Go/PHP: direct HTTP'
+pricing: Usage-based or subscription terms; broker fees remain separate.
+added: 2026-07-27
+last_verified: 2026-07-27

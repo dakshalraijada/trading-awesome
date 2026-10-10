@@ -1,0 +1,10 @@
+name: vectorbt
+url: https://vectorbt.dev/
+category: backtesting
+description: Vectorized Python research and portfolio simulation framework optimized for exploring many strategy configurations quickly.
+scope: Multi-asset research; signal analysis; portfolio simulation
+api: '[Docs](https://vectorbt.dev/) · Py: [official](https://github.com/polakowo/vectorbt) · Go/PHP: —'
+pricing: Open-source core; vectorbt PRO is commercial.
+repo: https://github.com/polakowo/vectorbt
+added: 2026-07-27
+last_verified: 2026-07-27

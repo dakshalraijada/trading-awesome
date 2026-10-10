@@ -1,6 +1,8 @@
 # Detailed Service Comparisons
 
 > Side-by-side matrices to help you choose between similar services. These are starting points — always run your own proof of concept before committing.
+>
+> **Last reviewed: 27 July 2026.** Prices, limits, and features change often; check the provider before you decide. Per-entry verification dates are in [`data/entries/`](data/entries/).
 
 ---
 
@@ -10,7 +12,7 @@
 |---------|-------------------|--------|------------|---------|-------|
 | **Markets** | Global multi-asset | U.S. equities, options, crypto | U.S. stocks, options, futures, crypto | U.S. equities, options | Forex, CFDs |
 | **API types** | REST, WebSocket, FIX, TWS | REST, WebSocket | REST | REST, WebSocket | REST (v20) |
-| **Paper trading** | ✅ | ✅ | ❌ | ❌ | ✅ (demo) |
+| **Paper trading** | ✅ | ✅ | ⚠️ API sandbox | ⚠️ API sandbox | ✅ (demo) |
 | **Commission** | Variable by tier | $0 (stocks/ETFs) | $0 (stocks), $1/contract (options) | From $10/month | Spread-based |
 | **Min. deposit** | $0 | $0 | $0 | $0 | $0 |
 | **Python SDK** | ✅ Official | ✅ Official | ✅ Official | ⚠️ Community | ✅ Official |
@@ -24,7 +26,7 @@
 - **Global multi-asset + low commissions** → Interactive Brokers
 - **Options-focused** → tastytrade
 - **Forex only** → OANDA
-- **Lowest friction API** → Tradier ( brokerage fee but simple )
+- **Lowest friction API** → Tradier (subscription pricing, simple REST API)
 
 ---
 
@@ -38,7 +40,7 @@
 | **Free tier** | ✅ 60 calls/min | ✅ 800 calls/day | ✅ (limited) | ✅ 25 calls/day | ✅ Signup credits |
 | **Python SDK** | ✅ Official | ✅ Official | ✅ Official | ⚠️ Community | ✅ Official |
 | **Go SDK** | ✅ Official | ✅ Official | ✅ Official | ⚠️ Community | ❌ |
-| **Pricing (entry)** | $3,500/mo (All-in-One) | $79/mo | $29/mo | $49.99/mo | $199/mo |
+| **Pricing (entry)** | Free tier; All-in-One $3,500/mo (annual) | $79/mo | $29/mo | $49.99/mo | $199/mo |
 | **Data quality** | Aggregated | Aggregated | Exchange-sourced | Aggregated | **Exchange-direct** |
 | **Best for** | Broad coverage | Developer-friendly | U.S. equities & options | Beginners, low volume | Systematic research |
 
@@ -214,7 +216,7 @@ ML pipeline? → skfolio
 
 - **"Official" SDK** = maintained by the service provider or explicitly endorsed
 - **"Community" SDK** = third-party; verify maintenance and security before production use
-- **Pricing** = entry-level public pricing as of 27 July 2026; always verify current rates
+- **Pricing** = entry-level public pricing as of the review date above; always verify current rates
 - **"Best for"** = editorial opinion based on common use cases; your needs may differ
 
 ---

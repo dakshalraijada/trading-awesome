@@ -1,0 +1,10 @@
+name: ClickHouse
+url: https://clickhouse.com/
+category: infrastructure
+description: Column-oriented analytical database suited to high-volume tick, order-book, event, and research queries.
+scope: Research / automation; market-data storage; analytics
+api: '[Docs](https://clickhouse.com/docs) · Py: [official](https://github.com/ClickHouse/clickhouse-connect) · Go: [official](https://github.com/ClickHouse/clickhouse-go) · PHP: [community](https://github.com/smi2/phpClickHouse)'
+pricing: Open-source self-hosting; ClickHouse Cloud is usage-based.
+repo: https://github.com/ClickHouse/clickhouse-connect
+added: 2026-07-27
+last_verified: 2026-07-27

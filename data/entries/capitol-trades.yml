@@ -1,0 +1,9 @@
+name: Capitol Trades
+url: https://www.capitoltrades.com/
+category: signals
+description: Tracking platform for U.S. politicians' stock trades, with committee, issuer, and trade-size views over STOCK Act disclosures.
+scope: Traditional markets; event intelligence; alternative data
+api: 'No public API identified · Py/Go/PHP: —'
+pricing: Free web access.
+added: 2026-09-12
+last_verified: 2026-09-12

@@ -1,0 +1,9 @@
+name: Token Terminal
+url: https://tokenterminal.com/
+category: web3-defi
+description: Fundamental analytics for DeFi protocols and crypto assets, including revenue, fees, P/F, and P/S metrics.
+scope: Crypto — on-chain / DeFi; Research / automation
+api: '[API docs](https://docs.tokenterminal.com/) · Py: [community](https://github.com/tokenterminal) · Go/PHP: —'
+pricing: Free tier with limited metrics; paid plans are tiered by coverage and API calls.
+added: 2026-08-24
+last_verified: 2026-08-24

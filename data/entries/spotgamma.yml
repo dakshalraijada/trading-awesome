@@ -1,0 +1,9 @@
+name: SpotGamma
+url: https://spotgamma.com/
+category: options-derivatives
+description: Equity-options market-structure analytics, gamma exposure estimates, dealer positioning, and key-level identification for U.S. equities and ETFs.
+scope: U.S. options; equities; Research
+api: '[Platform](https://spotgamma.com/) · Py/Go/PHP: —'
+pricing: Subscription-based; public plan tiers are listed on the site.
+added: 2026-08-24
+last_verified: 2026-08-24

@@ -1,0 +1,9 @@
+name: FinancialJuice
+url: https://www.financialjuice.com/
+category: signals
+description: Real-time financial news, headlines, economic-calendar events, and audio squawk for event-driven discretionary research.
+scope: Macro; Traditional markets; Forex / FX; news
+api: 'No general public API identified · Py/Go/PHP: —'
+pricing: Free and paid access; real-time features and delay conditions depend on plan.
+added: 2026-07-27
+last_verified: 2026-07-27

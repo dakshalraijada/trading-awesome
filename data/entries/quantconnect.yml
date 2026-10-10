@@ -1,0 +1,10 @@
+name: QuantConnect
+url: https://www.quantconnect.com/
+category: brokerage
+description: Open-source algorithmic-trading platform for research, backtesting, optimization, and live deployment through broker integrations.
+scope: Traditional markets; Forex / FX; crypto; Research / automation
+api: '[Docs](https://www.quantconnect.com/docs/v2/) · Py/C#: [official LEAN engine](https://github.com/QuantConnect/Lean) · Go: — · PHP: —'
+pricing: Free plan; public individual plans start at **$84/month**.
+repo: https://github.com/QuantConnect/Lean
+added: 2026-07-27
+last_verified: 2026-07-27

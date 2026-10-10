@@ -1,0 +1,9 @@
+name: OptionsPlay
+url: https://optionsplay.com/
+category: options-derivatives
+description: Options-strategy analysis, income-scanner, and risk-visualization platform with earnings and unusual-activity alerts.
+scope: U.S. options; Research
+api: '[Platform](https://optionsplay.com/) · Py/Go/PHP: —'
+pricing: Subscription-based; plan details are published on the site.
+added: 2026-08-24
+last_verified: 2026-08-24

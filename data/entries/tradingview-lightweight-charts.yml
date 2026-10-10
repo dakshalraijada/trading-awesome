@@ -1,0 +1,9 @@
+name: TradingView Lightweight Charts
+url: https://www.tradingview.com/lightweight-charts/
+category: visualization
+description: Compact open-source JavaScript library for responsive, streaming financial charts using custom data.
+scope: Web charting; candlesticks; time series; Research / automation
+api: '[Docs](https://tradingview.github.io/lightweight-charts/) · JS/TS: official · no market data included'
+pricing: Open source under Apache 2.0.
+added: 2026-07-27
+last_verified: 2026-07-27

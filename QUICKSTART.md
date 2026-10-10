@@ -30,14 +30,17 @@ Download historical stock data and run a moving-average crossover strategy.
 
 ### 1. Install Python packages
 ```bash
-pip install yfinance backtesting pandas
+pip install yfinance backtesting
 ```
 
 ### 2. Get data
 ```python
 import yfinance as yf
 
-data = yf.download("AAPL", start="2020-01-01", end="2024-12-31")
+# auto_adjust=True returns split- and dividend-adjusted prices;
+# multi_level_index=False gives plain Open/High/Low/Close/Volume columns.
+data = yf.download("AAPL", start="2020-01-01", end="2024-12-31",
+                   auto_adjust=True, multi_level_index=False)
 print(data.head())
 ```
 
@@ -45,18 +48,18 @@ print(data.head())
 ```python
 from backtesting import Backtest, Strategy
 from backtesting.lib import crossover
-import pandas_ta as ta
+from backtesting.test import SMA
 
 class SmaCross(Strategy):
     def init(self):
-        self.sma1 = self.I(ta.sma, self.data.Close, 10)
-        self.sma2 = self.I(ta.sma, self.data.Close, 30)
+        self.sma1 = self.I(SMA, self.data.Close, 10)
+        self.sma2 = self.I(SMA, self.data.Close, 30)
 
     def next(self):
         if crossover(self.sma1, self.sma2):
             self.buy()
         elif crossover(self.sma2, self.sma1):
-            self.sell()
+            self.position.close()
 
 bt = Backtest(data, SmaCross, cash=10_000, commission=0.002)
 stats = bt.run()
@@ -65,9 +68,10 @@ bt.plot()
 ```
 
 ### What's happening here?
-- `yfinance` pulls free end-of-day data from Yahoo Finance
+- `yfinance` pulls free end-of-day data from Yahoo Finance (unofficial access, so expect occasional rate limits)
 - `backtesting.py` handles the simulation loop, accounting, and reporting
-- The strategy buys when the 10-day SMA crosses above the 30-day SMA, sells on the reverse
+- The strategy buys when the 10-day SMA crosses above the 30-day SMA and exits when it crosses back below; it never goes short
+- Compare `Return [%]` with `Buy & Hold Return [%]` in the output: a simple crossover often trails buying and holding, which is exactly the kind of result a backtest should surface before you risk money
 
 ### Next steps
 - Try different assets (`SPY`, `BTC-USD`, `EURUSD=X`)
@@ -92,13 +96,15 @@ pip install alpaca-py
 
 ### 3. Place a paper trade
 ```python
+import os
+
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import MarketOrderRequest
 from alpaca.trading.enums import OrderSide, TimeInForce
 
-# Replace with your paper API keys
-API_KEY = "YOUR_API_KEY"
-SECRET_KEY = "YOUR_SECRET_KEY"
+# Paper-trading keys from environment variables; never hardcode keys in scripts
+API_KEY = os.environ["ALPACA_API_KEY"]
+SECRET_KEY = os.environ["ALPACA_SECRET_KEY"]
 
 client = TradingClient(API_KEY, SECRET_KEY, paper=True)
 
@@ -120,7 +126,8 @@ print("Order submitted!")
 
 ### What's happening here?
 - `paper=True` ensures no real money is at risk
-- Alpaca provides free real-time market data for U.S. equities
+- Alpaca's free plan includes real-time IEX data for U.S. equities; consolidated (SIP) data is a paid plan
+- Set the keys first, e.g. `export ALPACA_API_KEY=...` (macOS/Linux) or `setx ALPACA_API_KEY ...` (Windows)
 - Orders are simulated but executed against real market prices
 
 ### Next steps
@@ -135,7 +142,7 @@ print("Order submitted!")
 ### Goal
 Fetch real-time crypto prices using a free API.
 
-### Option A: CoinGecko (no API key needed)
+### Option A: CoinGecko (no API key needed for light use)
 ```python
 import requests
 
@@ -146,21 +153,26 @@ params = {
     "include_24hr_change": "true"
 }
 
-response = requests.get(url, params=params)
+response = requests.get(url, params=params, timeout=10)
+response.raise_for_status()
 data = response.json()
 
 for coin, info in data.items():
-    print(f"{coin}: ${info['usd']} (24h: {info['usd_24h_change']:.2f}%)")
+    print(f"{coin}: ${info['usd']:,} (24h: {info['usd_24h_change']:.2f}%)")
 ```
 
 ### Option B: Binance (no API key for public data)
+
+> `api.binance.com` is not available from the U.S.; U.S. users can use `api.binance.us` with the same path.
+
 ```python
 import requests
 
 url = "https://api.binance.com/api/v3/ticker/24hr"
 params = {"symbol": "BTCUSDT"}
 
-response = requests.get(url, params=params)
+response = requests.get(url, params=params, timeout=10)
+response.raise_for_status()
 data = response.json()
 
 print(f"BTC/USDT: ${float(data['lastPrice']):,.2f}")
@@ -195,20 +207,22 @@ pip install quantstats yfinance
 import yfinance as yf
 import quantstats as qs
 
-# Download data
-spy = yf.download("SPY", start="2020-01-01")["Adj Close"]
-portfolio = yf.download("AAPL,MSFT,GOOGL", start="2020-01-01")["Adj Close"]
+# Download adjusted closing prices
+spy = yf.download("SPY", start="2020-01-01", auto_adjust=True)["Close"]["SPY"]
+portfolio = yf.download(["AAPL", "MSFT", "GOOGL"], start="2020-01-01", auto_adjust=True)["Close"]
 
-# Equal-weighted portfolio
-returns = portfolio.pct_change().mean(axis=1)
+# Equal-weighted portfolio, rebalanced daily
+returns = portfolio.pct_change().dropna().mean(axis=1)
+benchmark = spy.pct_change().dropna()
 
 # Generate report
-qs.reports.html(returns, benchmark=spy.pct_change(), output="report.html")
+qs.reports.html(returns, benchmark=benchmark, output="report.html")
 print("Report saved to report.html")
 ```
 
 ### What's happening here?
 - `quantstats` calculates Sharpe ratio, max drawdown, CAGR, and dozens of other metrics
+- Averaging daily returns means the portfolio is rebalanced to equal weights every day, which a real account would pay for in costs
 - The benchmark (SPY) lets you evaluate whether your portfolio beats the market
 - The HTML report is shareable and interactive
 
@@ -247,8 +261,8 @@ print("Report saved to report.html")
 
 | Week | Focus | Tools |
 |------|-------|-------|
-| 1–2 | Backtesting basics | backtesting.py, yfinance, pandas-ta |
-| 3–4 | Data handling & cleaning | pandas, NumPy, TA-Lib |
+| 1–2 | Backtesting basics | backtesting.py, yfinance |
+| 3–4 | Data handling & indicators | pandas, NumPy, TA-Lib or `ta` |
 | 5–6 | Paper trading | Alpaca, CCXT (crypto) |
 | 7–8 | Portfolio analysis | quantstats, PyPortfolioOpt |
 | 9–12 | Advanced topics | vectorbt (speed), NautilusTrader (production) |
@@ -260,7 +274,7 @@ print("Report saved to report.html")
 - **Stack Overflow** — Tag questions with `[algorithmic-trading]`, `[pandas]`, `[alpaca]`
 - **Reddit** — r/algotrading, r/quantfinance
 - **Discord** — Many communities exist for specific tools (check each tool's GitHub for invites)
-- **This repo's Discussions** — Open a thread for general questions
+- **This repo** — For questions about the list itself, open an [issue](https://github.com/lentrade/trading-awesome/issues/new/choose)
 
 ---
 
@@ -270,7 +284,7 @@ Copy-paste these to get started instantly:
 
 ```bash
 # Full beginner stack
-pip install yfinance backtesting pandas pandas-ta quantstats
+pip install yfinance backtesting quantstats
 
 # Crypto + trading stack
 pip install ccxt pandas numpy

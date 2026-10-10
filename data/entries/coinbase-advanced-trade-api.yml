@@ -1,0 +1,10 @@
+name: Coinbase Advanced Trade API
+url: https://www.coinbase.com/developer-platform/products/advanced-trade-api
+category: crypto-exchanges
+description: Coinbase API for programmatic spot trading, order management, market data, and eligible derivatives functionality.
+scope: Crypto — spot; eligible derivatives; Brokerage / execution
+api: '[API docs](https://docs.cdp.coinbase.com/coinbase-app/advanced-trade-apis/overview) · Py: [official](https://github.com/coinbase/coinbase-advanced-py) · Go: — · PHP: —'
+pricing: API access is free; public Advanced Trade maker/taker fees start at **0.60% / 1.20%**, subject to volume and product.
+repo: https://github.com/coinbase/coinbase-advanced-py
+added: 2026-07-27
+last_verified: 2026-07-27

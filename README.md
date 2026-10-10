@@ -7,12 +7,13 @@
 [![GitHub forks](https://img.shields.io/github/forks/lentrade/trading-awesome?style=flat-square&logo=github&label=Forks)](https://github.com/lentrade/trading-awesome/forks)
 [![Last commit](https://img.shields.io/github/last-commit/lentrade/trading-awesome?style=flat-square&logo=git&label=Updated)](https://github.com/lentrade/trading-awesome/commits/main)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
+[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
 
-> A curated directory of **185+ trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
+> A curated directory of **<!-- BEGIN GENERATED:count -->191<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
 
-Reliable trading infrastructure is a prerequisite for serious research and automation. This SEO-friendly Awesome List makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
+Reliable trading infrastructure is a prerequisite for serious research and automation. This list makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
-Entries are sorted **alphabetically within each category**. Inclusion weighs breadth and reliability of data or execution capability, API maturity, developer ecosystem, workflow relevance, distinctive specialization, and public accessibility. Inclusion in the list is deliberately not a claim about market share, investment returns, or the quality of any individual strategy.
+Entries are sorted **alphabetically within each category**, and each one records when it was last verified against the provider's site. Inclusion weighs breadth and reliability of data or execution capability, API maturity, developer ecosystem, workflow relevance, distinctive specialization, and public accessibility. Inclusion in the list is deliberately not a claim about market share, investment returns, or the quality of any individual strategy.
 
 ## 📚 Supplementary Guides
 
@@ -23,7 +24,8 @@ In addition to the main directory, this repository includes focused guides for s
 | [🚀 Quick Start Guide](QUICKSTART.md) | Beginners | Step-by-step paths to your first backtest, paper trade, or data fetch in under 30 minutes |
 | [⚖️ Detailed Comparisons](COMPARISON.md) | Evaluators | Side-by-side matrices across brokers, data APIs, crypto exchanges, backtesters, and more |
 | [❓ FAQ](FAQ.md) | Everyone | Answers to common questions about choosing services, pricing, data quality, security, and legal |
-| [🤝 Contributing](CONTRIBUTING.md) | Contributors | How to propose new entries, update pricing, and follow the editorial criteria |
+| [🤝 Contributing](CONTRIBUTING.md) | Contributors | How to propose new entries, update pricing, vendor rules, and the editorial criteria |
+| [🛡️ Security](SECURITY.md) | Everyone | How to report scam, phishing, or hijacked links, and how the list protects itself |
 
 ---
 
@@ -31,6 +33,7 @@ In addition to the main directory, this repository includes focused guides for s
 
 | Section | What it covers |
 | --- | --- |
+| [Recently added](#recently-added) | The newest entries across all sections |
 | [How to use this list](#how-to-use-this-list) | Coverage labels, API and SDK conventions, and pricing caveats |
 | [1. Brokerage, execution & algorithmic trading](#1-brokerage-execution--algorithmic-trading) | Multi-asset brokers, trading platforms, and automation frameworks |
 | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) | Equities, options, futures, forex, fundamentals, macro, and news APIs |
@@ -52,9 +55,32 @@ In addition to the main directory, this repository includes focused guides for s
 
 ---
 
+## Recently added
+
+<!-- BEGIN GENERATED:recent -->
+| Added | Service | Section |
+| --- | --- | --- |
+| 2026-10-10 | [Hydromancer](https://hydromancer.xyz/) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
+| 2026-10-06 | [TV-Hub](https://www.tv-hub.org/) | [1. Brokerage, execution & algorithmic trading](#1-brokerage-execution--algorithmic-trading) |
+| 2026-09-28 | [aikstockdata](https://aikstockdata.com/en) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
+| 2026-09-25 | [Eulerpool](https://eulerpool.com/) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
+| 2026-09-19 | [SnapPChart](https://www.snappchart.app/) | [5. Charting, research & no-code decision support](#5-charting-research--no-code-decision-support) |
+| 2026-09-14 | [HostDeFi](https://hostdefi.com/) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
+| 2026-09-12 | [yfinance](https://github.com/ranaroussi/yfinance) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
+| 2026-09-12 | [vollib / lets_be_rational](https://github.com/vollib/vollib) | [13. Options, volatility & derivatives analytics](#13-options-volatility--derivatives-analytics) |
+| 2026-09-12 | [vnpy](https://github.com/vnpy/vnpy) | [8. Backtesting engines & trading frameworks](#8-backtesting-engines--trading-frameworks) |
+| 2026-09-12 | [TuShare](https://github.com/waditu/tushare) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
+<!-- END GENERATED:recent -->
+
+Want to add a service? Use the [submission form](https://github.com/lentrade/trading-awesome/issues/new?template=new-entry.yml); see [CONTRIBUTING.md](CONTRIBUTING.md) for the rules.
+
+---
+
 ## How to use this list
 
 Every entry links to the provider's official site. The **API & packages** column always points to public documentation when a public API is available. `Py`, `Go`, and `PHP` link to a GitHub package only when a relevant repository could be identified. Packages marked **community** are not represented as first-party software; validate maintenance, licensing, security, and compatibility before production use.
+
+Each entry is stored as a small YAML file in [`data/entries/`](data/entries/) with the date it was added and last verified; the tables below are generated from those files. Listing is **not** an audit or an endorsement; see [SECURITY.md](SECURITY.md) for safety tips.
 
 | Coverage label | Meaning |
 | --- | --- |
@@ -73,6 +99,7 @@ Every entry links to the provider's official site. The **API & packages** column
 
 These tools are the strongest starting points when a workflow needs more than data: they support automated orders, brokerage integration, paper/live trading, or research-to-execution deployment. Regulatory eligibility and supported instruments can differ by country, account type, and product entity.
 
+<!-- BEGIN GENERATED:table:brokerage -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[Alpaca](https://alpaca.markets/)** | Developer-first trading, brokerage, and market-data platform built for algorithmic equity, options, and crypto workflows. | U.S. equities / ETFs / options; crypto; Brokerage / execution | [API docs](https://docs.alpaca.markets/) · Py: [official](https://github.com/alpacahq/alpaca-py) · Go: [official](https://github.com/alpacahq/alpaca-trade-api-go) · PHP: — | Commission-free U.S. stock/ETF trading is advertised; market-data plans include free and paid tiers, including a $99/month plan. |
@@ -88,6 +115,7 @@ These tools are the strongest starting points when a workflow needs more than da
 | **[tastytrade](https://tastytrade.com/)** | Active-trader brokerage emphasizing U.S. options and futures, with a public developer platform and Python SDK. | U.S. stocks / ETFs / options / futures; crypto; Brokerage / execution | [Developer docs](https://developer.tastytrade.com/) · Py: [official](https://github.com/tastytrade/tastytrade-sdk-python) · Go: — · PHP: — | U.S. stocks/ETFs: $0 commission; public options pricing is **$1/contract, capped at $10/leg**; other product fees apply. |
 | **[Tradier](https://tradier.com/)** | API-centric U.S. equities and options brokerage offering trading, account, and market-data endpoints. | U.S. equities / ETFs / options; Brokerage / execution | [API docs](https://docs.tradier.com/) · Py: [community](https://github.com/cablehead/python-tradier) · Go: [community](https://github.com/timpalpant/go-tradier) · PHP: — | Brokerage subscriptions publicly start at **$10/month**; commissions and exchange fees depend on plan and activity. |
 | **[TV-Hub](https://www.tv-hub.org/)** | Webhook execution layer that converts TradingView alerts into spot and futures orders on crypto exchanges, with DCA and grid bots. | Crypto — spot / on-chain / DeFi; Crypto — derivatives; Brokerage / execution | [API docs](https://www.tv-hub.org/docs/api-reference/) · Webhook integration · Py/Go/PHP: direct HTTP | Demo and testnet accounts free; live trading **$23/month** or **$19/month** on the 6-month plan, 7-day free trial per exchange (verified 2026-10-06); see [official pricing](https://www.tv-hub.org/pricing). |
+<!-- END GENERATED:table:brokerage -->
 
 ---
 
@@ -95,6 +123,7 @@ These tools are the strongest starting points when a workflow needs more than da
 
 For quantitative strategies and investment research, data quality depends on more than an endpoint count. Verify entitlement terms, adjustment basis, exchange coverage, latency, corporate-action treatment, and whether a data field is real-time, delayed, end-of-day, or derived. These providers span a practical range from accessible developer APIs to specialist institutional feeds.
 
+<!-- BEGIN GENERATED:table:market-data -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[aikstockdata](https://aikstockdata.com/en)** | Korean listed-company data published as static JSON and CSV: the previous trading day's settled closing prices from the government price feed (ETFs excluded), DART regulatory filings with the minute each one was received, quarterly earnings, and median market-adjusted returns after a filing grouped by filing type. | Traditional markets; Korea markets (KOSPI / KOSDAQ / KONEX); Research / automation | [API docs](https://aikstockdata.com/en/api) · [MCP server](https://aikstockdata.com/en/mcp) · Py/Go/PHP: — | No account, no API key and no paid tier; see the [use terms](https://aikstockdata.com/licenses/aiksd-public-1.1.txt) — Non-commercial use with attribution; commercial redistribution is not permitted. |
@@ -115,7 +144,7 @@ For quantitative strategies and investment research, data quality depends on mor
 | **[LSEG (Refinitiv) Data APIs](https://developers.lseg.com/)** | Institutional data platform (formerly Refinitiv Eikon Data API) covering equities, fixed income, FX, commodities, fundamentals, estimates, and news. | Traditional markets; Forex / FX; macro | [Developer portal](https://developers.lseg.com/) · Py: [official samples](https://github.com/LSEG-API-Samples) · Go/PHP: — | Enterprise licensing; pricing is on request. |
 | **[Marketstack](https://marketstack.com/)** | REST API for end-of-day, intraday, and real-time equities data, designed for lightweight integrations. | Traditional markets; equities / ETFs | [API docs](https://docs.apilayer.com/marketstack/docs/api-documentation) · Py: [community](https://github.com/mreiche/marketstack-python) · Go: [community](https://github.com/tigusigalpa/marketstack-go) · PHP: [community](https://github.com/tigusigalpa/marketstack-php) | Free tier; public paid tiers start at **$9.99/month**. |
 | **[Massive](https://massive.com/)** | Real-time and historical market-data platform, formerly Polygon.io, with REST, WebSocket, and flat-file delivery. | U.S. equities; options; indices; FX; futures; crypto | [Docs](https://massive.com/docs) · Py: [official](https://github.com/massive-com/client-python) · Go: [official](https://github.com/massive-com/client-go) · PHP: — | Free tier; individual plans publicly start at **$29/month**. |
-| **[Nasdaq Data Link](https://data.nasdaq.com/)** | Dataset marketplace and API for financial, economic, and alternative-data series. | Traditional markets; macro; alternative data | [Docs](https://docs.data.nasdaq.com/) · Py: [official](https://github.com/nasdaq/data-link-python) · Go: — · PHP: — | Freemium; selected datasets are free while premium datasets require separate subscriptions. |
+| **[Nasdaq Data Link](https://data.nasdaq.com/)** | Dataset marketplace and API for financial, economic, and alternative-data series. | Traditional markets; macro; alternative data | [Developer portal](https://data.nasdaq.com/) · Py: [official](https://github.com/Nasdaq/data-link-python) · Go: — · PHP: — | Freemium; selected datasets are free while premium datasets require separate subscriptions. |
 | **[OilPriceAPI](https://www.oilpriceapi.com)** | Energy commodity price API covering crude benchmarks, natural gas, refined products, marine fuels, futures and carbon, with a source timestamp on every value. | Commodities; energy; Traditional markets | [API docs](https://docs.oilpriceapi.com) · Py: [official](https://github.com/OilpriceAPI/python-sdk) · Node: [official](https://github.com/OilpriceAPI/oilpriceapi-node) · Go: [official](https://github.com/OilpriceAPI/oilpriceapi-go) · PHP: [official](https://github.com/OilpriceAPI/oilpriceapi-php) · [MCP](https://github.com/OilpriceAPI/mcp-server) | Free tier 50 requests/day, no card. Paid from **$19/month**; published ladder to $299/month. |
 | **[OpenBB](https://openbb.co/)** | Modular financial-research platform that standardizes access to data providers, analytics extensions, Python workflows, and self-hosted FastAPI endpoints. | Multi-asset research; data integration; Research / automation | [Docs](https://docs.openbb.co/odp/python) · Py: [official](https://github.com/OpenBB-finance/OpenBB) · REST API: [official](https://docs.openbb.co/odp/python/quickstart/rest_api) · Go/PHP: — | Open Data Platform is AGPLv3; commercial licensing is available for proprietary network services. |
 | **[pandas-datareader](https://github.com/pydata/pandas-datareader)** | Remote data access for pandas from multiple sources (FRED, OECD, World Bank, exchanges) through a unified interface. | Macro; Traditional markets; Research / automation | Py: [official](https://github.com/pydata/pandas-datareader) · Go/PHP: — | Open source. |
@@ -126,6 +155,7 @@ For quantitative strategies and investment research, data quality depends on mor
 | **[Twelve Data](https://twelvedata.com/)** | Global market-data API and WebSocket service for equities, forex, crypto, ETFs, funds, indicators, fundamentals, and reference data. | Traditional markets; Forex / FX; crypto; multi-asset | [API docs](https://twelvedata.com/docs) · Py: [official](https://github.com/twelvedata/twelvedata-python) · Go: [official](https://github.com/twelvedata/twelvedata-go) · PHP: [community](https://github.com/ingelby/twelvedata) | Free Basic tier; public paid plans start at **$79/month billed annually**. |
 | **[Unusual Whales](https://unusualwhales.com/)** | Options-flow, dark-pool, congressional-trading, and market-analysis platform with a public API. | U.S. options; equities; Research / automation | [API docs](https://api.unusualwhales.com/docs) · Py: — · Go: — · PHP: — | Retail plans publicly start at **$42/month billed annually**; enterprise begins at **$750/month**. |
 | **[yfinance](https://github.com/ranaroussi/yfinance)** | Widely used Python library for downloading market data from Yahoo Finance: OHLCV, dividends, splits, fundamentals, and options chains. | Traditional markets; crypto; Research / automation | Py: [official](https://github.com/ranaroussi/yfinance) · Go/PHP: — | Open source; unofficial Yahoo Finance access, subject to rate limits and ToS changes. |
+<!-- END GENERATED:table:market-data -->
 
 ---
 
@@ -133,16 +163,18 @@ For quantitative strategies and investment research, data quality depends on mor
 
 Exchange APIs combine public market-data feeds with private account and order endpoints. They are powerful but operationally sensitive: use IP restrictions, least-privilege keys, subaccounts, testnet/paper environments where available, and exchange-specific rate-limit handling. Availability, leverage, derivatives access, and fees can be restricted by jurisdiction.
 
+<!-- BEGIN GENERATED:table:crypto-exchanges -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[Binance API](https://developers.binance.com/)** | Official developer surface for Binance spot, derivatives, market-data, and account/trading workflows. | Crypto — spot / on-chain / DeFi; Crypto — derivatives; Brokerage / execution | [Spot API docs](https://developers.binance.com/docs/binance-spot-api-docs/CHANGELOG) · Py: [official](https://github.com/binance/binance-connector-python) · Go: [official](https://github.com/binance/binance-connector-go) · PHP: [official](https://github.com/binance/binance-connector-php) | API use is free; exchange trading fees and product access vary by venue and jurisdiction. |
-| **[BingX](https://bingx.com)** | BingX — crypto exchange offering spot, futures, and copy trading for global users. | Crypto — spot / DeFi; Crypto — derivatives; Brokerage / execution | [API docs](https://bingx-api.github.io/docs-v3/#/en/info) · Py: [bingx-python](https://github.com/tigusigalpa/bingx-python) · Go: [bingx-go](https://github.com/tigusigalpa/bingx-go) · PHP: [bingx-php](https://github.com/tigusigalpa/bingx-php) | Public base fees include **0.015% maker / 0.045% taker** for perpetuals; discounts and conditions apply. |
+| **[BingX](https://bingx.com)** | Crypto exchange offering spot, perpetual-futures, and copy-trading products with a public trading API. | Crypto — spot / DeFi; Crypto — derivatives; Brokerage / execution | [API docs](https://bingx-api.github.io/docs-v3/#/en/info) · Py: [bingx-python](https://github.com/tigusigalpa/bingx-python) · Go: [bingx-go](https://github.com/tigusigalpa/bingx-go) · PHP: [bingx-php](https://github.com/tigusigalpa/bingx-php) | API access is free; spot and futures fees are tiered by VIP level and product; see the [official fee schedule](https://bingx.com/en/support/costs/). |
 | **[Bybit API](https://www.bybit.com/)** | Unified V5 API for crypto spot, derivatives, options, account, and trading endpoints. | Crypto — spot; Crypto — derivatives; Brokerage / execution | [V5 docs](https://bybit-exchange.github.io/docs/v5/intro) · Py: [official](https://github.com/bybit-exchange/pybit) · Go: [bybit-go](https://github.com/tigusigalpa/bybit-go) · PHP: [bybit-php](https://github.com/tigusigalpa/bybit-php) | API access is free; trading fees and product availability vary by market and jurisdiction. |
 | **[Coinbase Advanced Trade API](https://www.coinbase.com/developer-platform/products/advanced-trade-api)** | Coinbase API for programmatic spot trading, order management, market data, and eligible derivatives functionality. | Crypto — spot; eligible derivatives; Brokerage / execution | [API docs](https://docs.cdp.coinbase.com/coinbase-app/advanced-trade-apis/overview) · Py: [official](https://github.com/coinbase/coinbase-advanced-py) · Go: — · PHP: — | API access is free; public Advanced Trade maker/taker fees start at **0.60% / 1.20%**, subject to volume and product. |
 | **[Cryptofeed](https://github.com/bmoscon/cryptofeed)** | Async Python handler for normalized WebSocket market-data feeds (trades, L2/L3 books, funding, liquidations) across major crypto exchanges. | Crypto — spot; Crypto — derivatives; market-data ingestion | Py: [official](https://github.com/bmoscon/cryptofeed) · Go/PHP: — | Open source; exchange connectivity and data costs are separate. |
 | **[Hyperliquid](https://hyperliquid.xyz/)** | Fully on-chain exchange infrastructure with perpetual-futures and spot order books plus a developer API. | Crypto — spot / DeFi; Crypto — derivatives; Brokerage / execution | [API docs](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api) · Py: [official](https://github.com/hyperliquid-dex/hyperliquid-python-sdk) · Go: — · PHP: — | Public base fees include **0.015% maker / 0.045% taker** for perpetuals; discounts and conditions apply. |
 | **[Kraken API](https://www.kraken.com/)** | REST, WebSocket, and FIX interfaces for crypto trading, market data, and institutional workflows. | Crypto — spot; Crypto — derivatives; Brokerage / execution | [API docs](https://docs.kraken.com/api/) · Py: [official](https://github.com/krakenfx/kraken-wsclient-py) · Go: [official](https://github.com/krakenfx/api-go) · PHP: [official](https://github.com/krakenfx/kraken-api-client) | API access is included with an account; exchange fees and product availability vary by geography. |
 | **[OKX API](https://www.okx.com/)** | Exchange API for spot, margin, futures, swaps, options, wallets, and market data. | Crypto — spot / DeFi; Crypto — derivatives; Brokerage / execution | [API portal](https://www.okx.com/okx-api) · Py: [official](https://github.com/okxapi/python-okx) · Go: [okx-go](https://github.com/tigusigalpa/okx-go) · PHP: [okx-php](https://github.com/tigusigalpa/okx-php) | API access is free; trading fees are tiered by volume, account, and instrument. |
+<!-- END GENERATED:table:crypto-exchanges -->
 
 ---
 
@@ -150,6 +182,7 @@ Exchange APIs combine public market-data feeds with private account and order en
 
 On-chain analytics and crypto intelligence tools help traders evaluate network activity, wallet behavior, exchange flows, token economics, liquidation risk, social attention, and decentralized-finance activity. These signals are contextual rather than deterministic; they should be combined with market structure, liquidity, and risk controls rather than treated as standalone trade triggers.
 
+<!-- BEGIN GENERATED:table:crypto-intelligence -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[Arkham](https://arkhamintelligence.com/)** | Blockchain intelligence service for entity labels, wallet activity, transaction tracing, and on-chain research. | Crypto — on-chain; wallet intelligence | [API docs](https://arkm.com/api/docs) · Py: — · Go: — · PHP: — | API access is application/pilot based; public pricing was not identified. |
@@ -161,8 +194,8 @@ On-chain analytics and crypto intelligence tools help traders evaluate network a
 | **[CryptoQuant](https://cryptoquant.com/)** | On-chain and exchange-flow analytics platform with market metrics, charts, alerts, and data APIs for crypto research. | Crypto — on-chain; Crypto — derivatives | [API docs](https://docs.cryptoquant.com/) · Py: — · Go: — · PHP: — | Free tier; public paid plans start at **$29/month billed annually**. |
 | **[DeFiLlama](https://defillama.com/)** | Open DeFi analytics ecosystem for TVL, yields, protocol revenue, fees, DEX volumes, bridges, stablecoins, and chains. | Crypto — on-chain / DeFi / stablecoins | [API docs](https://api-docs.defillama.com/) · Py: — · Go: — · PHP: — | Core data API is publicly accessible; premium/commercial terms are not consistently published. |
 | **[Dune](https://dune.com/)** | SQL-oriented on-chain data platform for querying, visualizing, sharing, and programmatically consuming blockchain analytics. | Crypto — on-chain / DeFi / NFTs; Research / automation | [API docs](https://docs.dune.com/api-reference/overview/introduction) · Py: [official](https://github.com/duneanalytics/dune-client) · Go: [official](https://github.com/duneanalytics/duneapi-client-go) · PHP: — | Free plan includes public monthly credits; paid Analyst, Plus, and Enterprise plans are credit-based. |
-| **[HostDeFi](https://hostdefi.com/)** | Free token-safety scanner grading tokens A+–F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana and 7 EVM chains | Solana + 7 EVM chains | Keyless REST API, hosted MCP, x402 | Free — 100 checks/day/IP |
 | **[Glassnode](https://glassnode.com/)** | Digital-asset intelligence platform combining on-chain and market metrics, research, and API-accessible data. | Crypto — spot / on-chain / DeFi; Crypto — derivatives | [API docs](https://docs.glassnode.com/basic-api/api) · Py: [official](https://github.com/glassnode/glassnode-api-python-client) · Go: [glassnode-go](https://github.com/tigusigalpa/glassnode-go) · PHP: [glassnode-php](https://github.com/tigusigalpa/glassnode-php) | Advanced dashboard plan publicly starts at **$49/month billed annually**; API/professional access varies by package. |
+| **[HostDeFi](https://hostdefi.com/)** | Free token-safety scanner that grades tokens A+ to F from on-chain checks (mint/freeze authority, liquidity, holder concentration) across Solana and 7 EVM chains. | Crypto — spot / on-chain / DeFi; Solana and 7 EVM chains; Research / automation | [API docs](https://hostdefi.com/docs/api/) · keyless REST API, hosted MCP, x402 · Py/Go/PHP: direct HTTP | Free; limited to **100 checks/day per IP**. |
 | **[Hydromancer](https://hydromancer.xyz/)** | Hyperliquid data API for fills, positions across many wallets, liquidations, L2/L4 order books and builder data, plus a free historical archive (Reservoir). | Crypto — derivatives; on-chain; market data | [API docs](https://docs.hydromancer.xyz/) · Py: [official](https://github.com/hydromancerxyz/hydromancer-sdk) · Go: — · PHP: — | Plans start at **$300/month**; enterprise is custom; the Reservoir archive is free. |
 | **[Kaiko](https://www.kaiko.com/)** | Institutional crypto market-data, derivatives, index, and analytics provider for research, risk, and trading workflows. | Crypto — spot; Crypto — derivatives; market data | [API docs](https://docs.kaiko.com/) · Py: — · Go: [official](https://github.com/kaikodata/kaiko-go-sdk) · PHP: — | Enterprise-focused; pricing is on request. |
 | **[LunarCrush](https://lunarcrush.com/)** | Social and market-intelligence service for crypto and broader trending assets, with developer endpoints. | Crypto; social intelligence; selected traditional assets | [Developer API](https://lunarcrush.com/en/developers/api) · Py: — · Go: [lunarcrush-go](https://github.com/tigusigalpa/lunarcrush-go) · PHP: [lunarcrush-php](https://github.com/tigusigalpa/lunarcrush-php) | Hobby free tier; paid developer plans publicly start at **$5/day**. |
@@ -171,6 +204,7 @@ On-chain analytics and crypto intelligence tools help traders evaluate network a
 | **[Northstar](https://crypto.daan.gg/)** | Volume-weighted cross-exchange crypto pair averages from live exchanges, distinct from catalog-style aggregators. | Crypto — spot; market data | [API docs](https://crypto.daan.gg/developers/docs) · Py: — · Go: — · PHP: — | Sandbox free (10k credits/mo, 120 req/min, 7-day history); Growth **€49/month** excl. VAT; Scale **€199/month**. |
 | **[Santiment](https://santiment.net/)** | Behavioral crypto-intelligence platform combining social, on-chain, development, NFT, and market metrics. | Crypto — on-chain / DeFi / NFTs; social intelligence | [SANAPI docs](https://academy.santiment.net/sanapi/) · Py: [official](https://github.com/santiment/sanpy) · Go: — · PHP: — | Free plan; paid Sanbase and business tiers are published by product. |
 | **[Whale Alert](https://whale-alert.io/)** | Real-time large-transaction monitoring and blockchain analytics via alert streams and enterprise REST data. | Crypto — on-chain; stablecoins; alerts | [API docs](https://developer.whale-alert.io/api-account/documentation) · Py: code examples only · Go: code examples only · PHP: — | Alerts API: **$29.95/month**; Enterprise API: **$699/month**. |
+<!-- END GENERATED:table:crypto-intelligence -->
 
 ---
 
@@ -178,6 +212,7 @@ On-chain analytics and crypto intelligence tools help traders evaluate network a
 
 These services are valuable to discretionary and hybrid workflows even when they do not provide a general public trading API. They prioritize charting, dashboards, research, portfolio views, AI-assisted analysis, or no-code strategy experimentation. API access should never be inferred from a web dashboard, embedded widget, Pine Script environment, or broker integration.
 
+<!-- BEGIN GENERATED:table:charting-research -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[CoinQuant](https://www.coinquant.ai/)** | No-code, AI-assisted strategy builder and backtesting platform for market research and systematic experimentation. | Crypto; traditional markets; Research / automation | [Public API skills pack](https://www.coinquant.ai/documentation/public-api-skills-pack) · Py: — · Go: — · PHP: — | Free credits; public paid plans listed from **$12.99/week**. |
@@ -190,9 +225,10 @@ These services are valuable to discretionary and hybrid workflows even when they
 | **[SnapPChart](https://www.snappchart.app/)** | AI chart-grading tool that scores a trading setup (A+ to F) with entry, stop, and target levels from an uploaded chart screenshot. | Traditional markets; Forex / FX; crypto; Research | No public API identified · Py: — · Go: — · PHP: — | 2 free lifetime grades; Weekly **$4.99/week**, Monthly **$19.99/month**, Yearly **$199.99/year** (~$16.67/mo); see [official pricing](https://www.snappchart.app/pricing). |
 | **[StockCharts](https://stockcharts.com/)** | Technical-analysis charting platform with advanced chart types, custom indicators, scanning, and market commentary. | Traditional markets; Research | No public API identified · Py/Go/PHP: — | Free tier; paid plans tiered by charting and scanning features. |
 | **[Thrive](https://thrive.fi/)** | CEX perpetuals trading journal and market-intelligence workstation for active traders, with read-only exchange sync. | Crypto — derivatives; Research / automation | No public API identified · Py: — · Go: — · PHP: — | Public Pro plan is **$7** due today, then **$99/month** or **$999/year**; see [official pricing](https://thrive.fi/pricing). |
-| **[TipRanks](https://www.tipranks.com/)** | Analyst-ratings, insider-trading, hedge-fund, and smart-score research platform with a public API for ratings and sentiment data. | Traditional markets; Research / automation | [API](https://www.tipranks.com/api) · Py/Go/PHP: direct HTTP | Free web tier; API and premium access are plan-based. |
+| **[TipRanks](https://www.tipranks.com/)** | Analyst-ratings, insider-trading, hedge-fund, and smart-score research platform with enterprise APIs for ratings and sentiment data. | Traditional markets; Research / automation | [API docs](https://docs.tipranks.com/api-docs) · Py/Go/PHP: direct HTTP | Free web tier; API access is sold through [TipRanks Enterprise](https://enterprise.tipranks.com/). |
 | **[TradingCursor](https://www.tradingcursor.com/)** | AI-assisted multi-signal research product for stocks, ETFs, forex, and crypto decision support. | Traditional markets; Forex / FX; crypto; Research | No public API identified · Py: — · Go: — · PHP: — | Free daily analysis; Pro is publicly listed at **$9.90/month**. |
 | **[TradingView](https://www.tradingview.com/)** | Mainstream charting, screening, market-data visualization, alerting, and Pine Script platform across many asset classes. | Traditional markets; Forex / FX; crypto; Research / automation | No general public data/indicator API for personal use · [Pine Script docs](https://www.tradingview.com/pine-script-docs/) · Py: — · Go: — · PHP: — | Free tier; public paid plans range from **$12.95/month to $199.95/month billed annually**. |
+<!-- END GENERATED:table:charting-research -->
 
 ---
 
@@ -200,6 +236,7 @@ These services are valuable to discretionary and hybrid workflows even when they
 
 A signal is an input to a decision process, not a promise of profit. This section prioritizes tools that turn price action, indicators, news, sentiment, or user-defined rules into alerts and machine-readable events. Before automating an action, test for repainting, duplicate delivery, stale events, clock drift, webhook retries, and the difference between an informational alert and an executable order instruction.
 
+<!-- BEGIN GENERATED:table:signals -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[Benzinga APIs](https://www.benzinga.com/apis/)** | Financial news, earnings, analyst ratings, calendars, and market-moving event feeds for programmatic workflows. | Traditional markets; news; corporate events | [API docs](https://docs.benzinga.io/) · Py/Go/PHP: direct HTTP integration | Trial and commercial access; dataset pricing and redistribution terms are quote-based. |
@@ -211,8 +248,9 @@ A signal is an input to a decision process, not a promise of profit. This sectio
 | **[LuxAlgo](https://www.luxalgo.com/)** | TradingView-centered indicator, screener, backtesting, and alert toolkits with configurable technical and price-action signals. | Traditional markets; Forex / FX; crypto; Research | [Docs](https://docs.luxalgo.com/docs/getting-started/introduction) · Delivered primarily through TradingView · Py/Go/PHP: — | Free and paid indicator access; current plan terms are published on the provider site. |
 | **[SignalStack](https://signalstack.com/)** | Webhook-based order-routing layer that converts alerts from charting and strategy tools into broker orders. | Traditional markets; Forex / FX; crypto; Brokerage / execution | [Documentation](https://help.signalstack.com/) · Webhook integration · Py/Go/PHP: direct HTTP | Usage-based or subscription terms; broker fees remain separate. |
 | **[Squelch](https://squelchalerts.com/)** | Telegram bot that alerts on statistically confirmed crypto signals: funding-rate z-score extremes, sized exchange whale flow, news catalysts confirmed by price reaction, and GoPlus-screened meme-coin/token-risk flags. | Crypto — derivatives; Crypto — spot / on-chain / DeFi; Research / automation | No public API identified · Py/Go/PHP: — | $19/month flat subscription; 24-hour free trial; see [official site](https://squelchalerts.com/). |
-| **[Stocktwits](https://stocktwits.com/)** | Social network for traders with cashtag-tagged streams, trending-ticker rankings, and a public API for message and sentiment data. | Traditional markets; crypto; social sentiment | [API docs](https://api.stocktwits.com/developers/docs) · Py/Go/PHP: direct HTTP | Free web tier; API access terms are plan-based. |
+| **[Stocktwits](https://stocktwits.com/)** | Social network for traders with cashtag-tagged streams and trending-ticker rankings. | Traditional markets; crypto; social sentiment | API not accepting new registrations ([developer page](https://api.stocktwits.com/developers)) · Py/Go/PHP: — | Free web access; the public API is closed to new sign-ups. |
 | **[TrendSpider](https://trendspider.com/)** | Technical-analysis workspace with scanners, multi-factor alerts, strategy testing, cloud strategy bots, and outbound webhooks. | Traditional markets; Forex / FX; crypto; Research / automation | [Webhook docs](https://help.trendspider.com/articles/webhooks) · No general market-data API identified · Py/Go/PHP: — | Paid subscriptions; plan limits govern alerts, bots, data, and webhook availability. |
+<!-- END GENERATED:table:signals -->
 
 ---
 
@@ -220,11 +258,12 @@ A signal is an input to a decision process, not a promise of profit. This sectio
 
 These are general-purpose infrastructure projects rather than signal generators. They become trading tools when used to ingest ticks, retain historical events, distribute market and order messages, calculate analytics, and monitor production systems. Architecture should follow measured throughput, latency, recovery, ordering, and retention requirements—not fashion.
 
+<!-- BEGIN GENERATED:table:infrastructure -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[Apache Kafka](https://kafka.apache.org/)** | Distributed event-streaming platform for durable market-data, order, execution, audit, and downstream processing pipelines. | Research / automation; event streaming; data pipelines | [Docs](https://kafka.apache.org/documentation/) · Py: community clients · Go: community clients · Java: official client | Open source; managed Kafka and operational infrastructure are separately priced. |
 | **[ArcticDB](https://github.com/man-group/ArcticDB)** | High-performance serverless DataFrame database from Man Group, built for large tick and time-series datasets in Python research workflows. | Research / automation; tick storage; market-data storage | [Docs](https://docs.arcticdb.io/) · Py: [official](https://github.com/man-group/ArcticDB) · Go/PHP: — | Open source (BSL); managed deployments are separate. |
-| **[ClickHouse](https://clickhouse.com/)** | Column-oriented analytical database suited to high-volume tick, order-book, event, and research queries. | Research / automation; market-data storage; analytics | [Docs](https://clickhouse.com/docs) · Py: [official](https://github.com/ClickHouse/clickhouse-connect) · Go: [official](https://github.com/ClickHouse/clickhouse-go) · PHP: [official](https://github.com/ClickHouse/clickhouse-php) | Open-source self-hosting; ClickHouse Cloud is usage-based. |
+| **[ClickHouse](https://clickhouse.com/)** | Column-oriented analytical database suited to high-volume tick, order-book, event, and research queries. | Research / automation; market-data storage; analytics | [Docs](https://clickhouse.com/docs) · Py: [official](https://github.com/ClickHouse/clickhouse-connect) · Go: [official](https://github.com/ClickHouse/clickhouse-go) · PHP: [community](https://github.com/smi2/phpClickHouse) | Open-source self-hosting; ClickHouse Cloud is usage-based. |
 | **[DuckDB](https://duckdb.org/)** | Embedded analytical SQL database suited to ad-hoc research over Parquet/CSV market data without a separate server. | Research / automation; analytics; market-data storage | [Docs](https://duckdb.org/docs/) · Py/Go: official clients · PHP: community | Open source under MIT. |
 | **[Grafana](https://grafana.com/)** | Dashboarding and alerting platform for market, portfolio, execution, risk, and infrastructure telemetry. | Research / automation; visualization; observability | [Docs](https://grafana.com/docs/grafana/latest/) · HTTP API · broad data-source ecosystem | Open-source self-hosting; Grafana Cloud has free and paid usage tiers. |
 | **[kdb+ / q (Kx)](https://kx.com/)** | The canonical high-performance time-series database and q language used for tick storage and analytics in institutional trading. | Research / automation; tick storage; low-latency analytics | [Docs](https://code.kx.com/) · Interfaces for Py/Go and other languages via IPC and Fusion | Commercial; free personal/evaluation editions are available under current terms. |
@@ -233,7 +272,8 @@ These are general-purpose infrastructure projects rather than signal generators.
 | **[QuestDB](https://questdb.com/)** | Time-series database with SQL, high-throughput ingestion, time-series joins, and low-latency queries. | Research / automation; ticks; telemetry; market-data storage | [Docs](https://questdb.com/docs/) · Py/Go/Java/Rust clients are documented · PostgreSQL wire and REST interfaces | Open-source self-hosting; Enterprise and Cloud plans are separately priced. |
 | **[Redis](https://redis.io/)** | In-memory data platform commonly used for caching, ephemeral state, pub/sub, streams, queues, and rate limiting. | Research / automation; low-latency state; messaging | [Docs](https://redis.io/docs/latest/) · Py: [official](https://github.com/redis/redis-py) · Go: [official](https://github.com/redis/go-redis) · PHP: [community](https://github.com/phpredis/phpredis) | Source-available/community distributions and commercial cloud products have different licenses and prices; review current terms. |
 | **[Redpanda](https://www.redpanda.com/)** | Kafka-compatible streaming platform in C++ with lower operational overhead for market-data and order-event pipelines. | Research / automation; event streaming; messaging | [Docs](https://docs.redpanda.com/) · Kafka-protocol clients across Py/Go/PHP | Open-source/community edition; cloud and enterprise are paid. |
-| **[TimescaleDB](https://www.timescale.com/)** | PostgreSQL extension and platform for time-series storage, continuous aggregates, retention, and SQL analytics. | Research / automation; time series; operational analytics | [Docs](https://docs.timescale.com/) · Uses PostgreSQL drivers across Py/Go/PHP | Open-source components and paid cloud service; usage and support terms vary. |
+| **[TimescaleDB](https://www.tigerdata.com/timescaledb)** | PostgreSQL extension for time-series storage, continuous aggregates, retention, and SQL analytics, developed by Tiger Data (formerly Timescale). | Research / automation; time series; operational analytics | [Docs](https://www.tigerdata.com/docs) · [Source](https://github.com/timescale/timescaledb) · Uses PostgreSQL drivers across Py/Go/PHP | Open-source components and paid cloud service; usage and support terms vary. |
+<!-- END GENERATED:table:infrastructure -->
 
 ---
 
@@ -241,12 +281,13 @@ These are general-purpose infrastructure projects rather than signal generators.
 
 Backtests are models of execution, not recordings of achievable returns. Compare engines by data model, event ordering, corporate actions, fee and slippage support, order semantics, portfolio accounting, reproducibility, and the path from research to live deployment. Guard explicitly against look-ahead bias, survivorship bias, overfitting, and unrealistic liquidity assumptions.
 
+<!-- BEGIN GENERATED:table:backtesting -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[backtesting.py](https://kernc.github.io/backtesting.py/)** | Compact Python library for testing rule-based strategies on OHLC data with optimization and interactive result plots. | Multi-asset research; educational and lightweight backtests | [Docs](https://kernc.github.io/backtesting.py/) · Py: [official](https://github.com/kernc/backtesting.py) · Go/PHP: — | Open source; no hosted execution service is included. |
 | **[Backtrader](https://www.backtrader.com/)** | Mature Python framework for event-driven strategy backtesting, indicators, analyzers, feeds, and broker integrations. | Traditional markets; Forex / FX; crypto; Research / automation | [Docs](https://www.backtrader.com/docu/) · Py: [official](https://github.com/mementum/backtrader) · Go/PHP: — | Open source; maintenance cadence and integrations should be evaluated before production use. |
 | **[bt](https://github.com/pmorissette/bt)** | Flexible Python backtesting library based on composable algo trees, suited to portfolio-level and allocation strategies; foundation of ffn. | Multi-asset research; portfolio backtests | [Docs](https://pmorissette.github.io/bt/) · Py: [official](https://github.com/pmorissette/bt) · Go/PHP: — | Open source. |
-| **[Freqtrade](https://www.freqtrade.io/)** | Crypto trading bot with strategy development, backtesting, hyperparameter optimization, dry-run, and live exchange execution. | Crypto; Research / automation; Brokerage / execution | [Docs](https://www.freqtrade.io/en/stable/) · Py: [official](https://github.com/freqtrade/freqtrade) · Go/PHP: — | Open source; exchange, hosting, and data costs are separate. |
+| **[Freqtrade](https://www.freqtrade.io/en/stable/)** | Crypto trading bot with strategy development, backtesting, hyperparameter optimization, dry-run, and live exchange execution. | Crypto; Research / automation; Brokerage / execution | [Docs](https://www.freqtrade.io/en/stable/) · Py: [official](https://github.com/freqtrade/freqtrade) · Go/PHP: — | Open source; exchange, hosting, and data costs are separate. |
 | **[hftbacktest](https://github.com/nkaz001/hftbacktest)** | High-frequency backtesting framework accounting for queue position, latency, and full order-book dynamics on tick data. | Crypto; futures; HFT research; Research / automation | [Docs](https://hftbacktest.readthedocs.io/) · Py: [official](https://github.com/nkaz001/hftbacktest) · Rust core | Open source. |
 | **[Hummingbot](https://hummingbot.org/)** | Open-source framework focused on market making, arbitrage, connector-based crypto execution, backtesting, and bot operations. | Crypto; CEX / DEX; Brokerage / execution; Research / automation | [Docs](https://hummingbot.org/docs/) · Py: [official](https://github.com/hummingbot/hummingbot) · Go/PHP: — | Open source; trading, hosting, liquidity, and connector-specific costs apply. |
 | **[Jesse](https://jesse.trade/)** | Python framework for researching, backtesting, optimizing, and deploying crypto trading strategies. | Crypto; Research / automation; Brokerage / execution | [Docs](https://docs.jesse.trade/) · Py: [official](https://github.com/jesse-ai/jesse) · Go/PHP: — | Open-source framework; commercial extensions or hosted features may have separate terms. |
@@ -258,6 +299,7 @@ Backtests are models of execution, not recordings of achievable returns. Compare
 | **[vectorbt](https://vectorbt.dev/)** | Vectorized Python research and portfolio simulation framework optimized for exploring many strategy configurations quickly. | Multi-asset research; signal analysis; portfolio simulation | [Docs](https://vectorbt.dev/) · Py: [official](https://github.com/polakowo/vectorbt) · Go/PHP: — | Open-source core; vectorbt PRO is commercial. |
 | **[vnpy](https://github.com/vnpy/vnpy)** | Full-featured open-source quantitative trading platform with gateways to Chinese futures/equities and crypto venues, GUI, and strategy engines. | Traditional markets; futures; crypto; Brokerage / execution | [Docs](https://www.vnpy.com/docs/) · Py: [official](https://github.com/vnpy/vnpy) · Go/PHP: — | Open source; venue access and data are separate. |
 | **[Zipline Reloaded](https://zipline.ml4trading.io/)** | Community-maintained continuation of Zipline for event-driven backtesting with pipelines, calendars, and bundle-based data ingestion. | Traditional markets; Research / automation | [Docs](https://zipline.ml4trading.io/) · Py: [community-maintained](https://github.com/stefan-jansen/zipline-reloaded) · Go/PHP: — | Open source; market data and infrastructure are separate. |
+<!-- END GENERATED:table:backtesting -->
 
 ---
 
@@ -265,6 +307,7 @@ Backtests are models of execution, not recordings of achievable returns. Compare
 
 These libraries answer different questions: some explain realized performance, while others construct allocations under assumptions about expected returns, covariance, constraints, or tail risk. Do not treat an optimizer's precise weights as precise knowledge; validate estimation error, turnover, capacity, costs, constraints, and out-of-sample stability.
 
+<!-- BEGIN GENERATED:table:portfolio-risk -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[alphalens-reloaded](https://github.com/stefan-jansen/alphalens-reloaded)** | Maintained fork of Alphalens for analyzing predictive alpha factors: IC, quantile returns, turnover, and tear sheets. | Factor research; equity alpha; Research | Py: [community-maintained](https://github.com/stefan-jansen/alphalens-reloaded) · Go/PHP: — | Open source. |
@@ -275,10 +318,11 @@ These libraries answer different questions: some explain realized performance, w
 | **[Portfolio Visualizer](https://www.portfoliovisualizer.com/)** | Web toolkit for portfolio backtesting, asset-allocation analysis, factor regression, Monte Carlo simulation, and optimization. | Traditional markets; portfolio research | No public API identified · Py/Go/PHP: — | Free tier; paid subscription unlocks extended history and features. |
 | **[pyfolio-reloaded](https://github.com/stefan-jansen/pyfolio-reloaded)** | Maintained fork of pyfolio for portfolio and risk tear sheets, exposure analysis, and transaction-level diagnostics. | Portfolio analytics; risk; reporting | Py: [community-maintained](https://github.com/stefan-jansen/pyfolio-reloaded) · Go/PHP: — | Open source; verify compatibility and release cadence. |
 | **[PyPortfolioOpt](https://pyportfolioopt.readthedocs.io/)** | Python implementation of mean-variance, Black-Litterman, hierarchical risk parity, shrinkage, and related allocation methods. | Portfolio construction; allocation research | [Docs](https://pyportfolioopt.readthedocs.io/en/latest/) · Py: [official](https://github.com/robertmartin8/PyPortfolioOpt) · Go/PHP: — | Open source. |
-| **[QuantLib](https://www.quantlib.org/)** | Open-source quantitative-finance library for instrument pricing, yield curves, calendars, models, and risk analysis. | Derivatives; fixed income; quantitative research; risk | [Docs](https://www.quantlib.org/documentation.shtml) · C++: [official](https://github.com/lballabio/QuantLib) · Py: [official bindings](https://github.com/lballabio/QuantLib-SWIG) · Go/PHP: — | Open source under a modified BSD license. |
+| **[QuantLib](https://www.quantlib.org/)** | Open-source quantitative-finance library for instrument pricing, yield curves, calendars, models, and risk analysis. | Derivatives; fixed income; quantitative research; risk | [Docs](https://www.quantlib.org/docs.shtml) · C++: [official](https://github.com/lballabio/QuantLib) · Py: [official bindings](https://github.com/lballabio/QuantLib-SWIG) · Go/PHP: — | Open source under a modified BSD license. |
 | **[QuantStats](https://github.com/ranaroussi/quantstats)** | Python toolkit for return-series metrics, drawdowns, comparisons, tearsheets, and HTML performance reports. | Portfolio analytics; risk; reporting | Py: [official repository](https://github.com/ranaroussi/quantstats) · Go/PHP: — | Open source. |
 | **[Riskfolio-Lib](https://riskfolio-lib.readthedocs.io/)** | Portfolio optimization library supporting many risk measures, risk parity, factor models, constraints, and allocation reports. | Portfolio construction; risk; quantitative research | [Docs](https://riskfolio-lib.readthedocs.io/en/latest/) · Py: [official](https://github.com/dcajasn/Riskfolio-Lib) · Go/PHP: — | Open source; optional commercial solvers and consulting are separate. |
 | **[skfolio](https://skfolio.org/)** | Scikit-learn-compatible framework for portfolio optimization, model selection, cross-validation, stress testing, and risk measurement. | Portfolio construction; risk; ML research | [Docs](https://skfolio.org/user_guide/index.html) · Py: [official](https://github.com/skfolio/skfolio) · Go/PHP: — | Open source; enterprise support is separately available. |
+<!-- END GENERATED:table:portfolio-risk -->
 
 ---
 
@@ -286,6 +330,7 @@ These libraries answer different questions: some explain realized performance, w
 
 AI frameworks can accelerate forecasting, representation learning, language analysis, research automation, and experimentation, but they do not solve data leakage, non-stationarity, execution costs, or weak validation. Financial LLM and reinforcement-learning projects in particular should be treated as research infrastructure until they pass realistic walk-forward, paper-trading, operational, and risk review.
 
+<!-- BEGIN GENERATED:table:ai-ml -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[AI Hedge Fund](https://github.com/virattt/ai-hedge-fund)** | Popular open-source multi-agent LLM system simulating an investment team (analysts, risk, portfolio manager) for research and paper trading. | Traditional markets; LLM agents; Research / automation | Py: [official](https://github.com/virattt/ai-hedge-fund) · Go/PHP: — | Open source; LLM API and data costs are separate. |
@@ -296,6 +341,7 @@ AI frameworks can accelerate forecasting, representation learning, language anal
 | **[LangGraph](https://langchain-ai.github.io/langgraph/)** | General-purpose framework for durable, stateful agent workflows that can orchestrate research tools, approvals, and human review. | AI orchestration; Research / automation; not trading-specific | [Docs](https://langchain-ai.github.io/langgraph/) · Py/JS: official packages · Go/PHP: — | Open-source libraries; hosted LangSmith services have separate plans. |
 | **[Microsoft Qlib](https://github.com/microsoft/qlib)** | AI-oriented quantitative-investment platform with data, workflow, model, backtest, portfolio, and experiment-management components. | Traditional markets; quantitative ML; Research / automation | [Docs](https://qlib.readthedocs.io/) · Py: [official](https://github.com/microsoft/qlib) · Go/PHP: — | Open source; data and compute are separate. |
 | **[TensorTrade](https://www.tensortrade.org/)** | Modular Python framework for building trading environments, reward/action schemes, agents, portfolios, and RL experiments. | Multi-asset; reinforcement learning; Research | [Docs](https://www.tensortrade.org/) · Py: [official](https://github.com/tensortrade-org/tensortrade) · Go/PHP: — | Open source; verify current maintenance and dependency compatibility. |
+<!-- END GENERATED:table:ai-ml -->
 
 ---
 
@@ -303,15 +349,17 @@ AI frameworks can accelerate forecasting, representation learning, language anal
 
 Feature libraries make transformations repeatable; they do not make a feature predictive. Every rolling calculation, normalization, label, or learned representation must respect event time, publication delay, asset availability, and train/test boundaries. Pin formulas and package versions when indicator parity matters across research and production.
 
+<!-- BEGIN GENERATED:table:feature-engineering -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
-| **[Featuretools](https://www.featuretools.com/)** | Automated feature-engineering framework for temporal and relational datasets using Deep Feature Synthesis. | Tabular and temporal ML; alternative data; Research | [Docs](https://featuretools.alteryx.com/) · Py: [official](https://github.com/alteryx/featuretools) · Go/PHP: — | Open source; managed compute is not included. |
+| **[Featuretools](https://featuretools.alteryx.com/en/stable/)** | Automated feature-engineering framework for temporal and relational datasets using Deep Feature Synthesis. | Tabular and temporal ML; alternative data; Research | [Docs](https://featuretools.alteryx.com/en/stable/) · Py: [official](https://github.com/alteryx/featuretools) · Go/PHP: — | Open source; managed compute is not included. |
 | **[finta](https://github.com/peerchemist/finta)** | Pandas-based technical-indicator library with 80+ indicators implemented directly on OHLCV DataFrames. | Multi-asset technical analysis; Research | Py: [official](https://github.com/peerchemist/finta) · Go/PHP: — | Open source. |
-| **[mlfinpy](https://mlfinlab.com/)** | Financial ML utilities for sampling, labeling, filters, fractional differentiation, feature importance, and portfolio research. | Financial ML; feature engineering; Research | [Docs](https://mlfinlab.readthedocs.io/) · Py: [official](https://github.com/hudson-and-thames/mlfinlab) · Go/PHP: — | Open source; review method assumptions and project maintenance before production use. |
-| **[pandas-ta-classic](https://github.com/twopirllc/pandas-ta)** | Community-maintained pandas extension providing a broad set of indicators, strategies, and candlestick patterns. | Multi-asset technical analysis; Research | [Docs](https://github.com/twopirllc/pandas-ta#readme) · Py: [community-maintained](https://github.com/twopirllc/pandas-ta) · Go/PHP: — | Open source; validate formula parity and pin versions. |
-| **[TA-Lib](https://ta-lib.org/)** | Long-established C/C++ technical-analysis library with indicators, candlestick recognition, and language wrappers. | Multi-asset technical analysis; Research / automation | [Core API](https://ta-lib.org/function.html) · Py: [community wrapper](https://github.com/TA-Lib/ta-lib-python) · other wrappers listed by project | Open source under BSD terms. |
+| **[mlfinpy](https://github.com/baobach/mlfinpy)** | Open-source reimplementation of MlFinLab-style financial ML utilities: sampling, labeling, filters, fractional differentiation, and feature importance. | Financial ML; feature engineering; Research | [Docs](https://mlfinpy.readthedocs.io/) · Py: [official](https://github.com/baobach/mlfinpy) · Go/PHP: — | Open source; lightly maintained, so review method assumptions before production use. |
+| **[pandas-ta-classic](https://github.com/xgboosted/pandas-ta-classic)** | Community-maintained continuation of pandas-ta providing a broad set of indicators, strategies, and candlestick patterns. | Multi-asset technical analysis; Research | [Docs](https://xgboosted.github.io/pandas-ta-classic/) · Py: [community-maintained](https://github.com/xgboosted/pandas-ta-classic) · Go/PHP: — | Open source; validate formula parity and pin versions. |
+| **[TA-Lib](https://ta-lib.org/)** | Long-established C/C++ technical-analysis library with indicators, candlestick recognition, and language wrappers. | Multi-asset technical analysis; Research / automation | [Function list](https://ta-lib.org/functions/) · Py: [community wrapper](https://github.com/TA-Lib/ta-lib-python) · other wrappers listed by project | Open source under BSD terms. |
 | **[Technical Analysis Library in Python](https://github.com/bukosabino/ta)** | Pure-Python indicator library built around pandas series for momentum, trend, volatility, and volume features. | Multi-asset technical analysis; Research | [Docs](https://technical-analysis-library-in-python.readthedocs.io/) · Py: [official](https://github.com/bukosabino/ta) · Go/PHP: — | Open source. |
-| **[tsfresh](https://tsfresh.com/)** | Automated extraction and relevance filtering of large collections of time-series characteristics for ML pipelines. | Time-series ML; feature extraction; Research | [Docs](https://tsfresh.readthedocs.io/) · Py: [official](https://github.com/blue-yonder/tsfresh) · Go/PHP: — | Open source. |
+| **[tsfresh](https://tsfresh.readthedocs.io/)** | Automated extraction and relevance filtering of large collections of time-series characteristics for ML pipelines. | Time-series ML; feature extraction; Research | [Docs](https://tsfresh.readthedocs.io/) · Py: [official](https://github.com/blue-yonder/tsfresh) · Go/PHP: — | Open source. |
+<!-- END GENERATED:table:feature-engineering -->
 
 ---
 
@@ -319,18 +367,17 @@ Feature libraries make transformations repeatable; they do not make a feature pr
 
 Visualization libraries differ from data vendors: most render data that you must source, license, normalize, and stream yourself. Evaluate update performance, time-zone handling, accessibility, annotation needs, export requirements, mobile behavior, and commercial licensing before selecting a charting layer.
 
+<!-- BEGIN GENERATED:table:visualization -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[Apache ECharts](https://echarts.apache.org/)** | High-performance JavaScript visualization library with candlestick, line, heatmap, scatter, and large-data rendering options. | Web dashboards; candlesticks; general analytics | [Docs](https://echarts.apache.org/en/option.html) · JS/TS: official · community wrappers exist | Open source under Apache 2.0. |
 | **[Bokeh](https://bokeh.org/)** | Python visualization library and server for interactive browser-based plots, linked views, streaming, and dashboards. | Research visualization; dashboards; time series | [Docs](https://docs.bokeh.org/) · Py: [official](https://github.com/bokeh/bokeh) · Go/PHP: — | Open source. |
 | **[Highcharts Stock](https://www.highcharts.com/products/stock/)** | Commercial financial-charting library with data grouping, annotations, navigation, and built-in technical indicators. | Web and mobile financial charts; dashboards | [Docs](https://api.highcharts.com/highstock/) · JS/TS: official package · wrappers for major frameworks | Free for eligible non-commercial use under current terms; commercial licenses are paid. |
 | **[mplfinance](https://github.com/matplotlib/mplfinance)** | Matplotlib-based Python package for candlestick, OHLC, volume, overlays, panels, and static financial charts. | Research visualization; notebooks; reports | Py: [official repository](https://github.com/matplotlib/mplfinance) · Go/PHP: — | Open source. |
-| **[Perspective](https://perspective.finos.org/)** | Streaming analytics and visualization component (open-sourced via FINOS) for large, live-updating datasets in browser dashboards. | Streaming dashboards; time series; Research / automation | [Docs](https://perspective.finos.org/docs/) · JS/TS/Py: [official](https://github.com/perspective-dev/perspective) · Go/PHP: — | Open source under Apache 2.0. |
+| **[Perspective](https://perspective-dev.github.io/)** | Streaming analytics and visualization component (originally open-sourced via FINOS) for large, live-updating datasets in browser dashboards. | Streaming dashboards; time series; Research / automation | [Docs](https://perspective-dev.github.io/guide/) · JS/TS/Py: [official](https://github.com/perspective-dev/perspective) · Go/PHP: — | Open source under Apache 2.0. |
 | **[Plotly](https://plotly.com/)** | Interactive graphing ecosystem with candlestick, OHLC, time-series, statistical, and dashboard-friendly charts. | Research visualization; dashboards; financial reporting | [Python docs](https://plotly.com/python/) · Py: [official](https://github.com/plotly/plotly.py) · JS: [official](https://github.com/plotly/plotly.js) | Open-source graphing libraries; commercial hosting and enterprise products are separate. |
 | **[TradingView Lightweight Charts](https://www.tradingview.com/lightweight-charts/)** | Compact open-source JavaScript library for responsive, streaming financial charts using custom data. | Web charting; candlesticks; time series; Research / automation | [Docs](https://tradingview.github.io/lightweight-charts/) · JS/TS: official · no market data included | Open source under Apache 2.0. |
-
----
-
+<!-- END GENERATED:table:visualization -->
 
 ---
 
@@ -338,19 +385,20 @@ Visualization libraries differ from data vendors: most render data that you must
 
 Options and derivatives analytics require specialized data: implied-volatility surfaces, Greeks, skew, term structure, and open-interest distribution. These tools differ from general market-data APIs because they model non-linear payoff structures and sensitivity measures that change with spot, time, and volatility. Always verify whether a provider returns model-based or exchange-reported Greeks, and whether historical surfaces are end-of-day or intraday.
 
+<!-- BEGIN GENERATED:table:options-derivatives -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[CME Group Market Data](https://www.cmegroup.com/market-data.html)** | Official futures and options market-data feeds from the world’s largest derivatives exchange, including real-time, delayed, and historical datasets. | Futures; options; commodities; FX; Traditional markets | [Data docs](https://www.cmegroup.com/market-data/market-data-services.html) · Py/Go/PHP: direct HTTP or vendor SDKs | Fees vary by data set, redistribution tier, and entitlement; exchange-direct pricing applies. |
-| **[FinancePy](https://github.com/domokane/FinancePy)** | Python library for pricing and risk-management of equity, FX, fixed-income, and credit derivatives, with models, curves, and calendars. | Derivatives; fixed income; Research | [Docs](https://financepy.readthedocs.io/) · Py: [official](https://github.com/domokane/FinancePy) · Go/PHP: — | Open source. |
-| **[Ivolatility](https://www.ivolatility.com/)** | Historical and real-time implied-volatility data, volatility surfaces, skew charts, and options backtesting tools. | U.S. options; volatility; Research / automation | [Data services](https://www.ivolatility.com/data/services.html) · Py/Go/PHP: — | Subscription plans are tiered by history depth and coverage; see [pricing](https://www.ivolatility.com/data/pricing.html). |
+| **[FinancePy](https://github.com/domokane/FinancePy)** | Python library for pricing and risk-management of equity, FX, fixed-income, and credit derivatives, with models, curves, and calendars. | Derivatives; fixed income; Research | [Docs](https://domokane.github.io/FinancePy/) · Py: [official](https://github.com/domokane/FinancePy) · Go/PHP: — | Open source. |
+| **[Ivolatility](https://www.ivolatility.com/)** | Historical and real-time implied-volatility data, volatility surfaces, skew charts, and options backtesting tools. | U.S. options; volatility; Research / automation | [Data Cloud API](https://www.ivolatility.com/data-cloud-api/) · [API reference](https://www.ivolatility.com/api/docs) · Py/Go/PHP: direct HTTP | Subscription plans are tiered by history depth and coverage; see [pricing](https://www.ivolatility.com/data-cloud-api/#pricing-anchor). |
 | **[OptionsPlay](https://optionsplay.com/)** | Options-strategy analysis, income-scanner, and risk-visualization platform with earnings and unusual-activity alerts. | U.S. options; Research | [Platform](https://optionsplay.com/) · Py/Go/PHP: — | Subscription-based; plan details are published on the site. |
-| **[ORATS](https://orats.com/)** | Options-analytics platform offering volatility surfaces, Greeks, backtesting, and scanning APIs for U.S. equities and ETFs. | U.S. options; volatility; Research / automation | [API docs](https://orats.com/api) · Py: [community](https://github.com/orats-io) · Go/PHP: — | Public data plans start at **$200/month**; API and tick-data tiers are separately priced. |
+| **[ORATS](https://orats.com/)** | Options-analytics platform offering volatility surfaces, Greeks, backtesting, and scanning APIs for U.S. equities and ETFs. | U.S. options; volatility; Research / automation | [API docs](https://orats.com/docs) · [OpenAPI spec](https://orats.com/openapi.json) · Py/Go/PHP: direct HTTP | Public data plans start at **$200/month**; API and tick-data tiers are separately priced. |
 | **[Quantcha](https://www.quantcha.com/)** | Options-search and strategy-backtesting engine with volatility-cone, earnings-calendar, and risk-reward analysis. | U.S. options; Research / automation | [Platform](https://www.quantcha.com/) · Py/Go/PHP: — | Subscription-based; public tiers start from a monthly fee. |
 | **[SpotGamma](https://spotgamma.com/)** | Equity-options market-structure analytics, gamma exposure estimates, dealer positioning, and key-level identification for U.S. equities and ETFs. | U.S. options; equities; Research | [Platform](https://spotgamma.com/) · Py/Go/PHP: — | Subscription-based; public plan tiers are listed on the site. |
 | **[TF Quant Finance](https://github.com/google/tf-quant-finance)** | Google's TensorFlow-based quantitative-finance library: option pricing, IV solvers, curve fitting, and stochastic models with GPU acceleration. | Derivatives; rates; ML research | Py: [official](https://github.com/google/tf-quant-finance) · Go/PHP: — | Open source; maintenance cadence should be verified. |
-| **[TheoData](https://theodata.com/)** | Historical options tick data and analytics for backtesting, volatility research, and strategy simulation. | U.S. options; historical data; Research / automation | [Platform](https://theodata.com/) · Py/Go/PHP: — | Pricing is dataset-dependent; contact sales for historical tick bundles. |
 | **[ThetaGang](https://github.com/brndnmtthws/thetagang)** | Open-source Interactive Brokers bot automating the wheel strategy (cash-secured puts and covered calls) with portfolio constraints. | U.S. options; Brokerage / execution | Py: [official](https://github.com/brndnmtthws/thetagang) · Go/PHP: — | Open source; requires an IBKR account; options involve significant risk. |
 | **[vollib / lets_be_rational](https://github.com/vollib/vollib)** | Python implementation of Peter Jäckel's Black-76 implied-volatility and option-pricing routines, extended to Black-Scholes(-Merton) with Greeks. | Options; volatility; Research | Py: [official](https://github.com/vollib/vollib) · Go/PHP: — | Open source. |
+<!-- END GENERATED:table:options-derivatives -->
 
 ---
 
@@ -358,17 +406,19 @@ Options and derivatives analytics require specialized data: implied-volatility s
 
 Alternative data sources can provide signals that are orthogonal to price and volume, but they also introduce unique challenges: collection bias, lag, coverage gaps, and compliance constraints. Evaluate whether a dataset has sufficient history for backtesting, whether it can be replicated or is exclusive, and whether its alpha decays as adoption grows.
 
+<!-- BEGIN GENERATED:table:alternative-data -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[App Annie (data.ai)](https://www.data.ai/)** | Mobile-app market intelligence for downloads, revenue, engagement, and competitive benchmarking. | Alternative data; consumer; equities; tech | [Platform](https://www.data.ai/) · Py/Go/PHP: — | Subscription-based; public plan tiers are listed on the site. |
 | **[AWS Data Exchange](https://aws.amazon.com/data-exchange/)** | Marketplace for subscribing to third-party financial, alternative, and reference datasets directly into AWS infrastructure. | Alternative data; multi-asset; Research / automation | [Docs](https://docs.aws.amazon.com/data-exchange/) · Py/Go/PHP: AWS SDKs | Subscription pricing is set by individual data providers; AWS infrastructure costs are separate. |
+| **[Bloomberg Second Measure](https://secondmeasure.com/)** | Transaction-data analytics and consumer-spending intelligence derived from aggregated purchase panels. | Alternative data; consumer; equities | [Platform](https://secondmeasure.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
 | **[Eagle Alpha](https://eaglealpha.com/)** | Alternative-data research and analytics platform connecting buy-side firms with niche dataset providers. | Alternative data; multi-asset; research | [Platform](https://eaglealpha.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
 | **[Kpler](https://www.kpler.com/)** | Commodity-tracking and vessel-analytics platform using satellite AIS, port data, and trade flows for energy and shipping markets. | Commodities; energy; shipping; Alternative data | [Platform](https://www.kpler.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
 | **[Orbital Insight](https://orbitalinsight.com/)** | Geospatial analytics and satellite-imagery intelligence for supply-chain monitoring, retail traffic, and macro indicators. | Alternative data; macro; equities; commodities | [Platform](https://orbitalinsight.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
-| **[Second Measure](part of Bloomberg / [Bloomberg Second Measure](https://secondmeasure.com/))** | Transaction-data analytics and consumer-spending intelligence derived from aggregated purchase panels. | Alternative data; consumer; equities | [Platform](https://secondmeasure.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
 | **[SimilarWeb](https://www.similarweb.com/)** | Web-traffic, app-usage, and digital-intelligence platform for estimating consumer engagement and competitive positioning. | Alternative data; equities; consumer | [API docs](https://developer.similarweb.com/) · Py: [community](https://github.com/similarweb) · Go/PHP: — | Free limited tier; paid plans and API access are custom-priced. |
 | **[Snowflake Marketplace](https://www.snowflake.com/en/data-cloud/marketplace/)** | Data marketplace for querying live financial, alternative, and proprietary datasets without ETL. | Alternative data; multi-asset; Research / automation | [Docs](https://other-docs.snowflake.com/en/collaboration/collaboration-marketplace-about) · Py/Go/PHP: Snowflake connectors | Provider-dependent pricing; Snowflake compute costs are metered separately. |
 | **[Thinknum](https://thinknum.com/)** | Alternative-data platform tracking job listings, store locations, product pricing, and social metrics for public and private companies. | Alternative data; equities; consumer | [Platform](https://thinknum.com/) · Py/Go/PHP: — | Enterprise-focused; pricing is on request. |
+<!-- END GENERATED:table:alternative-data -->
 
 ---
 
@@ -376,16 +426,17 @@ Alternative data sources can provide signals that are orthogonal to price and vo
 
 Decentralized-finance infrastructure spans protocol analytics, yield optimization, MEV extraction, smart-contract monitoring, and cross-chain bridges. These tools sit closer to execution and infrastructure than to traditional market-data APIs: they interact with on-chain state, mempool transactions, and smart-contract events. Use them with appropriate wallet security, gas-management, and slippage controls.
 
+<!-- BEGIN GENERATED:table:web3-defi -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
-| **[CoW Protocol](https://cow.fi/)** | Decentralized trading protocol using batch auctions and intent-based matching to protect users from MEV and price impact. | Crypto — on-chain / DeFi; DEX; Brokerage / execution | [Docs](https://docs.cow.fi/) · Py/Go/PHP: [SDKs](https://docs.cow.fi/cow-protocol/reference/sdks) | Protocol fees are taken from surplus; no separate subscription for API access. |
-| **[EigenPhi](https://eigenphi.io/)** | MEV and DeFi transaction-analytics platform for sandwich attacks, arbitrage, liquidation, and flow monitoring. | Crypto — on-chain / DeFi; MEV; Research | [Platform](https://eigenphi.io/) · Py/Go/PHP: — | Free dashboard; API and advanced analytics are subscription-based. |
+| **[CoW Protocol](https://cow.fi/)** | Decentralized trading protocol using batch auctions and intent-based matching to protect users from MEV and price impact. | Crypto — on-chain / DeFi; DEX; Brokerage / execution | [Docs](https://docs.cow.fi/) · TS: [official SDK](https://github.com/cowprotocol/cow-sdk) · Py/Go/PHP: — | Protocol fees are taken from surplus; no separate subscription for API access. |
+| ~~**[EigenPhi](https://eigenphi.io/)**~~ | MEV and DeFi transaction-analytics platform for sandwich attacks, arbitrage, liquidation, and flow monitoring. **Deprecated:** Public dashboard, API, and MCP access shut down after 2026-06-29 ([announcement](https://eigenphi.substack.com/)). | Crypto — on-chain / DeFi; MEV; Research | No longer available · Py/Go/PHP: — | Free dashboard; API and advanced analytics are subscription-based. |
 | **[Flashbots](https://www.flashbots.net/)** | MEV research and infrastructure organization providing protect RPC, block builder, and mempool privacy tools. | Crypto — on-chain / DeFi; MEV; infrastructure | [Docs](https://docs.flashbots.net/) · Py/Go/PHP: — | Open-source tools; Flashbots Protect is free for end users; builder pricing is market-based. |
 | **[Jito Labs](https://www.jito.wtf/)** | Solana MEV infrastructure including stake-weighted mempool access, block-engine auction, and liquid-staking derivatives. | Crypto — on-chain / DeFi; MEV; Solana | [Docs](https://jito-labs.gitbook.io/mev/) · Py/Go/PHP: — | Staking and MEV rewards are protocol-determined; infrastructure access is generally permissionless. |
-| **[Moralis](https://moralis.io/)** | Web3 API and real-time blockchain data platform for wallet balances, NFTs, token prices, and event streams. | Crypto — on-chain / DeFi / NFTs; infrastructure | [Docs](https://docs.moralis.io/) · Py: [official](https://github.com/MoralisWeb3/Moralis-Python-SDK) · Go: [official](https://github.com/MoralisWeb3/Moralis-Go-SDK) · PHP: — | Free tier; paid plans start at **$49/month** for higher rate limits. |
-| **[The Graph](https://thegraph.com/)** | Decentralized indexing protocol for querying blockchain data via subgraphs across multiple networks. | Crypto — on-chain / DeFi; infrastructure; Research / automation | [Docs](https://thegraph.com/docs/en/) · Py: [subgraph clients](https://thegraph.com/docs/en/querying/querying-the-graph/) · Go/PHP: direct GraphQL | Query costs are based on query volume and subgraph signaling; free tier exists for low-volume usage. |
+| **[Moralis](https://moralis.com/)** | Web3 API and real-time blockchain data platform for wallet balances, NFTs, token prices, and event streams. | Crypto — on-chain / DeFi / NFTs; infrastructure | [Docs](https://docs.moralis.com/) · Py/Go/PHP: direct HTTP | Free tier; paid plans start at **$49/month** for higher rate limits. |
+| **[The Graph](https://thegraph.com/)** | Decentralized indexing protocol for querying blockchain data via subgraphs across multiple networks. | Crypto — on-chain / DeFi; infrastructure; Research / automation | [Docs](https://thegraph.com/docs/en/) · Py: [subgraph clients](https://thegraph.com/docs/en/subgraphs/querying/introduction/) · Go/PHP: direct GraphQL | Query costs are based on query volume and subgraph signaling; free tier exists for low-volume usage. |
 | **[Token Terminal](https://tokenterminal.com/)** | Fundamental analytics for DeFi protocols and crypto assets, including revenue, fees, P/F, and P/S metrics. | Crypto — on-chain / DeFi; Research / automation | [API docs](https://docs.tokenterminal.com/) · Py: [community](https://github.com/tokenterminal) · Go/PHP: — | Free tier with limited metrics; paid plans are tiered by coverage and API calls. |
-
+<!-- END GENERATED:table:web3-defi -->
 
 ---
 
@@ -393,6 +444,7 @@ Decentralized-finance infrastructure spans protocol analytics, yield optimizatio
 
 Quantitative finance is a field where skill development, peer review, and reproducible research matter as much as capital and data. These platforms offer structured learning, competitive practice, curated research, and open-source discovery. They do not replace a trading strategy, but they can accelerate the path from idea to validated hypothesis.
 
+<!-- BEGIN GENERATED:table:education -->
 | Service | What it does | Markets / scope | API & packages | Public pricing / tariff |
 | --- | --- | --- | --- | --- |
 | **[arXiv Quantitative Finance](https://arxiv.org/archive/q-fin)** | Open-access preprint server for quantitative-finance papers including trading models, risk management, and market-microstructure research. | Traditional markets; crypto; quantitative research | [API](https://arxiv.org/help/api/) · Py/Go/PHP: direct HTTP or [community clients](https://arxiv.org/help/api/) | Free to read and submit. |
@@ -402,11 +454,14 @@ Quantitative finance is a field where skill development, peer review, and reprod
 | **[Investopedia](https://www.investopedia.com/)** | Reference and educational platform for financial concepts, trading terminology, and strategy explainers. | Education; all asset classes | No public API identified · Py/Go/PHP: — | Free web access. |
 | **[Kaggle](https://www.kaggle.com/)** | Data-science competition platform hosting finance-relevant datasets, notebooks, and community challenges with leaderboards. | Multi-asset; ML competitions; alternative data | [Docs](https://www.kaggle.com/docs) · Py/R: [Kaggle API](https://github.com/Kaggle/kaggle-api) · Go/PHP: — | Free tier; competitions are generally free to enter. |
 | **[Machine Learning for Algorithmic Trading (book repo)](https://github.com/stefan-jansen/machine-learning-for-trading)** | Companion code to Stefan Jansen's book: end-to-end ML trading workflows, from data sourcing and feature engineering to backtests. | Multi-asset; ML research; education | Py: [official](https://github.com/stefan-jansen/machine-learning-for-trading) · Go/PHP: — | Open source; book is commercial. |
-| **[Numerai](https://numer.ai/)** | Crowdsourced hedge fund with weekly machine-learning tournaments on obfuscated financial datasets; contributors stake and earn returns for performant models. | Traditional markets; ML competitions; quantitative research | [Docs](https://numer.ai/learn) · Py: [official](https://github.com/numerai/numerai) · Go/PHP: — | Free to participate; staking requires cryptocurrency and carries risk of loss. |
+| **[Numerai](https://numer.ai/)** | Crowdsourced hedge fund with weekly machine-learning tournaments on obfuscated financial datasets; contributors stake and earn returns for performant models. | Traditional markets; ML competitions; quantitative research | [Docs](https://docs.numer.ai/) · Py: [official](https://github.com/numerai/numerapi) · Go/PHP: — | Free to participate; staking requires cryptocurrency and carries risk of loss. |
 | **[Quant engineering blogs](https://blog.janestreet.com/)** | Engineering writing from major trading firms: [Jane Street](https://blog.janestreet.com/), [Man Group](https://www.man.com/tech-articles-all), [Two Sigma](https://www.twosigma.com/topic/engineering/), and [Hudson River Trading](https://www.hudsonrivertrading.com/hrtbeat/category/engineering/). | Education; infrastructure; research practice | Blogs; no API · Py/Go/PHP: — | Free. |
 | **[Quantpedia](https://quantpedia.com/)** | Curated database of quantitative and algorithmic trading strategies extracted and summarized from academic research papers. | Traditional markets; quantitative research; strategy library | [Platform](https://quantpedia.com/) · Py/Go/PHP: — | Free preview; premium subscription unlocks full strategy details, code, and data. |
 | **[SSRN](https://www.ssrn.com/)** | Working-paper repository with extensive coverage of quantitative finance, asset pricing, and algorithmic-trading research. | Traditional markets; quantitative research; macro | [API](https://www.ssrn.com/) · Py/Go/PHP: — | Free to read and submit; some papers may have publisher paywalls after journal acceptance. |
 | **[WorldQuant BRAIN](https://www.worldquantbrain.com/)** | Global quantitative-research platform for discovering, backtesting, and simulating alphas across international equity markets. | Traditional markets; quantitative research; competitions | [Platform](https://www.worldquantbrain.com/) · Py: [research SDK](https://www.worldquantbrain.com/) · Go/PHP: — | Free research platform; compensation and licensing terms apply to submitted alphas. |
+<!-- END GENERATED:table:education -->
+
+---
 
 ## Which service should I choose?
 
@@ -434,7 +489,7 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 | News events delivered through an API | [Benzinga APIs](https://www.benzinga.com/apis/) or [CryptoPanic](https://cryptopanic.com/) | Structured event feeds; commercial redistribution terms differ significantly. |
 | Production-grade backtesting + live trading | [NautilusTrader](https://nautilustrader.io/) | Deterministic simulation and broker connectors; learning curve and infrastructure costs apply. |
 | Rapid strategy research | [vectorbt](https://vectorbt.dev/) | Vectorized exploration of many configurations; not a live-trading framework. |
-| Crypto bot with backtesting | [Freqtrade](https://www.freqtrade.io/) | Active community, dry-run support, and hyperopt; crypto-only. |
+| Crypto bot with backtesting | [Freqtrade](https://www.freqtrade.io/en/stable/) | Active community, dry-run support, and hyperopt; crypto-only. |
 | Performance tear sheets | [QuantStats](https://github.com/ranaroussi/quantstats) | Return metrics, drawdowns, and HTML reports; pure analytics, not execution. |
 | Portfolio optimization | [Riskfolio-Lib](https://riskfolio-lib.readthedocs.io/) or [skfolio](https://skfolio.org/) | Risk parity, factor models, CVaR, and ML-compatible workflows. |
 | Derivatives pricing and curve/risk models | [QuantLib](https://www.quantlib.org/) | Comprehensive modeling toolkit; its flexibility comes with a steeper learning curve and model-validation burden. |
@@ -446,8 +501,8 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 | Unified research data layer | [OpenBB](https://openbb.co/) | Provider-agnostic research building blocks; review AGPL obligations before exposing a modified network service. |
 | Financial AI / ML research | [Microsoft Qlib](https://github.com/microsoft/qlib) | End-to-end platform with data, models, and backtests; treat as research infrastructure. |
 | Financial NLP / LLM | [FinGPT](https://fingpt.io/) | Sentiment, forecasting, and retrieval models; verify benchmarks against your use case. |
-| Technical indicators in Python | [TA-Lib](https://ta-lib.org/) or [pandas-ta-classic](https://github.com/twopirllc/pandas-ta) | Established libraries; pin versions when indicator parity matters across environments. |
-| Time-series feature extraction | [tsfresh](https://tsfresh.com/) | Automated extraction and relevance filtering; computation can be intensive on long series. |
+| Technical indicators in Python | [TA-Lib](https://ta-lib.org/) or [pandas-ta-classic](https://github.com/xgboosted/pandas-ta-classic) | Established libraries; pin versions when indicator parity matters across environments. |
+| Time-series feature extraction | [tsfresh](https://tsfresh.readthedocs.io/) | Automated extraction and relevance filtering; computation can be intensive on long series. |
 | Financial charts on the web | [TradingView Lightweight Charts](https://www.tradingview.com/lightweight-charts/) | Compact, streaming, free; you bring the data and the data license. |
 | Research plots and dashboards | [Plotly](https://plotly.com/) or [Bokeh](https://bokeh.org/) | Interactive Python-native plotting; no market data included. |
 | ML competitions on financial data | [Numerai](https://numer.ai/) | Obfuscated datasets and staking mechanics; treat as research, not a strategy. |
@@ -463,14 +518,19 @@ There is no universal "best" service. Start with the narrowest tool that satisfi
 
 ---
 
-
 ## License
 
-This curated list is provided as-is for informational and educational purposes. It does not constitute financial, investment, or legal advice. Always verify current terms, pricing, and regulatory requirements directly with service providers before making decisions.
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work. See [LICENSE](LICENSE).
+
+## Disclaimer
+
+This list is provided for informational and educational purposes only. It is not financial, investment, or legal advice, and inclusion is not an endorsement or a security audit of any service. Trading involves risk of loss. Always verify current terms, pricing, and regulatory requirements directly with providers before making decisions.
 
 ## Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on proposing new services, updating pricing, and following our editorial criteria.
+Contributions are welcome. Add a service with the [submission form](https://github.com/lentrade/trading-awesome/issues/new?template=new-entry.yml), fix an entry with the [update form](https://github.com/lentrade/trading-awesome/issues/new?template=update-entry.yml), and read [CONTRIBUTING.md](CONTRIBUTING.md) for eligibility, editorial criteria, and the vendor policy. Report scam or hijacked links privately via [SECURITY.md](SECURITY.md).
 
 ---
 

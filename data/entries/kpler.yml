@@ -1,0 +1,9 @@
+name: Kpler
+url: https://www.kpler.com/
+category: alternative-data
+description: Commodity-tracking and vessel-analytics platform using satellite AIS, port data, and trade flows for energy and shipping markets.
+scope: Commodities; energy; shipping; Alternative data
+api: '[Platform](https://www.kpler.com/) · Py/Go/PHP: —'
+pricing: Enterprise-focused; pricing is on request.
+added: 2026-08-24
+last_verified: 2026-08-24

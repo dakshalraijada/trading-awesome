@@ -1,0 +1,10 @@
+name: Backtrader
+url: https://www.backtrader.com/
+category: backtesting
+description: Mature Python framework for event-driven strategy backtesting, indicators, analyzers, feeds, and broker integrations.
+scope: Traditional markets; Forex / FX; crypto; Research / automation
+api: '[Docs](https://www.backtrader.com/docu/) · Py: [official](https://github.com/mementum/backtrader) · Go/PHP: —'
+pricing: Open source; maintenance cadence and integrations should be evaluated before production use.
+repo: https://github.com/mementum/backtrader
+added: 2026-07-27
+last_verified: 2026-07-27

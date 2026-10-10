@@ -1,0 +1,10 @@
+name: Intrinio
+url: https://intrinio.com/
+category: market-data
+description: Structured fundamentals, U.S. equities, options, and real-time financial data API for developers and enterprises.
+scope: Traditional markets; options; fundamentals
+api: '[API docs](https://docs.intrinio.com/documentation/api_v2/getting_started) · Py: [official](https://github.com/intrinio/python-sdk) · Go: [official](https://github.com/intrinio/intrinio-realtime-go-sdk) · PHP: —'
+pricing: Free trial; public individual plan starts at **$150/month**.
+repo: https://github.com/intrinio/python-sdk
+added: 2026-07-27
+last_verified: 2026-07-27

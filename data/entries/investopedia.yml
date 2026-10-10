@@ -1,0 +1,9 @@
+name: Investopedia
+url: https://www.investopedia.com/
+category: education
+description: Reference and educational platform for financial concepts, trading terminology, and strategy explainers.
+scope: Education; all asset classes
+api: 'No public API identified · Py/Go/PHP: —'
+pricing: Free web access.
+added: 2026-09-12
+last_verified: 2026-09-12

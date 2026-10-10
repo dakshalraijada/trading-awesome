@@ -1,0 +1,10 @@
+name: FinanceDatabase
+url: https://github.com/JerBouma/FinanceDatabase
+category: market-data
+description: Open database of 300,000+ symbols across equities, ETFs, funds, indices, currencies, and crypto for universe construction and screening.
+scope: Traditional markets; reference data; Research
+api: 'Py: [official](https://github.com/JerBouma/FinanceDatabase) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/JerBouma/FinanceDatabase
+added: 2026-09-12
+last_verified: 2026-09-12

@@ -1,0 +1,10 @@
+name: Kraken API
+url: https://www.kraken.com/
+category: crypto-exchanges
+description: REST, WebSocket, and FIX interfaces for crypto trading, market data, and institutional workflows.
+scope: Crypto — spot; Crypto — derivatives; Brokerage / execution
+api: '[API docs](https://docs.kraken.com/api/) · Py: [official](https://github.com/krakenfx/kraken-wsclient-py) · Go: [official](https://github.com/krakenfx/api-go) · PHP: [official](https://github.com/krakenfx/kraken-api-client)'
+pricing: API access is included with an account; exchange fees and product availability vary by geography.
+repo: https://github.com/krakenfx/kraken-wsclient-py
+added: 2026-07-27
+last_verified: 2026-07-27

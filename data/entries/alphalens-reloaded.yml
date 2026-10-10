@@ -1,0 +1,10 @@
+name: alphalens-reloaded
+url: https://github.com/stefan-jansen/alphalens-reloaded
+category: portfolio-risk
+description: 'Maintained fork of Alphalens for analyzing predictive alpha factors: IC, quantile returns, turnover, and tear sheets.'
+scope: Factor research; equity alpha; Research
+api: 'Py: [community-maintained](https://github.com/stefan-jansen/alphalens-reloaded) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/stefan-jansen/alphalens-reloaded
+added: 2026-09-12
+last_verified: 2026-09-12

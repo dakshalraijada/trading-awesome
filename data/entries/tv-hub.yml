@@ -1,0 +1,9 @@
+name: TV-Hub
+url: https://www.tv-hub.org/
+category: brokerage
+description: Webhook execution layer that converts TradingView alerts into spot and futures orders on crypto exchanges, with DCA and grid bots.
+scope: Crypto — spot / on-chain / DeFi; Crypto — derivatives; Brokerage / execution
+api: '[API docs](https://www.tv-hub.org/docs/api-reference/) · Webhook integration · Py/Go/PHP: direct HTTP'
+pricing: Demo and testnet accounts free; live trading **$23/month** or **$19/month** on the 6-month plan, 7-day free trial per exchange (verified 2026-10-06); see [official pricing](https://www.tv-hub.org/pricing).
+added: 2026-10-06
+last_verified: 2026-10-06

@@ -1,0 +1,10 @@
+name: finta
+url: https://github.com/peerchemist/finta
+category: feature-engineering
+description: Pandas-based technical-indicator library with 80+ indicators implemented directly on OHLCV DataFrames.
+scope: Multi-asset technical analysis; Research
+api: 'Py: [official](https://github.com/peerchemist/finta) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/peerchemist/finta
+added: 2026-09-12
+last_verified: 2026-09-12

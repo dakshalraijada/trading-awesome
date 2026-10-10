@@ -1,0 +1,144 @@
+name: Add a service
+description: Propose a new entry. A bot checks the form and opens a pull request for review.
+title: "[Add]: "
+labels: ["submission", "new-entry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Please read [CONTRIBUTING.md](https://github.com/lentrade/trading-awesome/blob/main/CONTRIBUTING.md) first.
+
+        **What happens next:** a bot checks your account (at least 90 days old, or a previously merged contribution), the links, and the wording. If everything passes it opens a pull request; a maintainer reviews every pull request by hand and nothing is merged automatically. If the bot reports problems, edit this issue and the checks run again.
+
+        We never accept payment for listings or placement.
+  - type: input
+    id: name
+    attributes:
+      label: Service name
+      description: The brand's own capitalization, without a tagline.
+      placeholder: Acme Data
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Website URL
+      description: Official site over HTTPS. No shorteners, referral codes, or tracking parameters.
+      placeholder: https://acme.example/
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Section
+      options:
+        - Brokerage, execution & algorithmic trading
+        - Traditional markets, macro & multi-asset data
+        - Crypto exchange APIs & interoperability
+        - Crypto market intelligence & on-chain analytics
+        - Charting, research & no-code decision support
+        - Signal providers & event intelligence
+        - Trading infrastructure & event-driven systems
+        - Backtesting engines & trading frameworks
+        - Portfolio analytics & risk
+        - AI & machine-learning frameworks
+        - Feature engineering & technical analysis
+        - Financial visualization
+        - Options, volatility & derivatives analytics
+        - Alternative data & external intelligence
+        - Web3, DeFi & MEV infrastructure
+        - Education, competitions & quant communities
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What it does
+      description: One factual sentence ending with a period, at most 250 characters. No links, no marketing language ("best", "leading", "revolutionary"...).
+      placeholder: REST and WebSocket API for U.S. equities and options data with official Python and Go clients.
+    validations:
+      required: true
+  - type: input
+    id: scope_detail
+    attributes:
+      label: Markets / scope (details)
+      description: Optional short detail shown before the coverage labels.
+      placeholder: U.S. equities / ETFs / options
+  - type: checkboxes
+    id: coverage
+    attributes:
+      label: Coverage labels
+      description: Pick at least one.
+      options:
+        - label: Crypto — spot / on-chain / DeFi
+        - label: Crypto — derivatives
+        - label: Traditional markets
+        - label: Forex / FX
+        - label: Brokerage / execution
+        - label: Research / automation
+  - type: input
+    id: api_docs
+    attributes:
+      label: API documentation URL
+      description: Public API documentation. Leave empty if there is no public API.
+      placeholder: https://docs.acme.example/
+  - type: textarea
+    id: packages
+    attributes:
+      label: SDKs and packages
+      description: |
+        Optional. One per line: `Language: official|community https://github.com/owner/repo`.
+        Languages: Python, Go, PHP, JavaScript, TypeScript, Rust, Java, C#, R. An MCP server is written as `MCP: https://...`.
+      placeholder: |
+        Python: official https://github.com/acme/acme-python
+        Go: community https://github.com/someone/acme-go
+  - type: input
+    id: repo
+    attributes:
+      label: Source repository
+      description: For open-source projects, the main GitHub repository (used for maintenance checks).
+      placeholder: https://github.com/acme/acme
+  - type: textarea
+    id: pricing
+    attributes:
+      label: Public pricing
+      description: Plain text without links, e.g. `Free tier; paid plans start at **$29/month**.` Write `Open source.` for free software.
+    validations:
+      required: true
+  - type: input
+    id: pricing_url
+    attributes:
+      label: Pricing source URL
+      description: The official pricing page. Required unless the project is open source.
+      placeholder: https://acme.example/pricing
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Your relationship to this service
+      description: Vendors are welcome to submit their own products; undisclosed affiliation leads to removal.
+      options:
+        - I have no affiliation with this service
+        - I work for, own, or was paid or asked by this service
+        - Other relationship (explain in notes)
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Why it belongs on the list
+      description: Which editorial criteria from CONTRIBUTING.md it meets and what gap it fills. Shown to reviewers, not added to the list.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have read CONTRIBUTING.md and searched the list for duplicates.
+          required: true
+        - label: The links contain no affiliate, referral, or tracking parameters.
+          required: true
+        - label: The description is factual and the pricing is current and public.
+          required: true
+        - label: I dedicate my contribution to the public domain under CC0 1.0.
+          required: true

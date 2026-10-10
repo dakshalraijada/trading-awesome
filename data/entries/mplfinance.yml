@@ -1,0 +1,10 @@
+name: mplfinance
+url: https://github.com/matplotlib/mplfinance
+category: visualization
+description: Matplotlib-based Python package for candlestick, OHLC, volume, overlays, panels, and static financial charts.
+scope: Research visualization; notebooks; reports
+api: 'Py: [official repository](https://github.com/matplotlib/mplfinance) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/matplotlib/mplfinance
+added: 2026-07-27
+last_verified: 2026-07-27

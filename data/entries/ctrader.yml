@@ -1,0 +1,10 @@
+name: cTrader
+url: https://ctrader.com/
+category: brokerage
+description: Broker-connected trading platform for charting, copy trading, cBots, and programmatic execution through Open API.
+scope: Forex / FX; CFDs; broker-dependent multi-asset execution
+api: '[Open API docs](https://help.ctrader.com/open-api/) · Py: [official](https://github.com/spotware/OpenApiPy) · Go: [community](https://github.com/diegobernardes/ctrader) · PHP: —'
+pricing: Core platform is commonly supplied through brokers; cBots, indicators, and copy-trading products have varied terms.
+repo: https://github.com/spotware/OpenApiPy
+added: 2026-07-27
+last_verified: 2026-07-27

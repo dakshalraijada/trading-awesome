@@ -1,0 +1,9 @@
+name: Alpha Vantage
+url: https://www.alphavantage.co/
+category: market-data
+description: Accessible API for equity, ETF, FX, crypto, economic, technical-indicator, and fundamental data.
+scope: Traditional markets; Forex / FX; crypto; Research / automation
+api: '[API docs](https://www.alphavantage.co/documentation/) · Py: [community](https://github.com/RomelTorres/alpha_vantage) · Go: [community](https://github.com/masonJamesWheeler/alpha-vantage-go-wrapper) · PHP: [community](https://github.com/kokspflanze/alpha-vantage-api)'
+pricing: Free tier is publicly limited to **25 requests/day**; premium plans start at **$49.99/month**.
+added: 2026-07-27
+last_verified: 2026-07-27

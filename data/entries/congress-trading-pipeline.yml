@@ -1,0 +1,10 @@
+name: Congress Trading Pipeline
+url: https://github.com/seralifatih/congress-trading-pipeline
+category: signals
+description: 'Primary-source, delayed congressional-disclosure event data: US House and Senate STOCK Act periodic transaction reports (PTRs) parsed directly from official Senate EFD and House Clerk sources into deduplicated JSON.'
+scope: Traditional markets; Research / automation
+api: 'Apify API / direct HTTP; self-hosted TypeScript · Py/Go/PHP: —'
+pricing: 'Usage-based: House from **$2 / 1,000 transaction records**, Senate from **$3 / 1,000**; see [House pricing](https://apify.com/seralifatih/congress-trading-pipeline-1) and [Senate pricing](https://apify.com/seralifatih/congress-trading-pipeline).'
+repo: https://github.com/seralifatih/congress-trading-pipeline
+added: 2026-08-19
+last_verified: 2026-08-19

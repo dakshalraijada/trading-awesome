@@ -1,0 +1,10 @@
+name: Bybit API
+url: https://www.bybit.com/
+category: crypto-exchanges
+description: Unified V5 API for crypto spot, derivatives, options, account, and trading endpoints.
+scope: Crypto — spot; Crypto — derivatives; Brokerage / execution
+api: '[V5 docs](https://bybit-exchange.github.io/docs/v5/intro) · Py: [official](https://github.com/bybit-exchange/pybit) · Go: [bybit-go](https://github.com/tigusigalpa/bybit-go) · PHP: [bybit-php](https://github.com/tigusigalpa/bybit-php)'
+pricing: API access is free; trading fees and product availability vary by market and jurisdiction.
+repo: https://github.com/bybit-exchange/pybit
+added: 2026-07-27
+last_verified: 2026-07-27

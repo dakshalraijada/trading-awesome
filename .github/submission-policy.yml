@@ -1,0 +1,29 @@
+# Thresholds used by the submission bot (scripts/submission.py), the pull-request
+# guard (scripts/pr_guard.py), and scheduled maintenance (scripts/maintenance.py).
+# CODEOWNERS requires a maintainer review for any change to this file.
+
+# Minimum age of the contributor's GitHub account. Contributors with a previously
+# merged pull request in this repository are exempt.
+min_account_age_days:
+  new_entry: 90
+  update: 30
+
+# Minimum age of the listed service's domain (from RDAP registration data).
+min_domain_age_days: 90
+
+limits:
+  max_open_submissions: 1
+  max_submissions_per_30_days: 3
+
+# Soft signals: the pull request is still opened, but labelled needs-manual-review.
+anomalies:
+  many_repos_no_followers: 200
+  young_account_days: 180
+
+maintenance:
+  stale_after_days: 180
+  repo_inactive_days: 365
+
+# GitHub logins and registrable domains (example.com) that may not submit or be listed.
+blocked_users: []
+blocked_domains: []

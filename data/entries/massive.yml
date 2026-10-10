@@ -1,0 +1,10 @@
+name: Massive
+url: https://massive.com/
+category: market-data
+description: Real-time and historical market-data platform, formerly Polygon.io, with REST, WebSocket, and flat-file delivery.
+scope: U.S. equities; options; indices; FX; futures; crypto
+api: '[Docs](https://massive.com/docs) · Py: [official](https://github.com/massive-com/client-python) · Go: [official](https://github.com/massive-com/client-go) · PHP: —'
+pricing: Free tier; individual plans publicly start at **$29/month**.
+repo: https://github.com/massive-com/client-python
+added: 2026-07-27
+last_verified: 2026-07-27

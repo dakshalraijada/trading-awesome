@@ -1,0 +1,10 @@
+name: Cryptofeed
+url: https://github.com/bmoscon/cryptofeed
+category: crypto-exchanges
+description: Async Python handler for normalized WebSocket market-data feeds (trades, L2/L3 books, funding, liquidations) across major crypto exchanges.
+scope: Crypto — spot; Crypto — derivatives; market-data ingestion
+api: 'Py: [official](https://github.com/bmoscon/cryptofeed) · Go/PHP: —'
+pricing: Open source; exchange connectivity and data costs are separate.
+repo: https://github.com/bmoscon/cryptofeed
+added: 2026-09-12
+last_verified: 2026-09-12

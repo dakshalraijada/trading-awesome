@@ -1,0 +1,10 @@
+name: OANDA
+url: https://www.oanda.com/
+category: brokerage
+description: Regulated broker and FX platform with v20 REST API support for account, pricing, and trading workflows.
+scope: Forex / FX; CFDs and region-dependent instruments; Brokerage / execution
+api: '[v20 docs](https://developer.oanda.com/rest-live-v20/introduction/) · Py: [official](https://github.com/oanda/v20-python) · Go: — · PHP: —'
+pricing: Spread, commission, financing, and product availability are jurisdiction-specific; [official pricing](https://www.oanda.com/) applies by entity.
+repo: https://github.com/oanda/v20-python
+added: 2026-07-27
+last_verified: 2026-07-27

@@ -1,0 +1,9 @@
+name: Benzinga APIs
+url: https://www.benzinga.com/apis/
+category: signals
+description: Financial news, earnings, analyst ratings, calendars, and market-moving event feeds for programmatic workflows.
+scope: Traditional markets; news; corporate events
+api: '[API docs](https://docs.benzinga.io/) · Py/Go/PHP: direct HTTP integration'
+pricing: Trial and commercial access; dataset pricing and redistribution terms are quote-based.
+added: 2026-07-27
+last_verified: 2026-07-27

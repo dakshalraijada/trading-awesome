@@ -1,0 +1,9 @@
+name: Redpanda
+url: https://www.redpanda.com/
+category: infrastructure
+description: Kafka-compatible streaming platform in C++ with lower operational overhead for market-data and order-event pipelines.
+scope: Research / automation; event streaming; messaging
+api: '[Docs](https://docs.redpanda.com/) · Kafka-protocol clients across Py/Go/PHP'
+pricing: Open-source/community edition; cloud and enterprise are paid.
+added: 2026-09-12
+last_verified: 2026-09-12

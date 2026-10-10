@@ -1,0 +1,9 @@
+name: Apache ECharts
+url: https://echarts.apache.org/
+category: visualization
+description: High-performance JavaScript visualization library with candlestick, line, heatmap, scatter, and large-data rendering options.
+scope: Web dashboards; candlesticks; general analytics
+api: '[Docs](https://echarts.apache.org/en/option.html) · JS/TS: official · community wrappers exist'
+pricing: Open source under Apache 2.0.
+added: 2026-07-27
+last_verified: 2026-07-27

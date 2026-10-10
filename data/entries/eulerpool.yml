@@ -1,0 +1,10 @@
+name: Eulerpool
+url: https://eulerpool.com/
+category: market-data
+description: REST API with 400+ endpoints for global equities and fundamentals, ETFs, insider trades, 13F holdings, macro series (FRED, ECB, IMF, World Bank, OECD, BIS), crypto, FX, and commodities.
+scope: Traditional markets; Forex / FX; crypto; macro; Research / automation
+api: '[API docs](https://eulerpool.com/developers) · Py: [official](https://github.com/eulerpool/eulerpool-python) · Go: [official](https://github.com/eulerpool/eulerpool-go) · PHP: [official](https://github.com/eulerpool/eulerpool-php) · [MCP](https://github.com/eulerpool/eulerpool-mcp)'
+pricing: Free tier of **100,000 requests/month** (non-commercial, delayed quotes); public paid plans start at **$99/month**; see [official pricing](https://eulerpool.com/financial-data-api/pricing).
+repo: https://github.com/eulerpool/eulerpool-python
+added: 2026-09-25
+last_verified: 2026-09-25

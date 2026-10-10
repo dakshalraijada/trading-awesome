@@ -1,0 +1,10 @@
+name: FinGPT
+url: https://fingpt.io/
+category: ai-ml
+description: Open-source financial LLM project with models and workflows for sentiment, forecasting, retrieval, fine-tuning, and benchmarks.
+scope: Financial text; news; sentiment; Research / automation
+api: '[Docs](https://fingpt.io/docs) · Py: [official](https://github.com/AI4Finance-Foundation/FinGPT) · models: [Hugging Face](https://huggingface.co/FinGPT)'
+pricing: Open source; hosted APIs, model compute, and enterprise services may be separately priced.
+repo: https://github.com/AI4Finance-Foundation/FinGPT
+added: 2026-07-27
+last_verified: 2026-07-27

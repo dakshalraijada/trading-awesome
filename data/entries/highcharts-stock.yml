@@ -1,0 +1,9 @@
+name: Highcharts Stock
+url: https://www.highcharts.com/products/stock/
+category: visualization
+description: Commercial financial-charting library with data grouping, annotations, navigation, and built-in technical indicators.
+scope: Web and mobile financial charts; dashboards
+api: '[Docs](https://api.highcharts.com/highstock/) · JS/TS: official package · wrappers for major frameworks'
+pricing: Free for eligible non-commercial use under current terms; commercial licenses are paid.
+added: 2026-07-27
+last_verified: 2026-07-27

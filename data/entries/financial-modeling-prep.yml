@@ -1,0 +1,9 @@
+name: Financial Modeling Prep
+url: https://site.financialmodelingprep.com/
+category: market-data
+description: Developer-focused source for market, fundamental, technical, economic, forex, crypto, and company-financial datasets.
+scope: Traditional markets; Forex / FX; crypto
+api: '[API docs](https://site.financialmodelingprep.com/developer/docs) · Py: [community](https://github.com/daxm/fmpsdk) · Go: — · PHP: —'
+pricing: Free tier; public paid plans start at **$22/month billed annually**.
+added: 2026-07-27
+last_verified: 2026-07-27

@@ -1,0 +1,10 @@
+name: empyrical-reloaded
+url: https://github.com/stefan-jansen/empyrical-reloaded
+category: portfolio-risk
+description: Maintained fork of the return and risk-statistics library historically used by the Quantopian analytics ecosystem.
+scope: Portfolio analytics; risk metrics; Research
+api: 'Py: [community-maintained](https://github.com/stefan-jansen/empyrical-reloaded) · Go/PHP: —'
+pricing: Open source; verify compatibility and release cadence.
+repo: https://github.com/stefan-jansen/empyrical-reloaded
+added: 2026-07-27
+last_verified: 2026-07-27

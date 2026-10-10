@@ -1,0 +1,10 @@
+name: backtesting.py
+url: https://kernc.github.io/backtesting.py/
+category: backtesting
+description: Compact Python library for testing rule-based strategies on OHLC data with optimization and interactive result plots.
+scope: Multi-asset research; educational and lightweight backtests
+api: '[Docs](https://kernc.github.io/backtesting.py/) · Py: [official](https://github.com/kernc/backtesting.py) · Go/PHP: —'
+pricing: Open source; no hosted execution service is included.
+repo: https://github.com/kernc/backtesting.py
+added: 2026-07-27
+last_verified: 2026-07-27

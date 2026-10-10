@@ -1,0 +1,10 @@
+name: TimescaleDB
+url: https://www.tigerdata.com/timescaledb
+category: infrastructure
+description: PostgreSQL extension for time-series storage, continuous aggregates, retention, and SQL analytics, developed by Tiger Data (formerly Timescale).
+scope: Research / automation; time series; operational analytics
+api: '[Docs](https://www.tigerdata.com/docs) · [Source](https://github.com/timescale/timescaledb) · Uses PostgreSQL drivers across Py/Go/PHP'
+pricing: Open-source components and paid cloud service; usage and support terms vary.
+repo: https://github.com/timescale/timescaledb
+added: 2026-07-27
+last_verified: 2026-07-27

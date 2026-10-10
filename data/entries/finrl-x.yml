@@ -1,0 +1,10 @@
+name: FinRL-X
+url: https://github.com/AI4Finance-Foundation/FinRL-Trading
+category: ai-ml
+description: AI-native modular trading infrastructure positioned as the production-oriented successor to the original FinRL research framework.
+scope: Multi-asset; reinforcement learning; Research / automation
+api: 'Py: [official](https://github.com/AI4Finance-Foundation/FinRL-Trading) · research paper and examples linked from repository · Go/PHP: —'
+pricing: Open source; venue, data, model, and compute costs are separate.
+repo: https://github.com/AI4Finance-Foundation/FinRL-Trading
+added: 2026-07-27
+last_verified: 2026-07-27

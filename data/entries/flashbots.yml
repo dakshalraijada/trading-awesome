@@ -1,0 +1,9 @@
+name: Flashbots
+url: https://www.flashbots.net/
+category: web3-defi
+description: MEV research and infrastructure organization providing protect RPC, block builder, and mempool privacy tools.
+scope: Crypto — on-chain / DeFi; MEV; infrastructure
+api: '[Docs](https://docs.flashbots.net/) · Py/Go/PHP: —'
+pricing: Open-source tools; Flashbots Protect is free for end users; builder pricing is market-based.
+added: 2026-08-24
+last_verified: 2026-08-24

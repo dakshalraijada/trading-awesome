@@ -1,0 +1,10 @@
+name: Perspective
+url: https://perspective-dev.github.io/
+category: visualization
+description: Streaming analytics and visualization component (originally open-sourced via FINOS) for large, live-updating datasets in browser dashboards.
+scope: Streaming dashboards; time series; Research / automation
+api: '[Docs](https://perspective-dev.github.io/guide/) · JS/TS/Py: [official](https://github.com/perspective-dev/perspective) · Go/PHP: —'
+pricing: Open source under Apache 2.0.
+repo: https://github.com/perspective-dev/perspective
+added: 2026-09-12
+last_verified: 2026-09-12

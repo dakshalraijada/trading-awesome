@@ -1,0 +1,9 @@
+name: WorldQuant BRAIN
+url: https://www.worldquantbrain.com/
+category: education
+description: Global quantitative-research platform for discovering, backtesting, and simulating alphas across international equity markets.
+scope: Traditional markets; quantitative research; competitions
+api: '[Platform](https://www.worldquantbrain.com/) · Py: [research SDK](https://www.worldquantbrain.com/) · Go/PHP: —'
+pricing: Free research platform; compensation and licensing terms apply to submitted alphas.
+added: 2026-08-24
+last_verified: 2026-08-24

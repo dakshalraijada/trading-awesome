@@ -1,0 +1,9 @@
+name: Morningstar Developer
+url: https://developer.morningstar.com/
+category: charting-research
+description: API access to Morningstar investment data, research, ratings, and reports for equities, funds, and ETFs.
+scope: Traditional markets; funds; fundamentals
+api: '[Developer portal](https://developer.morningstar.com/) · Py/Go/PHP: direct HTTP'
+pricing: Commercial licensing; pricing is on request.
+added: 2026-09-12
+last_verified: 2026-09-12

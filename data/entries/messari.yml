@@ -1,0 +1,10 @@
+name: Messari
+url: https://messari.io/
+category: crypto-intelligence
+description: Crypto research and intelligence platform providing protocol, asset, market, and selected API data.
+scope: Crypto — spot / on-chain / DeFi; research
+api: '[API docs](https://docs.messari.io/introduction) · Py: [official](https://github.com/messari/messari-python-api) · Go: — · PHP: [community](https://github.com/codenix-sv/messari-api)'
+pricing: Public/free access exists for selected content; advanced data and enterprise terms are plan-dependent.
+repo: https://github.com/messari/messari-python-api
+added: 2026-07-27
+last_verified: 2026-07-27

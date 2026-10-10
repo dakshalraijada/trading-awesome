@@ -1,0 +1,9 @@
+name: TA-Lib
+url: https://ta-lib.org/
+category: feature-engineering
+description: Long-established C/C++ technical-analysis library with indicators, candlestick recognition, and language wrappers.
+scope: Multi-asset technical analysis; Research / automation
+api: '[Function list](https://ta-lib.org/functions/) · Py: [community wrapper](https://github.com/TA-Lib/ta-lib-python) · other wrappers listed by project'
+pricing: Open source under BSD terms.
+added: 2026-07-27
+last_verified: 2026-07-27

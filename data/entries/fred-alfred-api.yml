@@ -1,0 +1,9 @@
+name: FRED / ALFRED API
+url: https://fred.stlouisfed.org/
+category: market-data
+description: Federal Reserve macroeconomic time-series service, including historical vintage data for revision-aware research.
+scope: U.S. macro; economic releases; Traditional markets; Research / automation
+api: '[API docs](https://fred.stlouisfed.org/docs/api/fred/) · Py: [community `fredapi`](https://github.com/mortada/fredapi) · Go/PHP: direct HTTP'
+pricing: Free with an API key; rate limits and terms apply.
+added: 2026-08-24
+last_verified: 2026-08-24

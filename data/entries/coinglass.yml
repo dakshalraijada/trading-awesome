@@ -1,0 +1,9 @@
+name: CoinGlass
+url: https://www.coinglass.com/
+category: crypto-intelligence
+description: Crypto market-structure platform for futures, options, funding, open interest, liquidations, order books, ETF flows, and on-chain indicators.
+scope: Crypto — derivatives; spot; on-chain
+api: '[API docs](https://docs.coinglass.com/reference/getting-started-with-your-api) · Py: — · Go: [coinglass-go](https://github.com/tigusigalpa/coinglass-go) · PHP: [coinglass-php](https://github.com/tigusigalpa/coinglass-php)'
+pricing: Public API plans start at **$29/month**; enterprise is custom.
+added: 2026-07-27
+last_verified: 2026-07-27

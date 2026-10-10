@@ -1,0 +1,9 @@
+name: TipRanks
+url: https://www.tipranks.com/
+category: charting-research
+description: Analyst-ratings, insider-trading, hedge-fund, and smart-score research platform with enterprise APIs for ratings and sentiment data.
+scope: Traditional markets; Research / automation
+api: '[API docs](https://docs.tipranks.com/api-docs) · Py/Go/PHP: direct HTTP'
+pricing: Free web tier; API access is sold through [TipRanks Enterprise](https://enterprise.tipranks.com/).
+added: 2026-09-12
+last_verified: 2026-10-10

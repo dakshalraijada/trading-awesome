@@ -1,0 +1,10 @@
+name: CCXT
+url: https://github.com/ccxt/ccxt
+category: brokerage
+description: Open-source unified API library that normalizes market-data and trading interfaces across many crypto exchanges.
+scope: Crypto — spot / on-chain / DeFi; Crypto — derivatives; Research / automation
+api: '[Docs](https://docs.ccxt.com/) · Py: [official](https://github.com/ccxt/ccxt/tree/master/python) · Go: [official](https://github.com/ccxt/ccxt/tree/master/go) · PHP: [official](https://github.com/ccxt/ccxt/tree/master/php)'
+pricing: Open-source core; **CCXT Pro** WebSocket plans are publicly listed from **$79/month**.
+repo: https://github.com/ccxt/ccxt
+added: 2026-07-27
+last_verified: 2026-07-27

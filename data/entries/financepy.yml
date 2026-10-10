@@ -1,0 +1,10 @@
+name: FinancePy
+url: https://github.com/domokane/FinancePy
+category: options-derivatives
+description: Python library for pricing and risk-management of equity, FX, fixed-income, and credit derivatives, with models, curves, and calendars.
+scope: Derivatives; fixed income; Research
+api: '[Docs](https://domokane.github.io/FinancePy/) · Py: [official](https://github.com/domokane/FinancePy) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/domokane/FinancePy
+added: 2026-09-12
+last_verified: 2026-09-12

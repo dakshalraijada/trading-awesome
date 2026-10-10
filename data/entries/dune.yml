@@ -1,0 +1,10 @@
+name: Dune
+url: https://dune.com/
+category: crypto-intelligence
+description: SQL-oriented on-chain data platform for querying, visualizing, sharing, and programmatically consuming blockchain analytics.
+scope: Crypto — on-chain / DeFi / NFTs; Research / automation
+api: '[API docs](https://docs.dune.com/api-reference/overview/introduction) · Py: [official](https://github.com/duneanalytics/dune-client) · Go: [official](https://github.com/duneanalytics/duneapi-client-go) · PHP: —'
+pricing: Free plan includes public monthly credits; paid Analyst, Plus, and Enterprise plans are credit-based.
+repo: https://github.com/duneanalytics/dune-client
+added: 2026-07-27
+last_verified: 2026-07-27

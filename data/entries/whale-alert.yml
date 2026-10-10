@@ -1,0 +1,9 @@
+name: Whale Alert
+url: https://whale-alert.io/
+category: crypto-intelligence
+description: Real-time large-transaction monitoring and blockchain analytics via alert streams and enterprise REST data.
+scope: Crypto — on-chain; stablecoins; alerts
+api: '[API docs](https://developer.whale-alert.io/api-account/documentation) · Py: code examples only · Go: code examples only · PHP: —'
+pricing: 'Alerts API: **$29.95/month**; Enterprise API: **$699/month**.'
+added: 2026-07-27
+last_verified: 2026-07-27

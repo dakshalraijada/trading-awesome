@@ -1,0 +1,9 @@
+name: Prometheus
+url: https://prometheus.io/
+category: infrastructure
+description: Metrics collection, querying, and alerting for data feeds, strategy services, execution gateways, and infrastructure.
+scope: Research / automation; monitoring; observability
+api: '[Docs](https://prometheus.io/docs/introduction/overview/) · HTTP API and client libraries · Go: first-party implementation'
+pricing: Open source; storage, hosting, and managed-service costs depend on deployment.
+added: 2026-07-27
+last_verified: 2026-07-27

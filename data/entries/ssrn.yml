@@ -1,0 +1,9 @@
+name: SSRN
+url: https://www.ssrn.com/
+category: education
+description: Working-paper repository with extensive coverage of quantitative finance, asset pricing, and algorithmic-trading research.
+scope: Traditional markets; quantitative research; macro
+api: '[API](https://www.ssrn.com/) · Py/Go/PHP: —'
+pricing: Free to read and submit; some papers may have publisher paywalls after journal acceptance.
+added: 2026-08-24
+last_verified: 2026-08-24

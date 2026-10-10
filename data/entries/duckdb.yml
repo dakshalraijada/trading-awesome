@@ -1,0 +1,9 @@
+name: DuckDB
+url: https://duckdb.org/
+category: infrastructure
+description: Embedded analytical SQL database suited to ad-hoc research over Parquet/CSV market data without a separate server.
+scope: Research / automation; analytics; market-data storage
+api: '[Docs](https://duckdb.org/docs/) · Py/Go: official clients · PHP: community'
+pricing: Open source under MIT.
+added: 2026-09-12
+last_verified: 2026-09-12

@@ -1,0 +1,9 @@
+name: Snowflake Marketplace
+url: https://www.snowflake.com/en/data-cloud/marketplace/
+category: alternative-data
+description: Data marketplace for querying live financial, alternative, and proprietary datasets without ETL.
+scope: Alternative data; multi-asset; Research / automation
+api: '[Docs](https://other-docs.snowflake.com/en/collaboration/collaboration-marketplace-about) · Py/Go/PHP: Snowflake connectors'
+pricing: Provider-dependent pricing; Snowflake compute costs are metered separately.
+added: 2026-08-24
+last_verified: 2026-08-24

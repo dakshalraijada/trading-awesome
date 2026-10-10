@@ -1,0 +1,10 @@
+name: yfinance
+url: https://github.com/ranaroussi/yfinance
+category: market-data
+description: 'Widely used Python library for downloading market data from Yahoo Finance: OHLCV, dividends, splits, fundamentals, and options chains.'
+scope: Traditional markets; crypto; Research / automation
+api: 'Py: [official](https://github.com/ranaroussi/yfinance) · Go/PHP: —'
+pricing: Open source; unofficial Yahoo Finance access, subject to rate limits and ToS changes.
+repo: https://github.com/ranaroussi/yfinance
+added: 2026-09-12
+last_verified: 2026-09-12

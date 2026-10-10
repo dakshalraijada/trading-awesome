@@ -1,0 +1,10 @@
+name: vnpy
+url: https://github.com/vnpy/vnpy
+category: backtesting
+description: Full-featured open-source quantitative trading platform with gateways to Chinese futures/equities and crypto venues, GUI, and strategy engines.
+scope: Traditional markets; futures; crypto; Brokerage / execution
+api: '[Docs](https://www.vnpy.com/docs/) · Py: [official](https://github.com/vnpy/vnpy) · Go/PHP: —'
+pricing: Open source; venue access and data are separate.
+repo: https://github.com/vnpy/vnpy
+added: 2026-09-12
+last_verified: 2026-09-12

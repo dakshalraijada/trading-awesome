@@ -1,0 +1,9 @@
+name: Marketstack
+url: https://marketstack.com/
+category: market-data
+description: REST API for end-of-day, intraday, and real-time equities data, designed for lightweight integrations.
+scope: Traditional markets; equities / ETFs
+api: '[API docs](https://docs.apilayer.com/marketstack/docs/api-documentation) · Py: [community](https://github.com/mreiche/marketstack-python) · Go: [community](https://github.com/tigusigalpa/marketstack-go) · PHP: [community](https://github.com/tigusigalpa/marketstack-php)'
+pricing: Free tier; public paid tiers start at **$9.99/month**.
+added: 2026-07-27
+last_verified: 2026-07-27

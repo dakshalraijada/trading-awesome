@@ -1,0 +1,9 @@
+name: SnapPChart
+url: https://www.snappchart.app/
+category: charting-research
+description: AI chart-grading tool that scores a trading setup (A+ to F) with entry, stop, and target levels from an uploaded chart screenshot.
+scope: Traditional markets; Forex / FX; crypto; Research
+api: 'No public API identified · Py: — · Go: — · PHP: —'
+pricing: 2 free lifetime grades; Weekly **$4.99/week**, Monthly **$19.99/month**, Yearly **$199.99/year** (~$16.67/mo); see [official pricing](https://www.snappchart.app/pricing).
+added: 2026-09-19
+last_verified: 2026-09-19

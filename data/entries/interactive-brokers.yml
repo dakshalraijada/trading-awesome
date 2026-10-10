@@ -1,0 +1,10 @@
+name: Interactive Brokers
+url: https://www.interactivebrokers.com/
+category: brokerage
+description: Global electronic broker with web, TWS, Excel, and FIX interfaces for custom trading workflows.
+scope: Traditional markets; Forex / FX; multi-asset; Brokerage / execution
+api: '[API docs](https://www.interactivebrokers.com/campus/ibkr-api-page/ibkr-api-home/) · Py: [official TWS API](https://github.com/InteractiveBrokers/tws-api-public) · Go: — · PHP: —'
+pricing: Trading commissions and market-data subscriptions vary by account, venue, and region; see [official pricing](https://www.interactivebrokers.com/en/pricing/commissions-home.php).
+repo: https://github.com/InteractiveBrokers/tws-api-public
+added: 2026-07-27
+last_verified: 2026-07-27

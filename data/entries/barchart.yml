@@ -1,0 +1,10 @@
+name: Barchart
+url: https://www.barchart.com/
+category: market-data
+description: Market-data, news, charting, and OnDemand API provider with extensive exchange and reference-data coverage.
+scope: Traditional markets; Forex / FX; crypto
+api: '[OnDemand API](https://www.barchart.com/ondemand/api) · Py: [official](https://github.com/barchart/barchart-ondemand-client-python) · Go: — · PHP: [official](https://github.com/barchart/barchart-ondemand-client-php)'
+pricing: Data packages and OnDemand access vary; public end-of-day data is listed from **$49/month**.
+repo: https://github.com/barchart/barchart-ondemand-client-python
+added: 2026-07-27
+last_verified: 2026-07-27

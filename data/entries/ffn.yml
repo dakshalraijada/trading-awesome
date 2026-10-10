@@ -1,0 +1,10 @@
+name: ffn
+url: https://github.com/pmorissette/ffn
+category: portfolio-risk
+description: Financial function library for performance metrics, drawdowns, and transformation of price/return series.
+scope: Portfolio analytics; risk; Research
+api: 'Py: [official](https://github.com/pmorissette/ffn) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/pmorissette/ffn
+added: 2026-09-12
+last_verified: 2026-09-12

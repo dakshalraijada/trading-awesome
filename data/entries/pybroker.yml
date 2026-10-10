@@ -1,0 +1,10 @@
+name: PyBroker
+url: https://github.com/edtechre/pybroker
+category: backtesting
+description: Python backtesting framework integrating machine-learning models with walkforward analysis and strategy evaluation.
+scope: Traditional markets; crypto; ML research
+api: '[Docs](https://www.pybroker.com/) · Py: [official](https://github.com/edtechre/pybroker) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/edtechre/pybroker
+added: 2026-09-12
+last_verified: 2026-09-12

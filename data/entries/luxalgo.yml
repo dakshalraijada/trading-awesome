@@ -1,0 +1,9 @@
+name: LuxAlgo
+url: https://www.luxalgo.com/
+category: signals
+description: TradingView-centered indicator, screener, backtesting, and alert toolkits with configurable technical and price-action signals.
+scope: Traditional markets; Forex / FX; crypto; Research
+api: '[Docs](https://docs.luxalgo.com/docs/getting-started/introduction) · Delivered primarily through TradingView · Py/Go/PHP: —'
+pricing: Free and paid indicator access; current plan terms are published on the provider site.
+added: 2026-07-27
+last_verified: 2026-07-27

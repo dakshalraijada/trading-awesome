@@ -1,0 +1,9 @@
+name: Tiingo
+url: https://www.tiingo.com/
+category: market-data
+description: API platform for equities, end-of-day pricing, news, fundamentals, IEX data, forex, and crypto.
+scope: Traditional markets; Forex / FX; crypto
+api: '[Docs](https://www.tiingo.com/documentation/) · Py: [community](https://github.com/hydrosquall/tiingo-python) · Go: [community](https://github.com/condrove10/go-tiingo-sdk) · PHP: —'
+pricing: Free Starter plan; Power and Commercial tiers are published by use case.
+added: 2026-07-27
+last_verified: 2026-07-27

@@ -1,0 +1,9 @@
+name: CoinAPI
+url: https://www.coinapi.io/
+category: crypto-intelligence
+description: Unified crypto market-data service for exchange rates, trades, order books, OHLCV, and indexes.
+scope: Crypto — spot; Crypto — derivatives; market data
+api: '[API docs](https://docs.coinapi.io/) · Py: no verified official GitHub package · Go: — · PHP: —'
+pricing: Free credits; public paid plans start at **$249/month**.
+added: 2026-07-27
+last_verified: 2026-07-27

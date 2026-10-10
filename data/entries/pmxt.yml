@@ -1,0 +1,10 @@
+name: pmxt
+url: https://github.com/pmxt-dev/pmxt
+category: brokerage
+description: Open-source unified trading API for prediction markets — a CCXT-style normalization layer across Kalshi, Polymarket, and other event-contract venues.
+scope: Prediction markets; Brokerage / execution; Research / automation
+api: 'Py/JS: [official](https://github.com/pmxt-dev/pmxt) · Go/PHP: —'
+pricing: Open source; venue fees and eligibility apply.
+repo: https://github.com/pmxt-dev/pmxt
+added: 2026-09-12
+last_verified: 2026-09-12

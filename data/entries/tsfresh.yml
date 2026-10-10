@@ -1,0 +1,10 @@
+name: tsfresh
+url: https://tsfresh.readthedocs.io/
+category: feature-engineering
+description: Automated extraction and relevance filtering of large collections of time-series characteristics for ML pipelines.
+scope: Time-series ML; feature extraction; Research
+api: '[Docs](https://tsfresh.readthedocs.io/) · Py: [official](https://github.com/blue-yonder/tsfresh) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/blue-yonder/tsfresh
+added: 2026-07-27
+last_verified: 2026-07-27

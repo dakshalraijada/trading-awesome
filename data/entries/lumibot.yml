@@ -1,0 +1,10 @@
+name: lumibot
+url: https://github.com/Lumiwealth/lumibot
+category: backtesting
+description: Python framework for backtesting and live trading across stocks, options, futures, and crypto through broker integrations.
+scope: Traditional markets; crypto; Brokerage / execution; Research / automation
+api: '[Docs](https://lumibot.lumiwealth.com/) · Py: [official](https://github.com/Lumiwealth/lumibot) · Go/PHP: —'
+pricing: Open source; broker and data costs are separate.
+repo: https://github.com/Lumiwealth/lumibot
+added: 2026-09-12
+last_verified: 2026-09-12

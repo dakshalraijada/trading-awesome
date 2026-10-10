@@ -1,0 +1,10 @@
+name: PyPortfolioOpt
+url: https://pyportfolioopt.readthedocs.io/
+category: portfolio-risk
+description: Python implementation of mean-variance, Black-Litterman, hierarchical risk parity, shrinkage, and related allocation methods.
+scope: Portfolio construction; allocation research
+api: '[Docs](https://pyportfolioopt.readthedocs.io/en/latest/) · Py: [official](https://github.com/robertmartin8/PyPortfolioOpt) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/robertmartin8/PyPortfolioOpt
+added: 2026-07-27
+last_verified: 2026-07-27

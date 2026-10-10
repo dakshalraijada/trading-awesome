@@ -1,0 +1,10 @@
+name: Hyperliquid
+url: https://hyperliquid.xyz/
+category: crypto-exchanges
+description: Fully on-chain exchange infrastructure with perpetual-futures and spot order books plus a developer API.
+scope: Crypto — spot / DeFi; Crypto — derivatives; Brokerage / execution
+api: '[API docs](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api) · Py: [official](https://github.com/hyperliquid-dex/hyperliquid-python-sdk) · Go: — · PHP: —'
+pricing: Public base fees include **0.015% maker / 0.045% taker** for perpetuals; discounts and conditions apply.
+repo: https://github.com/hyperliquid-dex/hyperliquid-python-sdk
+added: 2026-07-27
+last_verified: 2026-07-27

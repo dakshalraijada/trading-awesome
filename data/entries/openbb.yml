@@ -1,0 +1,10 @@
+name: OpenBB
+url: https://openbb.co/
+category: market-data
+description: Modular financial-research platform that standardizes access to data providers, analytics extensions, Python workflows, and self-hosted FastAPI endpoints.
+scope: Multi-asset research; data integration; Research / automation
+api: '[Docs](https://docs.openbb.co/odp/python) · Py: [official](https://github.com/OpenBB-finance/OpenBB) · REST API: [official](https://docs.openbb.co/odp/python/quickstart/rest_api) · Go/PHP: —'
+pricing: Open Data Platform is AGPLv3; commercial licensing is available for proprietary network services.
+repo: https://github.com/OpenBB-finance/OpenBB
+added: 2026-08-24
+last_verified: 2026-08-24

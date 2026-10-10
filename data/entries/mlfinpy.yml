@@ -1,0 +1,10 @@
+name: mlfinpy
+url: https://github.com/baobach/mlfinpy
+category: feature-engineering
+description: 'Open-source reimplementation of MlFinLab-style financial ML utilities: sampling, labeling, filters, fractional differentiation, and feature importance.'
+scope: Financial ML; feature engineering; Research
+api: '[Docs](https://mlfinpy.readthedocs.io/) · Py: [official](https://github.com/baobach/mlfinpy) · Go/PHP: —'
+pricing: Open source; lightly maintained, so review method assumptions before production use.
+repo: https://github.com/baobach/mlfinpy
+added: 2026-07-27
+last_verified: 2026-10-10

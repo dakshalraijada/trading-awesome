@@ -1,0 +1,10 @@
+name: tastytrade
+url: https://tastytrade.com/
+category: brokerage
+description: Active-trader brokerage emphasizing U.S. options and futures, with a public developer platform and Python SDK.
+scope: U.S. stocks / ETFs / options / futures; crypto; Brokerage / execution
+api: '[Developer docs](https://developer.tastytrade.com/) · Py: [official](https://github.com/tastytrade/tastytrade-sdk-python) · Go: — · PHP: —'
+pricing: 'U.S. stocks/ETFs: $0 commission; public options pricing is **$1/contract, capped at $10/leg**; other product fees apply.'
+repo: https://github.com/tastytrade/tastytrade-sdk-python
+added: 2026-07-27
+last_verified: 2026-07-27

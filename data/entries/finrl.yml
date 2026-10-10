@@ -1,0 +1,10 @@
+name: FinRL
+url: https://github.com/AI4Finance-Foundation/FinRL
+category: ai-ml
+description: Educational and research framework for financial reinforcement-learning environments, agents, datasets, and backtests.
+scope: Traditional markets; crypto; reinforcement learning; Research
+api: '[Docs](https://finrl.readthedocs.io/) · Py: [official](https://github.com/AI4Finance-Foundation/FinRL) · Go/PHP: —'
+pricing: Open source; the project directs production-oriented users toward FinRL-X.
+repo: https://github.com/AI4Finance-Foundation/FinRL
+added: 2026-07-27
+last_verified: 2026-07-27

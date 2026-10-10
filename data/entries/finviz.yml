@@ -1,0 +1,9 @@
+name: Finviz
+url: https://finviz.com/
+category: charting-research
+description: Popular U.S. equity screener and market-visualization portal with maps, groups, insider and institutional views, and exportable filters.
+scope: Traditional markets; Research
+api: 'No general public API identified · Py/Go/PHP: —'
+pricing: Free tier; Elite subscription unlocks real-time data, backtests, and exports.
+added: 2026-09-12
+last_verified: 2026-09-12

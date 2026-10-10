@@ -1,0 +1,10 @@
+name: AI Hedge Fund
+url: https://github.com/virattt/ai-hedge-fund
+category: ai-ml
+description: Popular open-source multi-agent LLM system simulating an investment team (analysts, risk, portfolio manager) for research and paper trading.
+scope: Traditional markets; LLM agents; Research / automation
+api: 'Py: [official](https://github.com/virattt/ai-hedge-fund) · Go/PHP: —'
+pricing: Open source; LLM API and data costs are separate.
+repo: https://github.com/virattt/ai-hedge-fund
+added: 2026-09-12
+last_verified: 2026-09-12

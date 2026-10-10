@@ -1,0 +1,10 @@
+name: Bokeh
+url: https://bokeh.org/
+category: visualization
+description: Python visualization library and server for interactive browser-based plots, linked views, streaming, and dashboards.
+scope: Research visualization; dashboards; time series
+api: '[Docs](https://docs.bokeh.org/) · Py: [official](https://github.com/bokeh/bokeh) · Go/PHP: —'
+pricing: Open source.
+repo: https://github.com/bokeh/bokeh
+added: 2026-07-27
+last_verified: 2026-07-27

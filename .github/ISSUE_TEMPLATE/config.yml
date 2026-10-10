@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a scam, phishing, or compromised link (private)
+    url: https://github.com/lentrade/trading-awesome/security/advisories/new
+    about: Malicious or hijacked links are handled privately and removed quickly. See SECURITY.md.
+  - name: Contributing guide
+    url: https://github.com/lentrade/trading-awesome/blob/main/CONTRIBUTING.md
+    about: Eligibility, editorial criteria, vendor policy, and how the submission bot works.

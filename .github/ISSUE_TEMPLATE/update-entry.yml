@@ -1,0 +1,77 @@
+name: Update an entry
+description: Correct pricing, a description, a website URL, or report that a service shut down.
+title: "[Update]: "
+labels: ["submission", "update-entry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A bot checks the request (your account must be at least 30 days old, or have a previously merged contribution) and opens a pull request for a maintainer to review.
+
+        **Website URL changes to a different domain** need proof that the new domain belongs to the same organization: the old site redirects there, or the source URL is an official announcement. See the [link-change policy](https://github.com/lentrade/trading-awesome/blob/main/CONTRIBUTING.md#link-and-domain-changes).
+
+        To report a scam, phishing, or compromised link, **do not use this form**; follow [SECURITY.md](https://github.com/lentrade/trading-awesome/blob/main/SECURITY.md) instead.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+      description: Exactly as it appears in the list.
+      placeholder: Alpaca
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What should change
+      options:
+        - Pricing
+        - Description
+        - Website URL
+        - Markets / scope
+        - Mark as deprecated or shut down
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: New value
+      description: |
+        Pricing: plain text without links, e.g. `Free tier; paid plans start at **$29/month**.`
+        Description: one factual sentence ending with a period.
+        Website URL: the new HTTPS URL.
+        Deprecated: one sentence on what happened, e.g. `Acquired by Example Corp in 2026-09; API closed to new users.`
+        Something else: describe the change.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      description: Official page that confirms the change (pricing page, docs, announcement).
+      placeholder: https://acme.example/pricing
+    validations:
+      required: true
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Your relationship to this service
+      options:
+        - I have no affiliation with this service
+        - I work for, own, or was paid or asked by this service
+        - Other relationship (explain in notes)
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes for reviewers
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: The links contain no affiliate, referral, or tracking parameters.
+          required: true
+        - label: I dedicate my contribution to the public domain under CC0 1.0.
+          required: true

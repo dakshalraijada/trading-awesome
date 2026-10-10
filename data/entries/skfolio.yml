@@ -1,0 +1,10 @@
+name: skfolio
+url: https://skfolio.org/
+category: portfolio-risk
+description: Scikit-learn-compatible framework for portfolio optimization, model selection, cross-validation, stress testing, and risk measurement.
+scope: Portfolio construction; risk; ML research
+api: '[Docs](https://skfolio.org/user_guide/index.html) · Py: [official](https://github.com/skfolio/skfolio) · Go/PHP: —'
+pricing: Open source; enterprise support is separately available.
+repo: https://github.com/skfolio/skfolio
+added: 2026-07-27
+last_verified: 2026-07-27

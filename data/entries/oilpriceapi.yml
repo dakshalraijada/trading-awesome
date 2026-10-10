@@ -1,0 +1,10 @@
+name: OilPriceAPI
+url: https://www.oilpriceapi.com
+category: market-data
+description: Energy commodity price API covering crude benchmarks, natural gas, refined products, marine fuels, futures and carbon, with a source timestamp on every value.
+scope: Commodities; energy; Traditional markets
+api: '[API docs](https://docs.oilpriceapi.com) · Py: [official](https://github.com/OilpriceAPI/python-sdk) · Node: [official](https://github.com/OilpriceAPI/oilpriceapi-node) · Go: [official](https://github.com/OilpriceAPI/oilpriceapi-go) · PHP: [official](https://github.com/OilpriceAPI/oilpriceapi-php) · [MCP](https://github.com/OilpriceAPI/mcp-server)'
+pricing: Free tier 50 requests/day, no card. Paid from **$19/month**; published ladder to $299/month.
+repo: https://github.com/OilpriceAPI/python-sdk
+added: 2026-08-26
+last_verified: 2026-08-26
