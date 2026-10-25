@@ -9,7 +9,7 @@
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square&logo=github)](CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
 
-> A curated directory of **<!-- BEGIN GENERATED:count -->193<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
+> A curated directory of **<!-- BEGIN GENERATED:count -->194<!-- END GENERATED:count --> trading services and open-source tools** for algorithmic traders, quantitative researchers, developers, and active investors. It covers broker and exchange APIs, stock and forex data, cryptocurrency market data, on-chain analytics, signal intelligence, backtesting, portfolio analytics, AI research, feature engineering, infrastructure, financial visualization, **options and derivatives analytics**, **alternative data**, and **Web3 / DeFi infrastructure**.
 
 Reliable trading infrastructure is a prerequisite for serious research and automation. This list makes it easier to compare **market-data APIs**, **brokerage APIs**, **crypto exchange APIs**, **forex platforms**, and **on-chain analytics tools** without treating fundamentally different products as interchangeable. It is intended as a practical discovery resource—not as an endorsement or a trading recommendation.
 
@@ -60,6 +60,7 @@ In addition to the main directory, this repository includes focused guides for s
 <!-- BEGIN GENERATED:recent -->
 | Added | Service | Section |
 | --- | --- | --- |
+| 2026-10-25 | [trading-risk-math](https://yuratrading.com/tools/risk-of-ruin-calculator) | [7. Trading infrastructure & event-driven systems](#7-trading-infrastructure--event-driven-systems) |
 | 2026-10-19 | [Equibles](https://equibles.com/) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
 | 2026-10-18 | [Bitculator](https://bitculator.com/) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
 | 2026-10-10 | [Hydromancer](https://hydromancer.xyz/) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
@@ -69,7 +70,6 @@ In addition to the main directory, this repository includes focused guides for s
 | 2026-09-19 | [SnapPChart](https://www.snappchart.app/) | [5. Charting, research & no-code decision support](#5-charting-research--no-code-decision-support) |
 | 2026-09-14 | [HostDeFi](https://hostdefi.com/) | [4. Crypto market intelligence & on-chain analytics](#4-crypto-market-intelligence--on-chain-analytics) |
 | 2026-09-12 | [yfinance](https://github.com/ranaroussi/yfinance) | [2. Traditional markets, macro & multi-asset data](#2-traditional-markets-macro--multi-asset-data) |
-| 2026-09-12 | [vollib / lets_be_rational](https://github.com/vollib/vollib) | [13. Options, volatility & derivatives analytics](#13-options-volatility--derivatives-analytics) |
 <!-- END GENERATED:recent -->
 
 Want to add a service? Use the [submission form](https://github.com/lentrade/trading-awesome/issues/new?template=new-entry.yml); see [CONTRIBUTING.md](CONTRIBUTING.md) for the rules.
@@ -275,6 +275,7 @@ These are general-purpose infrastructure projects rather than signal generators.
 | **[Redis](https://redis.io/)** | In-memory data platform commonly used for caching, ephemeral state, pub/sub, streams, queues, and rate limiting. | Research / automation; low-latency state; messaging | [Docs](https://redis.io/docs/latest/) · Py: [official](https://github.com/redis/redis-py) · Go: [official](https://github.com/redis/go-redis) · PHP: [community](https://github.com/phpredis/phpredis) | Source-available/community distributions and commercial cloud products have different licenses and prices; review current terms. |
 | **[Redpanda](https://www.redpanda.com/)** | Kafka-compatible streaming platform in C++ with lower operational overhead for market-data and order-event pipelines. | Research / automation; event streaming; messaging | [Docs](https://docs.redpanda.com/) · Kafka-protocol clients across Py/Go/PHP | Open-source/community edition; cloud and enterprise are paid. |
 | **[TimescaleDB](https://www.tigerdata.com/timescaledb)** | PostgreSQL extension for time-series storage, continuous aggregates, retention, and SQL analytics, developed by Tiger Data (formerly Timescale). | Research / automation; time series; operational analytics | [Docs](https://www.tigerdata.com/docs) · [Source](https://github.com/timescale/timescaledb) · Uses PostgreSQL drivers across Py/Go/PHP | Open-source components and paid cloud service; usage and support terms vary. |
+| **[trading-risk-math](https://yuratrading.com/tools/risk-of-ruin-calculator)** | Open-source TypeScript library for risk of ruin (seeded simulation and an exact, simulation-free method) and Monte Carlo resampling of a trade list, with free browser calculators built on it. | Any market; trade-level risk maths; Forex / FX; Brokerage / execution | No public API identified · Py/Go/PHP: — · TS: [official](https://github.com/dakshalraijada/trading-risk-math) | Open source. |
 <!-- END GENERATED:table:infrastructure -->
 
 ---
